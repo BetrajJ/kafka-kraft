@@ -1,0 +1,12 @@
+---
+groups:
+  - name: kafka-lag-alerts
+    rules:
+      - alert: HighKafkaConsumerLag
+        expr: sum(kafka_consumergroup_lag{consumergroup="kraft-group", topic="kraft-test"}) by (consumergroup) > 100
+        for: 5m
+        labels:
+          severity: critical
+        annotations:
+          summary: "Kafka Consumer Lag High for {{ $labels.consumergroup }}"
+          description: "The total lag for consumer group {{ $labels.consumergroup }} on topic kraft-test is {{ $value }} which exceeds the threshold."

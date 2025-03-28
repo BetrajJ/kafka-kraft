@@ -1,0 +1,7 @@
+[2025-02-27 11:56:57,356] INFO [QuorumController id=2] In the new epoch 6192, the leader is (none). (org.apache.kafka.controller.QuorumController)
+[2025-02-27 11:56:57,749] INFO [QuorumController id=2] In the new epoch 6193, the leader is (none). (org.apache.kafka.controller.QuorumController)
+[2025-02-27 11:56:58,618] INFO [QuorumController id=2] In the new epoch 6194, the leader is (none). (org.apache.kafka.controller.QuorumController)
+[2025-02-27 11:56:59,235] INFO [QuorumController id=2] processBrokerHeartbeat: event failed with NotControllerException in 38 microseconds. Exception message: The active controller appears to be node 2. (org.apache.kafka.controller.QuorumController)
+[2025-02-27 11:56:59,242] INFO [QuorumController id=2] processBrokerHeartbeat: event failed with NotControllerException in 41 microseconds. Exception message: The active controller appears to be node 2. (org.apache.kafka.controller.QuorumController)
+[2025-02-27 11:56:59,247] INFO [QuorumController id=2] Becoming the active controller at epoch 6194, next write offset 472313. (org.apache.kafka.controller.QuorumController)
+[2025-02-27 11:56:59,247] WARN [QuorumController id=2] Performing controller activation. Loaded ZK migration state of NONE. This is expected because this is a de-novo KRaft cluster. (org.apache.kafka.controller.QuorumController)

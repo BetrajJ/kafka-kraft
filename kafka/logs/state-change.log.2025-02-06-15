@@ -1,0 +1,7 @@
+[2025-02-06 16:00:30,109] INFO [Broker id=2] Transitioning 4 partition(s) to local followers. (state.change.logger)
+[2025-02-06 16:00:30,110] INFO [Broker id=2] Follower test-topic-2 starts at leader epoch 32 from offset 0 with partition epoch 66 and high watermark 0. Current leader is 1. Previous leader Some(1) and previous leader epoch was 32. (state.change.logger)
+[2025-02-06 16:00:30,110] INFO [Broker id=2] Follower test-topic1-0 starts at leader epoch 32 from offset 0 with partition epoch 66 and high watermark 0. Current leader is 1. Previous leader Some(1) and previous leader epoch was 32. (state.change.logger)
+[2025-02-06 16:00:30,110] INFO [Broker id=2] Follower kraft-test-0 starts at leader epoch 13 from offset 11 with partition epoch 26 and high watermark 11. Current leader is 1. Previous leader Some(1) and previous leader epoch was 13. (state.change.logger)
+[2025-02-06 16:00:30,111] INFO [Broker id=2] Follower kafka-topic-2 starts at leader epoch 24 from offset 0 with partition epoch 53 and high watermark 0. Current leader is 1. Previous leader Some(1) and previous leader epoch was 24. (state.change.logger)
+[2025-02-06 16:00:30,111] INFO [Broker id=2] Stopped fetchers as part of become-follower for 4 partitions (state.change.logger)
+[2025-02-06 16:00:30,124] INFO [Broker id=2] Started fetchers as part of become-follower for 4 partitions (state.change.logger)

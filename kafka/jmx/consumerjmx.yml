@@ -1,0 +1,35 @@
+---
+lowercaseOutputName: true
+rules:
+  # General Consumer Fetch Manager Metrics
+  - pattern: 'kafka.consumer<type=consumer-fetch-manager-metrics, client-id=([^,]+)><>([^<>]+)'
+    name: 'kafka_consumer_$2'
+    labels:
+      client_id: "$1"
+
+  # Consumer Group Lag (max lag per partition)
+  - pattern: 'kafka.consumer<type=consumer-fetch-manager-metrics, client-id=([^,]+), topic=([^,]+), partition=([^,]+)><>records-lag-max'
+    name: 'kafka_consumergroup_lag_max'
+    labels:
+      client_id: "$1"
+      topic: "$2"
+      partition: "$3"
+
+  # Consumer Group Lag (current lag per partition)
+  - pattern: 'kafka.consumer<type=consumer-fetch-manager-metrics, client-id=([^,]+), topic=([^,]+), partition=([^,]+)><>records-lag'
+    name: 'kafka_consumergroup_lag'
+    labels:
+      client_id: "$1"
+      topic: "$2"
+      partition: "$3"
+
+  # Consumer Group Lag Average
+  - pattern: 'kafka.consumer<type=consumer-fetch-manager-metrics, client-id=([^,]+), topic=([^,]+), partition=([^,]+)><>records-lag-avg'
+    name: 'kafka_consumergroup_lag_avg'
+    labels:
+      client_id: "$1"
+      topic: "$2"
+      partition: "$3"
+
+  # Catch-all for unknown metrics
+  - pattern: ".*"

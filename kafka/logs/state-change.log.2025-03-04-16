@@ -1,0 +1,4 @@
+[2025-03-04 17:29:51,839] INFO [Broker id=3] Transitioning 1 partition(s) to local followers. (state.change.logger)
+[2025-03-04 17:29:51,847] INFO [Broker id=3] Follower kraft-test-0 starts at leader epoch 124 from offset 3288 with partition epoch 242 and high watermark 3288. Current leader is 1. Previous leader Some(1) and previous leader epoch was 124. (state.change.logger)
+[2025-03-04 17:29:51,885] INFO [Broker id=3] Stopped fetchers as part of become-follower for 1 partitions (state.change.logger)
+[2025-03-04 17:29:52,129] INFO [Broker id=3] Started fetchers as part of become-follower for 1 partitions (state.change.logger)

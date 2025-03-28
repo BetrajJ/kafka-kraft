@@ -1,0 +1,30 @@
+---
+global:
+  scrape_interval: 5s
+  evaluation_interval: 5s
+alerting:
+  alertmanagers:
+    - static_configs:
+        - targets: ['alertmanager:9098']
+scrape_configs:
+  - job_name: 'prometheus'
+    static_configs:
+      - targets: ['192.168.2.134:9090']
+
+  - job_name: 'kafka-jmx'
+    static_configs:
+      - targets: ['192.168.2.134:7071', '192.168.2.134:7072', '192.168.2.134:7073']
+
+#  - job_name: 'kafka-consumer-jmx'
+#      static_configs:
+#      - targets: ['172.25.10.83:11000']
+      
+  - job_name: 'kafka-exporter'
+    static_configs:
+      - targets: ['192.168.2.134:9308']        
+
+  - job_name: 'alertmanager'
+    static_configs:
+      - targets: ['192.168.2.134:9098']
+rule_files:
+  - /etc/prometheus/alert-rules.yml

@@ -1,0 +1,22 @@
+---
+lowercaseOutputName: true
+rules:
+  # Rule for consumer lag metrics
+  - pattern: 'kafka.consumer<type=consumer-fetch-manager-metrics,
+    client-id=([^,]+)><>([^<>]+)'
+    name: 'kafka_consumer_$2'
+    labels:
+      client_id: "$1"
+  # Rule for consumer group lag (key for your issue)
+  - pattern: 'kafka.consumer<type=consumer-fetch-manager-metrics,
+    client-id=([^,]+), topic=([^,]+), partition=([^,]+)><>records-lag-max'
+    name: 'kafka_consumergroup_lag'
+    labels:
+      client_id: "$1"
+      topic: "$2"
+      partition: "$3"
+  - pattern: "kafka.<service=(\\w+)><>(.*):"
+    name: "kafka_$1_$2"
+    labels:
+      service: "$1"
+  - pattern: ".*"

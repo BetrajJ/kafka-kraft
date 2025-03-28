@@ -1,0 +1,18 @@
+---
+global:
+  smtp_smarthost: 'smtp.office365.com:587'
+  smtp_from: 'betraj.j@outlook.com'
+  smtp_auth_username: 'betraj.j@outlook.com'
+  smtp_auth_password: 'zfrnazdkqfcwiuur'
+  smtp_require_tls: true
+route:
+  group_by: ['alertname']
+  group_wait: 30s
+  group_interval: 5m
+  repeat_interval: 1h
+  receiver: 'outlook-email'
+receivers:
+  - name: 'outlook-email'
+    email_configs:
+      - to: 'betraj.j@outlook.com'
+        send_resolved: true

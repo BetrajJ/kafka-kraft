@@ -1,0 +1,65 @@
+---
+version: '3.8'
+
+services:
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: prometheus
+    volumes:
+      - /opt/monitoring/prometheus/config/prometheus.yml:/etc/prometheus/prometheus.yml
+      - /opt/monitoring/prometheus/config/alert-rules.yml:/etc/prometheus/alert-rules.yml
+    ports:
+      - "9090:9090"
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+      - '--web.enable-lifecycle'
+    restart: unless-stopped
+
+  kafdrop:
+    image: obsidiandynamics/kafdrop:latest
+    container_name: kafdrop
+    ports:
+      - "9000:9000"
+    environment:
+      - SERVER_PORT=9000
+      - HOST_NAME=192.168.2.134
+      - KAFKA_BROKERCONNECT=192.168.2.134:9092,192.168.2.134:9093,192.168.2.134:9094
+    restart: unless-stopped
+
+  grafana:
+    image: grafana/grafana:latest
+    container_name: grafana
+    volumes:
+      - /opt/monitoring/grafana/data:/etc/grafana/data
+    ports:
+      - "3000:3000"
+    environment:
+      - GF_AUTH_ANONYMOUS_ENABLED=true
+      - GF_AUTH_ANONYMOUS_ORG_ROLE=Admin
+    depends_on:
+      - prometheus
+    restart: unless-stopped
+
+  kafka-exporter:
+    image: danielqsj/kafka-exporter:latest
+    container_name: kafka-exporter
+    command:
+      - "--kafka.server=192.168.2.134:9092"
+      - "--kafka.server=192.168.2.134:9093"
+      - "--kafka.server=192.168.2.134:9094"
+    ports:
+      - "9308:9308"
+    restart: unless-stopped 
+
+  alertmanager:
+    image: prom/alertmanager:latest
+    container_name: alertmanager
+    volumes:
+      - /opt/monitoring/prometheus/config/alertmanager.yml:/etc/alertmanager/alertmanager.yml
+    ports:
+      - "9098:9098"
+    command:
+      - "--config.file=/etc/alertmanager/alertmanager.yml"
+      - "--web.listen-address=:9098"    
+    restart: unless-stopped
+    

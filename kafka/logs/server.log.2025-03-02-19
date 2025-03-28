@@ -1,0 +1,1124 @@
+[2025-03-03 15:13:48,700] INFO Registered kafka:type=kafka.Log4jController MBean (kafka.utils.Log4jControllerRegistration$)
+[2025-03-03 15:13:50,880] INFO Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation (org.apache.zookeeper.common.X509Util)
+[2025-03-03 15:13:52,738] INFO Registered signal handlers for TERM, INT, HUP (org.apache.kafka.common.utils.LoggingSignalHandler)
+[2025-03-03 15:13:52,763] INFO [ControllerServer id=1] Starting controller (kafka.server.ControllerServer)
+[2025-03-03 15:13:55,657] INFO Updated connection-accept-rate max connection creation rate to 2147483647 (kafka.network.ConnectionQuotas)
+[2025-03-03 15:13:55,851] INFO [SocketServer listenerType=CONTROLLER, nodeId=1] Created data-plane acceptor and processors for endpoint : ListenerName(CONTROLLER) (kafka.network.SocketServer)
+[2025-03-03 15:13:59,402] INFO CONTROLLER: resolved wildcard host to vbox (org.apache.kafka.metadata.ListenerInfo)
+[2025-03-03 15:13:59,426] INFO authorizerStart completed for endpoint CONTROLLER. Endpoint is now READY. (org.apache.kafka.server.network.EndpointReadyFutures)
+[2025-03-03 15:13:59,435] INFO [SharedServer id=1] Starting SharedServer (kafka.server.SharedServer)
+[2025-03-03 15:13:59,950] INFO [LogLoader partition=__cluster_metadata-0, dir=/tmp/kafka-logs] Recovering unflushed segment 294441. 0/1 recovered for __cluster_metadata-0. (kafka.log.LogLoader)
+[2025-03-03 15:13:59,954] INFO [LogLoader partition=__cluster_metadata-0, dir=/tmp/kafka-logs] Loading producer state till offset 294441 with message format version 2 (kafka.log.UnifiedLog$)
+[2025-03-03 15:13:59,992] INFO [LogLoader partition=__cluster_metadata-0, dir=/tmp/kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 294441 (kafka.log.UnifiedLog$)
+[2025-03-03 15:13:59,997] INFO Deleted producer state snapshot /tmp/kafka-logs/__cluster_metadata-0/00000000000000540003.snapshot (org.apache.kafka.storage.internals.log.SnapshotFile)
+[2025-03-03 15:13:59,998] INFO Deleted producer state snapshot /tmp/kafka-logs/__cluster_metadata-0/00000000000000540216.snapshot (org.apache.kafka.storage.internals.log.SnapshotFile)
+[2025-03-03 15:13:59,998] INFO Deleted producer state snapshot /tmp/kafka-logs/__cluster_metadata-0/00000000000000540338.snapshot (org.apache.kafka.storage.internals.log.SnapshotFile)
+[2025-03-03 15:13:59,998] INFO Deleted producer state snapshot /tmp/kafka-logs/__cluster_metadata-0/00000000000000540343.snapshot (org.apache.kafka.storage.internals.log.SnapshotFile)
+[2025-03-03 15:14:00,004] INFO Deleted producer state snapshot /tmp/kafka-logs/__cluster_metadata-0/00000000000000540824.snapshot (org.apache.kafka.storage.internals.log.SnapshotFile)
+[2025-03-03 15:14:00,010] INFO Deleted producer state snapshot /tmp/kafka-logs/__cluster_metadata-0/00000000000000544269.snapshot (org.apache.kafka.storage.internals.log.SnapshotFile)
+[2025-03-03 15:14:00,010] INFO Deleted producer state snapshot /tmp/kafka-logs/__cluster_metadata-0/00000000000000544744.snapshot (org.apache.kafka.storage.internals.log.SnapshotFile)
+[2025-03-03 15:14:00,010] INFO Deleted producer state snapshot /tmp/kafka-logs/__cluster_metadata-0/00000000000000545008.snapshot (org.apache.kafka.storage.internals.log.SnapshotFile)
+[2025-03-03 15:14:00,011] INFO Deleted producer state snapshot /tmp/kafka-logs/__cluster_metadata-0/00000000000000546345.snapshot (org.apache.kafka.storage.internals.log.SnapshotFile)
+[2025-03-03 15:14:00,011] INFO Deleted producer state snapshot /tmp/kafka-logs/__cluster_metadata-0/00000000000000546682.snapshot (org.apache.kafka.storage.internals.log.SnapshotFile)
+[2025-03-03 15:14:00,017] INFO Deleted producer state snapshot /tmp/kafka-logs/__cluster_metadata-0/00000000000000546864.snapshot (org.apache.kafka.storage.internals.log.SnapshotFile)
+[2025-03-03 15:14:00,017] INFO Deleted producer state snapshot /tmp/kafka-logs/__cluster_metadata-0/00000000000000548860.snapshot (org.apache.kafka.storage.internals.log.SnapshotFile)
+[2025-03-03 15:14:00,021] INFO Deleted producer state snapshot /tmp/kafka-logs/__cluster_metadata-0/00000000000000552011.snapshot (org.apache.kafka.storage.internals.log.SnapshotFile)
+[2025-03-03 15:14:00,021] INFO Deleted producer state snapshot /tmp/kafka-logs/__cluster_metadata-0/00000000000000554497.snapshot (org.apache.kafka.storage.internals.log.SnapshotFile)
+[2025-03-03 15:14:00,026] INFO Deleted producer state snapshot /tmp/kafka-logs/__cluster_metadata-0/00000000000000555246.snapshot (org.apache.kafka.storage.internals.log.SnapshotFile)
+[2025-03-03 15:14:00,028] INFO Deleted producer state snapshot /tmp/kafka-logs/__cluster_metadata-0/00000000000000557055.snapshot (org.apache.kafka.storage.internals.log.SnapshotFile)
+[2025-03-03 15:14:00,029] INFO Deleted producer state snapshot /tmp/kafka-logs/__cluster_metadata-0/00000000000000557281.snapshot (org.apache.kafka.storage.internals.log.SnapshotFile)
+[2025-03-03 15:14:00,031] INFO Deleted producer state snapshot /tmp/kafka-logs/__cluster_metadata-0/00000000000000557525.snapshot (org.apache.kafka.storage.internals.log.SnapshotFile)
+[2025-03-03 15:14:00,032] INFO Deleted producer state snapshot /tmp/kafka-logs/__cluster_metadata-0/00000000000000557927.snapshot (org.apache.kafka.storage.internals.log.SnapshotFile)
+[2025-03-03 15:14:00,042] INFO Deleted producer state snapshot /tmp/kafka-logs/__cluster_metadata-0/00000000000000560882.snapshot (org.apache.kafka.storage.internals.log.SnapshotFile)
+[2025-03-03 15:14:00,044] INFO Deleted producer state snapshot /tmp/kafka-logs/__cluster_metadata-0/00000000000000562343.snapshot (org.apache.kafka.storage.internals.log.SnapshotFile)
+[2025-03-03 15:14:00,045] INFO Deleted producer state snapshot /tmp/kafka-logs/__cluster_metadata-0/00000000000000562375.snapshot (org.apache.kafka.storage.internals.log.SnapshotFile)
+[2025-03-03 15:14:00,046] INFO Deleted producer state snapshot /tmp/kafka-logs/__cluster_metadata-0/00000000000000563280.snapshot (org.apache.kafka.storage.internals.log.SnapshotFile)
+[2025-03-03 15:14:00,053] INFO Deleted producer state snapshot /tmp/kafka-logs/__cluster_metadata-0/00000000000000564352.snapshot (org.apache.kafka.storage.internals.log.SnapshotFile)
+[2025-03-03 15:14:00,053] INFO Deleted producer state snapshot /tmp/kafka-logs/__cluster_metadata-0/00000000000000572174.snapshot (org.apache.kafka.storage.internals.log.SnapshotFile)
+[2025-03-03 15:14:00,054] INFO Deleted producer state snapshot /tmp/kafka-logs/__cluster_metadata-0/00000000000000573793.snapshot (org.apache.kafka.storage.internals.log.SnapshotFile)
+[2025-03-03 15:14:00,126] INFO [ProducerStateManager partition=__cluster_metadata-0] Wrote producer snapshot at offset 294441 with 0 producer ids in 69 ms. (org.apache.kafka.storage.internals.log.ProducerStateManager)
+[2025-03-03 15:14:00,126] INFO [LogLoader partition=__cluster_metadata-0, dir=/tmp/kafka-logs] Producer state recovery took 57ms for snapshot load and 72ms for segment recovery from offset 294441 (kafka.log.UnifiedLog$)
+[2025-03-03 15:14:04,480] INFO [ProducerStateManager partition=__cluster_metadata-0] Wrote producer snapshot at offset 573793 with 0 producer ids in 19 ms. (org.apache.kafka.storage.internals.log.ProducerStateManager)
+[2025-03-03 15:14:04,511] INFO [LogLoader partition=__cluster_metadata-0, dir=/tmp/kafka-logs] Loading producer state till offset 573793 with message format version 2 (kafka.log.UnifiedLog$)
+[2025-03-03 15:14:04,561] INFO [LogLoader partition=__cluster_metadata-0, dir=/tmp/kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 573793 (kafka.log.UnifiedLog$)
+[2025-03-03 15:14:04,564] INFO Deleted producer state snapshot /tmp/kafka-logs/__cluster_metadata-0/00000000000000294441.snapshot (org.apache.kafka.storage.internals.log.SnapshotFile)
+[2025-03-03 15:14:04,565] INFO [ProducerStateManager partition=__cluster_metadata-0] Loading producer state from snapshot file 'SnapshotFile(offset=573793, file=/tmp/kafka-logs/__cluster_metadata-0/00000000000000573793.snapshot)' (org.apache.kafka.storage.internals.log.ProducerStateManager)
+[2025-03-03 15:14:04,566] INFO [LogLoader partition=__cluster_metadata-0, dir=/tmp/kafka-logs] Producer state recovery took 3ms for snapshot load and 0ms for segment recovery from offset 573793 (kafka.log.UnifiedLog$)
+[2025-03-03 15:14:04,767] INFO Initialized snapshots with IDs SortedSet(OffsetAndEpoch(offset=301847, epoch=4246), OffsetAndEpoch(offset=308926, epoch=4289), OffsetAndEpoch(offset=316021, epoch=4313), OffsetAndEpoch(offset=323070, epoch=4370), OffsetAndEpoch(offset=330154, epoch=4403), OffsetAndEpoch(offset=337242, epoch=4440), OffsetAndEpoch(offset=344400, epoch=4447), OffsetAndEpoch(offset=351547, epoch=4453), OffsetAndEpoch(offset=358699, epoch=4467), OffsetAndEpoch(offset=365853, epoch=4471), OffsetAndEpoch(offset=373015, epoch=4473), OffsetAndEpoch(offset=381746, epoch=4490), OffsetAndEpoch(offset=388687, epoch=4579), OffsetAndEpoch(offset=399135, epoch=5808), OffsetAndEpoch(offset=414025, epoch=5965), OffsetAndEpoch(offset=421107, epoch=5997), OffsetAndEpoch(offset=428208, epoch=6008), OffsetAndEpoch(offset=440646, epoch=6068), OffsetAndEpoch(offset=447779, epoch=6086), OffsetAndEpoch(offset=454843, epoch=6123), OffsetAndEpoch(offset=461938, epoch=6179), OffsetAndEpoch(offset=469089, epoch=6191), OffsetAndEpoch(offset=476216, epoch=6210), OffsetAndEpoch(offset=483359, epoch=6218), OffsetAndEpoch(offset=495947, epoch=6417), OffsetAndEpoch(offset=502936, epoch=6485), OffsetAndEpoch(offset=513883, epoch=7489), OffsetAndEpoch(offset=520223, epoch=7762), OffsetAndEpoch(offset=527260, epoch=7845), OffsetAndEpoch(offset=534529, epoch=7922), OffsetAndEpoch(offset=546863, epoch=8119), OffsetAndEpoch(offset=553899, epoch=8173), OffsetAndEpoch(offset=560883, epoch=8435), OffsetAndEpoch(offset=567834, epoch=8716)) from /tmp/kafka-logs/__cluster_metadata-0 (kafka.raft.KafkaMetadataLog$)
+[2025-03-03 15:14:04,844] INFO [raft-expiration-reaper]: Starting (kafka.raft.TimingWheelExpirationService$ExpiredOperationReaper)
+[2025-03-03 15:14:04,872] INFO [RaftManager id=1] Reading KRaft snapshot and log as part of the initialization (org.apache.kafka.raft.KafkaRaftClient)
+[2025-03-03 15:14:04,887] INFO [RaftManager id=1] Loading snapshot (OffsetAndEpoch(offset=567834, epoch=8716)) since log start offset (294441) is greater than the internal listener's next offset (-1) (org.apache.kafka.raft.internals.KRaftControlRecordStateMachine)
+[2025-03-03 15:14:05,287] INFO [RaftManager id=1] Starting voters are VoterSet(voters={1=VoterNode(voterKey=ReplicaKey(id=1, directoryId=Optional.empty), listeners=Endpoints(endpoints={ListenerName(CONTROLLER)=/172.25.10.83:19092}), supportedKRaftVersion=SupportedVersionRange[min_version:0, max_version:0]), 2=VoterNode(voterKey=ReplicaKey(id=2, directoryId=Optional.empty), listeners=Endpoints(endpoints={ListenerName(CONTROLLER)=/172.25.10.83:19093}), supportedKRaftVersion=SupportedVersionRange[min_version:0, max_version:0]), 3=VoterNode(voterKey=ReplicaKey(id=3, directoryId=Optional.empty), listeners=Endpoints(endpoints={ListenerName(CONTROLLER)=/172.25.10.83:19094}), supportedKRaftVersion=SupportedVersionRange[min_version:0, max_version:0])}) (org.apache.kafka.raft.KafkaRaftClient)
+[2025-03-03 15:14:05,292] INFO [RaftManager id=1] Starting request manager with static voters: [172.25.10.83:19092 (id: 1 rack: null), 172.25.10.83:19093 (id: 2 rack: null), 172.25.10.83:19094 (id: 3 rack: null)] (org.apache.kafka.raft.KafkaRaftClient)
+[2025-03-03 15:14:06,013] INFO [RaftManager id=1] Attempting durable transition to FollowerState(fetchTimeoutMs=2000, epoch=8735, leader=3, leaderEndpoints=Endpoints(endpoints={ListenerName(CONTROLLER)=/172.25.10.83:19094}), voters=[1, 2, 3], highWatermark=Optional.empty, fetchingSnapshot=Optional.empty) from null (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:14:06,166] INFO [RaftManager id=1] Completed transition to FollowerState(fetchTimeoutMs=2000, epoch=8735, leader=3, leaderEndpoints=Endpoints(endpoints={ListenerName(CONTROLLER)=/172.25.10.83:19094}), voters=[1, 2, 3], highWatermark=Optional.empty, fetchingSnapshot=Optional.empty) from null (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:14:06,182] INFO [kafka-1-raft-outbound-request-thread]: Starting (org.apache.kafka.raft.KafkaNetworkChannel$SendThread)
+[2025-03-03 15:14:06,190] INFO [kafka-1-raft-io-thread]: Starting (org.apache.kafka.raft.KafkaRaftClientDriver)
+[2025-03-03 15:14:06,353] INFO [RaftManager id=1] Node 3 disconnected. (org.apache.kafka.clients.NetworkClient)
+[2025-03-03 15:14:06,356] INFO [MetadataLoader id=1] initializeNewPublishers: the loader is still catching up because we still don't know the high water mark yet. (org.apache.kafka.image.loader.MetadataLoader)
+[2025-03-03 15:14:06,357] INFO [RaftManager id=1] Registered the listener org.apache.kafka.image.loader.MetadataLoader@1901298723 (org.apache.kafka.raft.KafkaRaftClient)
+[2025-03-03 15:14:06,376] WARN [RaftManager id=1] Connection to node 3 (/172.25.10.83:19094) could not be established. Node may not be available. (org.apache.kafka.clients.NetworkClient)
+[2025-03-03 15:14:06,396] INFO [ControllerServer id=1] Waiting for controller quorum voters future (kafka.server.ControllerServer)
+[2025-03-03 15:14:06,423] INFO [ControllerServer id=1] Finished waiting for controller quorum voters future (kafka.server.ControllerServer)
+[2025-03-03 15:14:06,424] INFO [RaftManager id=1] Node 3 disconnected. (org.apache.kafka.clients.NetworkClient)
+[2025-03-03 15:14:06,433] WARN [RaftManager id=1] Connection to node 3 (/172.25.10.83:19094) could not be established. Node may not be available. (org.apache.kafka.clients.NetworkClient)
+[2025-03-03 15:14:06,470] INFO [MetadataLoader id=1] initializeNewPublishers: the loader is still catching up because we still don't know the high water mark yet. (org.apache.kafka.image.loader.MetadataLoader)
+[2025-03-03 15:14:06,535] INFO [RaftManager id=1] Registered the listener org.apache.kafka.controller.QuorumController$QuorumMetaLogListener@2075744211 (org.apache.kafka.raft.KafkaRaftClient)
+[2025-03-03 15:14:06,567] INFO [RaftManager id=1] Node 3 disconnected. (org.apache.kafka.clients.NetworkClient)
+[2025-03-03 15:14:06,567] WARN [RaftManager id=1] Connection to node 3 (/172.25.10.83:19094) could not be established. Node may not be available. (org.apache.kafka.clients.NetworkClient)
+[2025-03-03 15:14:06,571] INFO [MetadataLoader id=1] initializeNewPublishers: the loader is still catching up because we still don't know the high water mark yet. (org.apache.kafka.image.loader.MetadataLoader)
+[2025-03-03 15:14:06,590] INFO [controller-1-ThrottledChannelReaper-Fetch]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2025-03-03 15:14:06,595] INFO [controller-1-ThrottledChannelReaper-Produce]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2025-03-03 15:14:06,600] INFO [controller-1-ThrottledChannelReaper-Request]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2025-03-03 15:14:06,603] INFO [controller-1-ThrottledChannelReaper-ControllerMutation]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2025-03-03 15:14:06,672] INFO [ExpirationReaper-1-AlterAcls]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2025-03-03 15:14:06,701] INFO [ControllerServer id=1] Waiting for the controller metadata publishers to be installed (kafka.server.ControllerServer)
+[2025-03-03 15:14:06,712] INFO [MetadataLoader id=1] initializeNewPublishers: the loader is still catching up because we still don't know the high water mark yet. (org.apache.kafka.image.loader.MetadataLoader)
+[2025-03-03 15:14:06,713] INFO [MetadataLoader id=1] initializeNewPublishers: the loader is still catching up because we still don't know the high water mark yet. (org.apache.kafka.image.loader.MetadataLoader)
+[2025-03-03 15:14:06,713] INFO [ControllerServer id=1] Finished waiting for the controller metadata publishers to be installed (kafka.server.ControllerServer)
+[2025-03-03 15:14:06,713] INFO [SocketServer listenerType=CONTROLLER, nodeId=1] Enabling request processing. (kafka.network.SocketServer)
+[2025-03-03 15:14:06,715] INFO Awaiting socket connections on 0.0.0.0:19092. (kafka.network.DataPlaneAcceptor)
+[2025-03-03 15:14:06,756] INFO [ControllerRegistrationManager id=1 incarnation=VeuUuVz0TMOmSIT8k1XwjQ] initialized channel manager. (kafka.server.ControllerRegistrationManager)
+[2025-03-03 15:14:06,757] INFO [ControllerRegistrationManager id=1 incarnation=VeuUuVz0TMOmSIT8k1XwjQ] maybeSendControllerRegistration: cannot register yet because the metadata.version is still 3.0-IV1, which does not support KIP-919 controller registration. (kafka.server.ControllerRegistrationManager)
+[2025-03-03 15:14:06,757] INFO [ControllerServer id=1] Waiting for all of the authorizer futures to be completed (kafka.server.ControllerServer)
+[2025-03-03 15:14:06,757] INFO [ControllerServer id=1] Finished waiting for all of the authorizer futures to be completed (kafka.server.ControllerServer)
+[2025-03-03 15:14:06,757] INFO [ControllerServer id=1] Waiting for all of the SocketServer Acceptors to be started (kafka.server.ControllerServer)
+[2025-03-03 15:14:06,758] INFO [ControllerServer id=1] Finished waiting for all of the SocketServer Acceptors to be started (kafka.server.ControllerServer)
+[2025-03-03 15:14:06,759] INFO [BrokerServer id=1] Transition from SHUTDOWN to STARTING (kafka.server.BrokerServer)
+[2025-03-03 15:14:06,760] INFO [BrokerServer id=1] Starting broker (kafka.server.BrokerServer)
+[2025-03-03 15:14:06,761] INFO [controller-1-to-controller-registration-channel-manager]: Starting (kafka.server.NodeToControllerRequestThread)
+[2025-03-03 15:14:06,762] INFO [controller-1-to-controller-registration-channel-manager]: Recorded new KRaft controller, from now on will use node 172.25.10.83:19094 (id: 3 rack: null) (kafka.server.NodeToControllerRequestThread)
+[2025-03-03 15:14:06,862] INFO [broker-1-ThrottledChannelReaper-Produce]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2025-03-03 15:14:06,863] INFO [broker-1-ThrottledChannelReaper-Fetch]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2025-03-03 15:14:06,862] INFO [MetadataLoader id=1] initializeNewPublishers: the loader is still catching up because we still don't know the high water mark yet. (org.apache.kafka.image.loader.MetadataLoader)
+[2025-03-03 15:14:06,870] INFO [broker-1-ThrottledChannelReaper-Request]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2025-03-03 15:14:06,908] INFO [RaftManager id=1] Node 3 disconnected. (org.apache.kafka.clients.NetworkClient)
+[2025-03-03 15:14:06,909] WARN [RaftManager id=1] Connection to node 3 (/172.25.10.83:19094) could not be established. Node may not be available. (org.apache.kafka.clients.NetworkClient)
+[2025-03-03 15:14:06,949] INFO [broker-1-ThrottledChannelReaper-ControllerMutation]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2025-03-03 15:14:06,974] INFO [MetadataLoader id=1] initializeNewPublishers: the loader is still catching up because we still don't know the high water mark yet. (org.apache.kafka.image.loader.MetadataLoader)
+[2025-03-03 15:14:07,068] INFO [BrokerServer id=1] Waiting for controller quorum voters future (kafka.server.BrokerServer)
+[2025-03-03 15:14:07,085] INFO [BrokerServer id=1] Finished waiting for controller quorum voters future (kafka.server.BrokerServer)
+[2025-03-03 15:14:07,105] INFO [broker-1-to-controller-forwarding-channel-manager]: Starting (kafka.server.NodeToControllerRequestThread)
+[2025-03-03 15:14:07,138] INFO [broker-1-to-controller-forwarding-channel-manager]: Recorded new KRaft controller, from now on will use node 172.25.10.83:19094 (id: 3 rack: null) (kafka.server.NodeToControllerRequestThread)
+[2025-03-03 15:14:07,131] INFO [MetadataLoader id=1] initializeNewPublishers: the loader is still catching up because we still don't know the high water mark yet. (org.apache.kafka.image.loader.MetadataLoader)
+[2025-03-03 15:14:07,186] INFO [client-metrics-reaper]: Starting (org.apache.kafka.server.util.timer.SystemTimerReaper$Reaper)
+[2025-03-03 15:14:07,274] INFO [MetadataLoader id=1] initializeNewPublishers: the loader is still catching up because we still don't know the high water mark yet. (org.apache.kafka.image.loader.MetadataLoader)
+[2025-03-03 15:14:07,409] INFO [MetadataLoader id=1] initializeNewPublishers: the loader is still catching up because we still don't know the high water mark yet. (org.apache.kafka.image.loader.MetadataLoader)
+[2025-03-03 15:14:07,539] INFO [MetadataLoader id=1] initializeNewPublishers: the loader is still catching up because we still don't know the high water mark yet. (org.apache.kafka.image.loader.MetadataLoader)
+[2025-03-03 15:14:07,650] INFO [MetadataLoader id=1] initializeNewPublishers: the loader is still catching up because we still don't know the high water mark yet. (org.apache.kafka.image.loader.MetadataLoader)
+[2025-03-03 15:14:07,743] INFO Updated connection-accept-rate max connection creation rate to 2147483647 (kafka.network.ConnectionQuotas)
+[2025-03-03 15:14:07,757] INFO [MetadataLoader id=1] initializeNewPublishers: the loader is still catching up because we still don't know the high water mark yet. (org.apache.kafka.image.loader.MetadataLoader)
+[2025-03-03 15:14:07,860] INFO [SocketServer listenerType=BROKER, nodeId=1] Created data-plane acceptor and processors for endpoint : ListenerName(PLAINTEXT) (kafka.network.SocketServer)
+[2025-03-03 15:14:07,901] INFO [MetadataLoader id=1] initializeNewPublishers: the loader is still catching up because we still don't know the high water mark yet. (org.apache.kafka.image.loader.MetadataLoader)
+[2025-03-03 15:14:08,018] INFO [RaftManager id=1] Attempting durable transition to Unattached(epoch=8736, votedKey=null, voters=[1, 2, 3], electionTimeoutMs=1864, highWatermark=Optional.empty) from FollowerState(fetchTimeoutMs=2000, epoch=8735, leader=3, leaderEndpoints=Endpoints(endpoints={ListenerName(CONTROLLER)=/172.25.10.83:19094}), voters=[1, 2, 3], highWatermark=Optional.empty, fetchingSnapshot=Optional.empty) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:14:08,019] INFO [MetadataLoader id=1] initializeNewPublishers: the loader is still catching up because we still don't know the high water mark yet. (org.apache.kafka.image.loader.MetadataLoader)
+[2025-03-03 15:14:08,105] INFO [RaftManager id=1] Completed transition to Unattached(epoch=8736, votedKey=null, voters=[1, 2, 3], electionTimeoutMs=1864, highWatermark=Optional.empty) from FollowerState(fetchTimeoutMs=2000, epoch=8735, leader=3, leaderEndpoints=Endpoints(endpoints={ListenerName(CONTROLLER)=/172.25.10.83:19094}), voters=[1, 2, 3], highWatermark=Optional.empty, fetchingSnapshot=Optional.empty) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:14:08,127] INFO [MetadataLoader id=1] initializeNewPublishers: the loader is still catching up because we still don't know the high water mark yet. (org.apache.kafka.image.loader.MetadataLoader)
+[2025-03-03 15:14:08,128] INFO [broker-1-to-controller-alter-partition-channel-manager]: Starting (kafka.server.NodeToControllerRequestThread)
+[2025-03-03 15:14:08,193] INFO [RaftManager id=1] Attempting durable transition to Unattached(epoch=8736, votedKey=ReplicaKey(id=3, directoryId=Optional[B_s3M5qvrILHbTrqu_tnLg]), voters=[1, 2, 3], electionTimeoutMs=1614, highWatermark=Optional.empty) from Unattached(epoch=8736, votedKey=null, voters=[1, 2, 3], electionTimeoutMs=1864, highWatermark=Optional.empty) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:14:08,223] INFO [broker-1-to-controller-directory-assignments-channel-manager]: Starting (kafka.server.NodeToControllerRequestThread)
+[2025-03-03 15:14:08,226] INFO [RaftManager id=1] Completed transition to Unattached(epoch=8736, votedKey=ReplicaKey(id=3, directoryId=Optional[B_s3M5qvrILHbTrqu_tnLg]), voters=[1, 2, 3], electionTimeoutMs=1614, highWatermark=Optional.empty) from Unattached(epoch=8736, votedKey=null, voters=[1, 2, 3], electionTimeoutMs=1864, highWatermark=Optional.empty) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:14:08,226] INFO [RaftManager id=1] Vote request VoteRequestData(clusterId='IAwvuCRtQFikmbSEMsgQFw', voterId=1, topics=[TopicData(topicName='__cluster_metadata', partitions=[PartitionData(partitionIndex=0, candidateEpoch=8736, candidateId=3, candidateDirectoryId=B_s3M5qvrILHbTrqu_tnLg, voterDirectoryId=AAAAAAAAAAAAAAAAAAAAAA, lastOffsetEpoch=8735, lastOffset=573793)])]) with epoch 8736 is granted (org.apache.kafka.raft.KafkaRaftClient)
+[2025-03-03 15:14:08,241] INFO [MetadataLoader id=1] initializeNewPublishers: the loader is still catching up because we still don't know the high water mark yet. (org.apache.kafka.image.loader.MetadataLoader)
+[2025-03-03 15:14:08,368] INFO [MetadataLoader id=1] initializeNewPublishers: the loader is still catching up because we still don't know the high water mark yet. (org.apache.kafka.image.loader.MetadataLoader)
+[2025-03-03 15:14:08,483] INFO [MetadataLoader id=1] initializeNewPublishers: the loader is still catching up because we still don't know the high water mark yet. (org.apache.kafka.image.loader.MetadataLoader)
+[2025-03-03 15:14:08,545] INFO [RaftManager id=1] Attempting durable transition to FollowerState(fetchTimeoutMs=2000, epoch=8736, leader=3, leaderEndpoints=Endpoints(endpoints={ListenerName(CONTROLLER)=vbox/<unresolved>:19094}), voters=[1, 2, 3], highWatermark=Optional.empty, fetchingSnapshot=Optional.empty) from Unattached(epoch=8736, votedKey=ReplicaKey(id=3, directoryId=Optional[B_s3M5qvrILHbTrqu_tnLg]), voters=[1, 2, 3], electionTimeoutMs=1614, highWatermark=Optional.empty) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:14:08,591] INFO [MetadataLoader id=1] initializeNewPublishers: the loader is still catching up because we still don't know the high water mark yet. (org.apache.kafka.image.loader.MetadataLoader)
+[2025-03-03 15:14:08,606] INFO [RaftManager id=1] Completed transition to FollowerState(fetchTimeoutMs=2000, epoch=8736, leader=3, leaderEndpoints=Endpoints(endpoints={ListenerName(CONTROLLER)=vbox/<unresolved>:19094}), voters=[1, 2, 3], highWatermark=Optional.empty, fetchingSnapshot=Optional.empty) from Unattached(epoch=8736, votedKey=ReplicaKey(id=3, directoryId=Optional[B_s3M5qvrILHbTrqu_tnLg]), voters=[1, 2, 3], electionTimeoutMs=1614, highWatermark=Optional.empty) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:14:08,641] INFO [ExpirationReaper-1-Produce]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2025-03-03 15:14:08,696] INFO [broker-1-to-controller-alter-partition-channel-manager]: Recorded new KRaft controller, from now on will use node 172.25.10.83:19094 (id: 3 rack: null) (kafka.server.NodeToControllerRequestThread)
+[2025-03-03 15:14:08,713] INFO [broker-1-to-controller-directory-assignments-channel-manager]: Recorded new KRaft controller, from now on will use node 172.25.10.83:19094 (id: 3 rack: null) (kafka.server.NodeToControllerRequestThread)
+[2025-03-03 15:14:08,714] INFO [MetadataLoader id=1] initializeNewPublishers: the loader is still catching up because we still don't know the high water mark yet. (org.apache.kafka.image.loader.MetadataLoader)
+[2025-03-03 15:14:08,715] INFO [ExpirationReaper-1-Fetch]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2025-03-03 15:14:08,779] INFO [ExpirationReaper-1-DeleteRecords]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2025-03-03 15:14:08,793] INFO [ExpirationReaper-1-ElectLeader]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2025-03-03 15:14:08,808] INFO [ExpirationReaper-1-RemoteFetch]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2025-03-03 15:14:08,844] INFO [MetadataLoader id=1] initializeNewPublishers: the loader is still catching up because we still don't know the high water mark yet. (org.apache.kafka.image.loader.MetadataLoader)
+[2025-03-03 15:14:08,871] INFO [LocalLog partition=__cluster_metadata-0, dir=/tmp/kafka-logs] Rolled new log segment at offset 573793 in 63 ms. (kafka.log.LocalLog)
+[2025-03-03 15:14:08,945] INFO [MetadataLoader id=1] initializeNewPublishers: the loader is still catching up because we still don't know the high water mark yet. (org.apache.kafka.image.loader.MetadataLoader)
+[2025-03-03 15:14:09,018] INFO [ExpirationReaper-1-Heartbeat]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2025-03-03 15:14:09,019] INFO [ExpirationReaper-1-Rebalance]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2025-03-03 15:14:09,056] INFO [MetadataLoader id=1] initializeNewPublishers: the loader is still catching up because we still don't know the high water mark yet. (org.apache.kafka.image.loader.MetadataLoader)
+[2025-03-03 15:14:09,187] INFO [MetadataLoader id=1] initializeNewPublishers: the loader is still catching up because we still don't know the high water mark yet. (org.apache.kafka.image.loader.MetadataLoader)
+[2025-03-03 15:14:09,309] INFO [MetadataLoader id=1] initializeNewPublishers: the loader is still catching up because we still don't know the high water mark yet. (org.apache.kafka.image.loader.MetadataLoader)
+[2025-03-03 15:14:09,334] INFO [BrokerLifecycleManager id=1] Incarnation zgetGKG9TFSdFr2gBzZniA of broker 1 in cluster IAwvuCRtQFikmbSEMsgQFw is now STARTING. (kafka.server.BrokerLifecycleManager)
+[2025-03-03 15:14:09,339] INFO [broker-1-to-controller-heartbeat-channel-manager]: Starting (kafka.server.NodeToControllerRequestThread)
+[2025-03-03 15:14:09,340] INFO [broker-1-to-controller-heartbeat-channel-manager]: Recorded new KRaft controller, from now on will use node 172.25.10.83:19094 (id: 3 rack: null) (kafka.server.NodeToControllerRequestThread)
+[2025-03-03 15:14:09,428] INFO [MetadataLoader id=1] initializeNewPublishers: the loader is still catching up because we still don't know the high water mark yet. (org.apache.kafka.image.loader.MetadataLoader)
+[2025-03-03 15:14:09,539] INFO [MetadataLoader id=1] initializeNewPublishers: the loader is still catching up because we still don't know the high water mark yet. (org.apache.kafka.image.loader.MetadataLoader)
+[2025-03-03 15:14:09,558] INFO [ExpirationReaper-1-AlterAcls]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2025-03-03 15:14:09,589] INFO [RaftManager id=1] High watermark set to Optional[LogOffsetMetadata(offset=573794, metadata=Optional.empty)] for the first time for epoch 8736 (org.apache.kafka.raft.FollowerState)
+[2025-03-03 15:14:09,601] INFO [MetadataLoader id=1] handleLoadSnapshot(00000000000000567834-0000008716): incrementing HandleLoadSnapshotCount to 1. (org.apache.kafka.image.loader.MetadataLoader)
+[2025-03-03 15:14:09,645] INFO [MetadataLoader id=1] handleLoadSnapshot(00000000000000567834-0000008716): generated a metadata delta between offset -1 and this snapshot in 44184 us. (org.apache.kafka.image.loader.MetadataLoader)
+[2025-03-03 15:14:09,646] INFO [MetadataLoader id=1] maybePublishMetadata(SNAPSHOT): The loader is still catching up because we have loaded up to offset 567833, but the high water mark is 573794 (org.apache.kafka.image.loader.MetadataLoader)
+[2025-03-03 15:14:09,647] INFO [MetadataLoader id=1] initializeNewPublishers: The loader is still catching up because we have loaded up to offset 567833, but the high water mark is 573794 (org.apache.kafka.image.loader.MetadataLoader)
+[2025-03-03 15:14:09,885] INFO [BrokerServer id=1] Waiting for the broker metadata publishers to be installed (kafka.server.BrokerServer)
+[2025-03-03 15:14:10,224] INFO [NodeToControllerChannelManager id=1 name=heartbeat] Client requested disconnect from node 3 (org.apache.kafka.clients.NetworkClient)
+[2025-03-03 15:14:10,224] INFO [broker-1-to-controller-heartbeat-channel-manager]: Recorded new KRaft controller, from now on will use node 172.25.10.83:19094 (id: 3 rack: null) (kafka.server.NodeToControllerRequestThread)
+[2025-03-03 15:14:10,297] INFO [broker-1-to-controller-heartbeat-channel-manager]: Recorded new KRaft controller, from now on will use node 172.25.10.83:19094 (id: 3 rack: null) (kafka.server.NodeToControllerRequestThread)
+[2025-03-03 15:14:10,605] INFO [BrokerLifecycleManager id=1] Successfully registered broker 1 with broker epoch 573795 (kafka.server.BrokerLifecycleManager)
+[2025-03-03 15:14:10,772] INFO [MetadataLoader id=1] maybePublishMetadata(LOG_DELTA): The loader is still catching up because we have loaded up to offset 573792, but the high water mark is 573794 (org.apache.kafka.image.loader.MetadataLoader)
+[2025-03-03 15:14:10,773] INFO [MetadataLoader id=1] initializeNewPublishers: The loader is still catching up because we have loaded up to offset 573792, but the high water mark is 573794 (org.apache.kafka.image.loader.MetadataLoader)
+[2025-03-03 15:14:10,773] INFO [BrokerServer id=1] Finished waiting for the broker metadata publishers to be installed (kafka.server.BrokerServer)
+[2025-03-03 15:14:10,773] INFO [BrokerServer id=1] Waiting for the controller to acknowledge that we are caught up (kafka.server.BrokerServer)
+[2025-03-03 15:14:10,773] INFO [MetadataLoader id=1] initializeNewPublishers: The loader is still catching up because we have loaded up to offset 573792, but the high water mark is 573794 (org.apache.kafka.image.loader.MetadataLoader)
+[2025-03-03 15:14:10,773] INFO [MetadataLoader id=1] maybePublishMetadata(LOG_DELTA): The loader finished catching up to the current high water mark of 573794 (org.apache.kafka.image.loader.MetadataLoader)
+[2025-03-03 15:14:10,790] INFO [MetadataLoader id=1] InitializeNewPublishers: initializing SnapshotGenerator with a snapshot at offset 573793 (org.apache.kafka.image.loader.MetadataLoader)
+[2025-03-03 15:14:10,790] INFO [MetadataLoader id=1] InitializeNewPublishers: initializing KRaftMetadataCachePublisher with a snapshot at offset 573793 (org.apache.kafka.image.loader.MetadataLoader)
+[2025-03-03 15:14:10,791] INFO [MetadataLoader id=1] InitializeNewPublishers: initializing FeaturesPublisher with a snapshot at offset 573793 (org.apache.kafka.image.loader.MetadataLoader)
+[2025-03-03 15:14:10,791] INFO [ControllerServer id=1] Loaded new metadata Features(metadataVersion=3.9-IV0, finalizedFeatures={metadata.version=21}, finalizedFeaturesEpoch=573793). (org.apache.kafka.metadata.publisher.FeaturesPublisher)
+[2025-03-03 15:14:10,791] INFO [MetadataLoader id=1] InitializeNewPublishers: initializing ControllerRegistrationsPublisher with a snapshot at offset 573793 (org.apache.kafka.image.loader.MetadataLoader)
+[2025-03-03 15:14:10,791] INFO [MetadataLoader id=1] InitializeNewPublishers: initializing ControllerRegistrationManager with a snapshot at offset 573793 (org.apache.kafka.image.loader.MetadataLoader)
+[2025-03-03 15:14:10,804] INFO [ControllerRegistrationManager id=1 incarnation=VeuUuVz0TMOmSIT8k1XwjQ] Found registration for m70n3zjeS6-rGzjrxZ548Q instead of our incarnation. (kafka.server.ControllerRegistrationManager)
+[2025-03-03 15:14:10,806] INFO [ControllerRegistrationManager id=1 incarnation=VeuUuVz0TMOmSIT8k1XwjQ] sendControllerRegistration: attempting to send ControllerRegistrationRequestData(controllerId=1, incarnationId=VeuUuVz0TMOmSIT8k1XwjQ, zkMigrationReady=false, listeners=[Listener(name='CONTROLLER', host='vbox', port=19092, securityProtocol=0)], features=[Feature(name='kraft.version', minSupportedVersion=0, maxSupportedVersion=1), Feature(name='metadata.version', minSupportedVersion=1, maxSupportedVersion=21)]) (kafka.server.ControllerRegistrationManager)
+[2025-03-03 15:14:10,809] INFO [MetadataLoader id=1] InitializeNewPublishers: initializing DynamicConfigPublisher controller id=1 with a snapshot at offset 573793 (org.apache.kafka.image.loader.MetadataLoader)
+[2025-03-03 15:14:10,816] INFO [MetadataLoader id=1] InitializeNewPublishers: initializing DynamicClientQuotaPublisher controller id=1 with a snapshot at offset 573793 (org.apache.kafka.image.loader.MetadataLoader)
+[2025-03-03 15:14:10,867] INFO [MetadataLoader id=1] InitializeNewPublishers: initializing ScramPublisher controller id=1 with a snapshot at offset 573793 (org.apache.kafka.image.loader.MetadataLoader)
+[2025-03-03 15:14:10,868] INFO [MetadataLoader id=1] InitializeNewPublishers: initializing DelegationTokenPublisher controller id=1 with a snapshot at offset 573793 (org.apache.kafka.image.loader.MetadataLoader)
+[2025-03-03 15:14:10,870] INFO [MetadataLoader id=1] InitializeNewPublishers: initializing ControllerMetadataMetricsPublisher with a snapshot at offset 573793 (org.apache.kafka.image.loader.MetadataLoader)
+[2025-03-03 15:14:10,870] INFO [MetadataLoader id=1] InitializeNewPublishers: initializing AclPublisher controller id=1 with a snapshot at offset 573793 (org.apache.kafka.image.loader.MetadataLoader)
+[2025-03-03 15:14:10,871] INFO [MetadataLoader id=1] InitializeNewPublishers: initializing MetadataVersionPublisher(id=1) with a snapshot at offset 573793 (org.apache.kafka.image.loader.MetadataLoader)
+[2025-03-03 15:14:10,871] INFO [MetadataLoader id=1] InitializeNewPublishers: initializing BrokerMetadataPublisher with a snapshot at offset 573793 (org.apache.kafka.image.loader.MetadataLoader)
+[2025-03-03 15:14:10,872] INFO [BrokerMetadataPublisher id=1] Publishing initial metadata at offset OffsetAndEpoch(offset=573793, epoch=8736) with metadata.version 3.9-IV0. (kafka.server.metadata.BrokerMetadataPublisher)
+[2025-03-03 15:14:10,898] INFO Loading logs from log dirs ArrayBuffer(/tmp/kafka-logs) (kafka.log.LogManager)
+[2025-03-03 15:14:10,957] INFO Skipping recovery of 20 logs from /tmp/kafka-logs since clean shutdown file was found (kafka.log.LogManager)
+[2025-03-03 15:14:11,003] INFO [ControllerRegistrationManager id=1 incarnation=VeuUuVz0TMOmSIT8k1XwjQ] RegistrationResponseHandler: controller acknowledged ControllerRegistrationRequest. (kafka.server.ControllerRegistrationManager)
+[2025-03-03 15:14:11,031] INFO [LogLoader partition=__consumer_offsets-16, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2025-03-03 15:14:11,050] INFO Completed load of Log(dir=/tmp/kafka-logs/__consumer_offsets-16, topicId=D7i7XwvaTjiWKwdkCamlZQ, topic=__consumer_offsets, partition=16, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments, local-log-start-offset 0 and log-end-offset 0 in 38ms (1/20 completed in /tmp/kafka-logs) (kafka.log.LogManager)
+[2025-03-03 15:14:11,089] INFO [LogLoader partition=__consumer_offsets-45, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2025-03-03 15:14:11,092] INFO Completed load of Log(dir=/tmp/kafka-logs/__consumer_offsets-45, topicId=D7i7XwvaTjiWKwdkCamlZQ, topic=__consumer_offsets, partition=45, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments, local-log-start-offset 0 and log-end-offset 0 in 37ms (2/20 completed in /tmp/kafka-logs) (kafka.log.LogManager)
+[2025-03-03 15:14:11,186] INFO [LogLoader partition=__consumer_offsets-14, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2025-03-03 15:14:11,197] INFO Completed load of Log(dir=/tmp/kafka-logs/__consumer_offsets-14, topicId=D7i7XwvaTjiWKwdkCamlZQ, topic=__consumer_offsets, partition=14, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments, local-log-start-offset 0 and log-end-offset 0 in 105ms (3/20 completed in /tmp/kafka-logs) (kafka.log.LogManager)
+[2025-03-03 15:14:11,332] INFO [LogLoader partition=__consumer_offsets-9, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2025-03-03 15:14:11,343] INFO Completed load of Log(dir=/tmp/kafka-logs/__consumer_offsets-9, topicId=D7i7XwvaTjiWKwdkCamlZQ, topic=__consumer_offsets, partition=9, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments, local-log-start-offset 0 and log-end-offset 0 in 145ms (4/20 completed in /tmp/kafka-logs) (kafka.log.LogManager)
+[2025-03-03 15:14:11,368] INFO [LogLoader partition=__consumer_offsets-42, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2025-03-03 15:14:11,384] INFO Completed load of Log(dir=/tmp/kafka-logs/__consumer_offsets-42, topicId=D7i7XwvaTjiWKwdkCamlZQ, topic=__consumer_offsets, partition=42, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments, local-log-start-offset 0 and log-end-offset 0 in 42ms (5/20 completed in /tmp/kafka-logs) (kafka.log.LogManager)
+[2025-03-03 15:14:11,503] INFO [LogLoader partition=__consumer_offsets-21, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2025-03-03 15:14:11,505] INFO Completed load of Log(dir=/tmp/kafka-logs/__consumer_offsets-21, topicId=D7i7XwvaTjiWKwdkCamlZQ, topic=__consumer_offsets, partition=21, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments, local-log-start-offset 0 and log-end-offset 0 in 120ms (6/20 completed in /tmp/kafka-logs) (kafka.log.LogManager)
+[2025-03-03 15:14:11,580] INFO [LogLoader partition=__consumer_offsets-18, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2025-03-03 15:14:11,581] INFO Completed load of Log(dir=/tmp/kafka-logs/__consumer_offsets-18, topicId=D7i7XwvaTjiWKwdkCamlZQ, topic=__consumer_offsets, partition=18, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments, local-log-start-offset 0 and log-end-offset 0 in 77ms (7/20 completed in /tmp/kafka-logs) (kafka.log.LogManager)
+[2025-03-03 15:14:11,615] INFO [LogLoader partition=__consumer_offsets-32, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2025-03-03 15:14:11,630] INFO Completed load of Log(dir=/tmp/kafka-logs/__consumer_offsets-32, topicId=D7i7XwvaTjiWKwdkCamlZQ, topic=__consumer_offsets, partition=32, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments, local-log-start-offset 0 and log-end-offset 0 in 48ms (8/20 completed in /tmp/kafka-logs) (kafka.log.LogManager)
+[2025-03-03 15:14:11,676] INFO [LogLoader partition=__consumer_offsets-27, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2025-03-03 15:14:11,685] INFO Completed load of Log(dir=/tmp/kafka-logs/__consumer_offsets-27, topicId=D7i7XwvaTjiWKwdkCamlZQ, topic=__consumer_offsets, partition=27, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments, local-log-start-offset 0 and log-end-offset 0 in 55ms (9/20 completed in /tmp/kafka-logs) (kafka.log.LogManager)
+[2025-03-03 15:14:11,716] INFO [LogLoader partition=__consumer_offsets-26, dir=/tmp/kafka-logs] Loading producer state till offset 3 with message format version 2 (kafka.log.UnifiedLog$)
+[2025-03-03 15:14:11,716] INFO [LogLoader partition=__consumer_offsets-26, dir=/tmp/kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 3 (kafka.log.UnifiedLog$)
+[2025-03-03 15:14:11,716] INFO [ProducerStateManager partition=__consumer_offsets-26] Loading producer state from snapshot file 'SnapshotFile(offset=3, file=/tmp/kafka-logs/__consumer_offsets-26/00000000000000000003.snapshot)' (org.apache.kafka.storage.internals.log.ProducerStateManager)
+[2025-03-03 15:14:11,731] INFO [LogLoader partition=__consumer_offsets-26, dir=/tmp/kafka-logs] Producer state recovery took 15ms for snapshot load and 0ms for segment recovery from offset 3 (kafka.log.UnifiedLog$)
+[2025-03-03 15:14:11,734] INFO Completed load of Log(dir=/tmp/kafka-logs/__consumer_offsets-26, topicId=D7i7XwvaTjiWKwdkCamlZQ, topic=__consumer_offsets, partition=26, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=3) with 1 segments, local-log-start-offset 0 and log-end-offset 3 in 48ms (10/20 completed in /tmp/kafka-logs) (kafka.log.LogManager)
+[2025-03-03 15:14:11,841] INFO [LogLoader partition=__consumer_offsets-40, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2025-03-03 15:14:11,843] INFO Completed load of Log(dir=/tmp/kafka-logs/__consumer_offsets-40, topicId=D7i7XwvaTjiWKwdkCamlZQ, topic=__consumer_offsets, partition=40, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments, local-log-start-offset 0 and log-end-offset 0 in 109ms (11/20 completed in /tmp/kafka-logs) (kafka.log.LogManager)
+[2025-03-03 15:14:11,900] INFO [LogLoader partition=__consumer_offsets-6, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2025-03-03 15:14:11,906] INFO Completed load of Log(dir=/tmp/kafka-logs/__consumer_offsets-6, topicId=D7i7XwvaTjiWKwdkCamlZQ, topic=__consumer_offsets, partition=6, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments, local-log-start-offset 0 and log-end-offset 0 in 63ms (12/20 completed in /tmp/kafka-logs) (kafka.log.LogManager)
+[2025-03-03 15:14:11,925] INFO [LogLoader partition=__consumer_offsets-38, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2025-03-03 15:14:11,940] INFO Completed load of Log(dir=/tmp/kafka-logs/__consumer_offsets-38, topicId=D7i7XwvaTjiWKwdkCamlZQ, topic=__consumer_offsets, partition=38, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments, local-log-start-offset 0 and log-end-offset 0 in 28ms (13/20 completed in /tmp/kafka-logs) (kafka.log.LogManager)
+[2025-03-03 15:14:12,087] INFO [LogLoader partition=__consumer_offsets-3, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2025-03-03 15:14:12,114] INFO Completed load of Log(dir=/tmp/kafka-logs/__consumer_offsets-3, topicId=D7i7XwvaTjiWKwdkCamlZQ, topic=__consumer_offsets, partition=3, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments, local-log-start-offset 0 and log-end-offset 0 in 165ms (14/20 completed in /tmp/kafka-logs) (kafka.log.LogManager)
+[2025-03-03 15:14:12,158] INFO [LogLoader partition=__consumer_offsets-1, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2025-03-03 15:14:12,185] INFO Completed load of Log(dir=/tmp/kafka-logs/__consumer_offsets-1, topicId=D7i7XwvaTjiWKwdkCamlZQ, topic=__consumer_offsets, partition=1, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments, local-log-start-offset 0 and log-end-offset 0 in 71ms (15/20 completed in /tmp/kafka-logs) (kafka.log.LogManager)
+[2025-03-03 15:14:12,196] INFO [LogLoader partition=__consumer_offsets-33, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2025-03-03 15:14:12,238] INFO Completed load of Log(dir=/tmp/kafka-logs/__consumer_offsets-33, topicId=D7i7XwvaTjiWKwdkCamlZQ, topic=__consumer_offsets, partition=33, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments, local-log-start-offset 0 and log-end-offset 0 in 53ms (16/20 completed in /tmp/kafka-logs) (kafka.log.LogManager)
+[2025-03-03 15:14:12,278] INFO Deleted producer state snapshot /tmp/kafka-logs/kraft-test-0/00000000000000003250.snapshot (org.apache.kafka.storage.internals.log.SnapshotFile)
+[2025-03-03 15:14:12,279] INFO [LogLoader partition=kraft-test-0, dir=/tmp/kafka-logs] Loading producer state till offset 3275 with message format version 2 (kafka.log.UnifiedLog$)
+[2025-03-03 15:14:12,279] INFO [LogLoader partition=kraft-test-0, dir=/tmp/kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 3275 (kafka.log.UnifiedLog$)
+[2025-03-03 15:14:12,279] INFO [ProducerStateManager partition=kraft-test-0] Loading producer state from snapshot file 'SnapshotFile(offset=3275, file=/tmp/kafka-logs/kraft-test-0/00000000000000003275.snapshot)' (org.apache.kafka.storage.internals.log.ProducerStateManager)
+[2025-03-03 15:14:12,280] INFO [LogLoader partition=kraft-test-0, dir=/tmp/kafka-logs] Producer state recovery took 1ms for snapshot load and 0ms for segment recovery from offset 3275 (kafka.log.UnifiedLog$)
+[2025-03-03 15:14:12,282] INFO Completed load of Log(dir=/tmp/kafka-logs/kraft-test-0, topicId=WLjTDIMVTMiyaNabGbe6cQ, topic=kraft-test, partition=0, highWatermark=1518, lastStableOffset=1518, logStartOffset=1518, logEndOffset=3275) with 1 segments, local-log-start-offset 1518 and log-end-offset 3275 in 33ms (17/20 completed in /tmp/kafka-logs) (kafka.log.LogManager)
+[2025-03-03 15:14:12,294] INFO Deleted producer state snapshot /tmp/kafka-logs/kraft-test-1/00000000000000003689.snapshot (org.apache.kafka.storage.internals.log.SnapshotFile)
+[2025-03-03 15:14:12,294] INFO [LogLoader partition=kraft-test-1, dir=/tmp/kafka-logs] Loading producer state till offset 3715 with message format version 2 (kafka.log.UnifiedLog$)
+[2025-03-03 15:14:12,294] INFO [LogLoader partition=kraft-test-1, dir=/tmp/kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 3715 (kafka.log.UnifiedLog$)
+[2025-03-03 15:14:12,294] INFO [ProducerStateManager partition=kraft-test-1] Loading producer state from snapshot file 'SnapshotFile(offset=3715, file=/tmp/kafka-logs/kraft-test-1/00000000000000003715.snapshot)' (org.apache.kafka.storage.internals.log.ProducerStateManager)
+[2025-03-03 15:14:12,295] INFO [LogLoader partition=kraft-test-1, dir=/tmp/kafka-logs] Producer state recovery took 1ms for snapshot load and 0ms for segment recovery from offset 3715 (kafka.log.UnifiedLog$)
+[2025-03-03 15:14:12,305] INFO Completed load of Log(dir=/tmp/kafka-logs/kraft-test-1, topicId=WLjTDIMVTMiyaNabGbe6cQ, topic=kraft-test, partition=1, highWatermark=1966, lastStableOffset=1966, logStartOffset=1966, logEndOffset=3715) with 1 segments, local-log-start-offset 1966 and log-end-offset 3715 in 23ms (18/20 completed in /tmp/kafka-logs) (kafka.log.LogManager)
+[2025-03-03 15:14:12,408] INFO Deleted producer state snapshot /tmp/kafka-logs/kraft-test-2/00000000000000003200.snapshot (org.apache.kafka.storage.internals.log.SnapshotFile)
+[2025-03-03 15:14:12,408] INFO [LogLoader partition=kraft-test-2, dir=/tmp/kafka-logs] Loading producer state till offset 3226 with message format version 2 (kafka.log.UnifiedLog$)
+[2025-03-03 15:14:12,408] INFO [LogLoader partition=kraft-test-2, dir=/tmp/kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 3226 (kafka.log.UnifiedLog$)
+[2025-03-03 15:14:12,409] INFO [ProducerStateManager partition=kraft-test-2] Loading producer state from snapshot file 'SnapshotFile(offset=3226, file=/tmp/kafka-logs/kraft-test-2/00000000000000003226.snapshot)' (org.apache.kafka.storage.internals.log.ProducerStateManager)
+[2025-03-03 15:14:12,412] INFO [LogLoader partition=kraft-test-2, dir=/tmp/kafka-logs] Producer state recovery took 4ms for snapshot load and 0ms for segment recovery from offset 3226 (kafka.log.UnifiedLog$)
+[2025-03-03 15:14:12,414] INFO Completed load of Log(dir=/tmp/kafka-logs/kraft-test-2, topicId=WLjTDIMVTMiyaNabGbe6cQ, topic=kraft-test, partition=2, highWatermark=1580, lastStableOffset=1580, logStartOffset=1580, logEndOffset=3226) with 1 segments, local-log-start-offset 1580 and log-end-offset 3226 in 109ms (19/20 completed in /tmp/kafka-logs) (kafka.log.LogManager)
+[2025-03-03 15:14:12,457] INFO Deleted producer state snapshot /tmp/kafka-logs/demo-0/00000000000000000016.snapshot (org.apache.kafka.storage.internals.log.SnapshotFile)
+[2025-03-03 15:14:12,457] INFO [LogLoader partition=demo-0, dir=/tmp/kafka-logs] Loading producer state till offset 19 with message format version 2 (kafka.log.UnifiedLog$)
+[2025-03-03 15:14:12,457] INFO [LogLoader partition=demo-0, dir=/tmp/kafka-logs] Reloading from producer snapshot and rebuilding producer state from offset 19 (kafka.log.UnifiedLog$)
+[2025-03-03 15:14:12,457] INFO [ProducerStateManager partition=demo-0] Loading producer state from snapshot file 'SnapshotFile(offset=19, file=/tmp/kafka-logs/demo-0/00000000000000000019.snapshot)' (org.apache.kafka.storage.internals.log.ProducerStateManager)
+[2025-03-03 15:14:12,470] INFO [LogLoader partition=demo-0, dir=/tmp/kafka-logs] Producer state recovery took 13ms for snapshot load and 0ms for segment recovery from offset 19 (kafka.log.UnifiedLog$)
+[2025-03-03 15:14:12,486] INFO Completed load of Log(dir=/tmp/kafka-logs/demo-0, topicId=eTzDqfUTQNmJ1p8rUeQ7jw, topic=demo, partition=0, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=19) with 1 segments, local-log-start-offset 0 and log-end-offset 19 in 72ms (20/20 completed in /tmp/kafka-logs) (kafka.log.LogManager)
+[2025-03-03 15:14:12,493] INFO Loaded 20 logs in 1594ms (kafka.log.LogManager)
+[2025-03-03 15:14:12,493] INFO Starting log cleanup with a period of 300000 ms. (kafka.log.LogManager)
+[2025-03-03 15:14:12,495] INFO Starting log flusher with a default period of 9223372036854775807 ms. (kafka.log.LogManager)
+[2025-03-03 15:14:12,604] INFO [kafka-log-cleaner-thread-0]: Starting (kafka.log.LogCleaner$CleanerThread)
+[2025-03-03 15:14:12,616] INFO [LogDirFailureHandler]: Starting (kafka.server.ReplicaManager$LogDirFailureHandler)
+[2025-03-03 15:14:12,616] INFO [AddPartitionsToTxnSenderThread-1]: Starting (kafka.server.AddPartitionsToTxnManager)
+[2025-03-03 15:14:12,618] INFO [GroupCoordinator 1]: Starting up. (kafka.coordinator.group.GroupCoordinator)
+[2025-03-03 15:14:12,625] INFO [GroupCoordinator 1]: Startup complete. (kafka.coordinator.group.GroupCoordinator)
+[2025-03-03 15:14:12,628] INFO [TransactionCoordinator id=1] Starting up. (kafka.coordinator.transaction.TransactionCoordinator)
+[2025-03-03 15:14:12,708] INFO [TxnMarkerSenderThread-1]: Starting (kafka.coordinator.transaction.TransactionMarkerChannelManager)
+[2025-03-03 15:14:12,708] INFO [TransactionCoordinator id=1] Startup complete. (kafka.coordinator.transaction.TransactionCoordinator)
+[2025-03-03 15:14:12,896] INFO [Partition __consumer_offsets-16 broker=1] Log loaded for partition __consumer_offsets-16 with initial high watermark 0 (kafka.cluster.Partition)
+[2025-03-03 15:14:12,899] INFO [Partition __consumer_offsets-45 broker=1] Log loaded for partition __consumer_offsets-45 with initial high watermark 0 (kafka.cluster.Partition)
+[2025-03-03 15:14:12,899] INFO [Partition __consumer_offsets-14 broker=1] Log loaded for partition __consumer_offsets-14 with initial high watermark 0 (kafka.cluster.Partition)
+[2025-03-03 15:14:12,900] INFO [Partition kraft-test-0 broker=1] Log loaded for partition kraft-test-0 with initial high watermark 3275 (kafka.cluster.Partition)
+[2025-03-03 15:14:12,901] INFO [Partition __consumer_offsets-9 broker=1] Log loaded for partition __consumer_offsets-9 with initial high watermark 0 (kafka.cluster.Partition)
+[2025-03-03 15:14:12,902] INFO [Partition __consumer_offsets-42 broker=1] Log loaded for partition __consumer_offsets-42 with initial high watermark 0 (kafka.cluster.Partition)
+[2025-03-03 15:14:12,903] INFO [Partition __consumer_offsets-21 broker=1] Log loaded for partition __consumer_offsets-21 with initial high watermark 0 (kafka.cluster.Partition)
+[2025-03-03 15:14:12,952] INFO [Partition demo-0 broker=1] Log loaded for partition demo-0 with initial high watermark 19 (kafka.cluster.Partition)
+[2025-03-03 15:14:12,953] INFO [Partition kraft-test-1 broker=1] Log loaded for partition kraft-test-1 with initial high watermark 3715 (kafka.cluster.Partition)
+[2025-03-03 15:14:12,978] INFO [Partition kraft-test-2 broker=1] Log loaded for partition kraft-test-2 with initial high watermark 3226 (kafka.cluster.Partition)
+[2025-03-03 15:14:12,982] INFO [Partition __consumer_offsets-18 broker=1] Log loaded for partition __consumer_offsets-18 with initial high watermark 0 (kafka.cluster.Partition)
+[2025-03-03 15:14:13,017] INFO [Partition __consumer_offsets-32 broker=1] Log loaded for partition __consumer_offsets-32 with initial high watermark 0 (kafka.cluster.Partition)
+[2025-03-03 15:14:13,018] INFO [Partition __consumer_offsets-27 broker=1] Log loaded for partition __consumer_offsets-27 with initial high watermark 0 (kafka.cluster.Partition)
+[2025-03-03 15:14:13,019] INFO [Partition __consumer_offsets-26 broker=1] Log loaded for partition __consumer_offsets-26 with initial high watermark 3 (kafka.cluster.Partition)
+[2025-03-03 15:14:13,019] INFO [Partition __consumer_offsets-40 broker=1] Log loaded for partition __consumer_offsets-40 with initial high watermark 0 (kafka.cluster.Partition)
+[2025-03-03 15:14:13,020] INFO [Partition __consumer_offsets-6 broker=1] Log loaded for partition __consumer_offsets-6 with initial high watermark 0 (kafka.cluster.Partition)
+[2025-03-03 15:14:13,021] INFO [Partition __consumer_offsets-38 broker=1] Log loaded for partition __consumer_offsets-38 with initial high watermark 0 (kafka.cluster.Partition)
+[2025-03-03 15:14:13,022] INFO [Partition __consumer_offsets-3 broker=1] Log loaded for partition __consumer_offsets-3 with initial high watermark 0 (kafka.cluster.Partition)
+[2025-03-03 15:14:13,022] INFO [Partition __consumer_offsets-1 broker=1] Log loaded for partition __consumer_offsets-1 with initial high watermark 0 (kafka.cluster.Partition)
+[2025-03-03 15:14:13,023] INFO [Partition __consumer_offsets-33 broker=1] Log loaded for partition __consumer_offsets-33 with initial high watermark 0 (kafka.cluster.Partition)
+[2025-03-03 15:14:13,025] INFO [ReplicaFetcherManager on broker 1] Removed fetcher for partitions Set(__consumer_offsets-16, __consumer_offsets-45, __consumer_offsets-14, kraft-test-0, __consumer_offsets-9, __consumer_offsets-42, __consumer_offsets-21, demo-0, kraft-test-1, kraft-test-2, __consumer_offsets-18, __consumer_offsets-32, __consumer_offsets-27, __consumer_offsets-26, __consumer_offsets-40, __consumer_offsets-38, __consumer_offsets-6, __consumer_offsets-3, __consumer_offsets-33, __consumer_offsets-1) (kafka.server.ReplicaFetcherManager)
+[2025-03-03 15:14:13,127] INFO [GroupCoordinator 1]: Resigned as the group coordinator for partition 16 in epoch OptionalInt[79] (kafka.coordinator.group.GroupCoordinator)
+[2025-03-03 15:14:13,133] INFO [GroupMetadataManager brokerId=1] Scheduling unloading of offsets and group metadata from __consumer_offsets-16 (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:14:13,138] INFO [GroupCoordinator 1]: Resigned as the group coordinator for partition 45 in epoch OptionalInt[79] (kafka.coordinator.group.GroupCoordinator)
+[2025-03-03 15:14:13,138] INFO [GroupMetadataManager brokerId=1] Scheduling unloading of offsets and group metadata from __consumer_offsets-45 (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:14:13,138] INFO [GroupCoordinator 1]: Resigned as the group coordinator for partition 14 in epoch OptionalInt[79] (kafka.coordinator.group.GroupCoordinator)
+[2025-03-03 15:14:13,138] INFO [GroupMetadataManager brokerId=1] Scheduling unloading of offsets and group metadata from __consumer_offsets-14 (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:14:13,138] INFO [GroupCoordinator 1]: Resigned as the group coordinator for partition 9 in epoch OptionalInt[79] (kafka.coordinator.group.GroupCoordinator)
+[2025-03-03 15:14:13,139] INFO [GroupMetadataManager brokerId=1] Scheduling unloading of offsets and group metadata from __consumer_offsets-9 (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:14:13,139] INFO [GroupCoordinator 1]: Resigned as the group coordinator for partition 42 in epoch OptionalInt[79] (kafka.coordinator.group.GroupCoordinator)
+[2025-03-03 15:14:13,139] INFO [GroupMetadataManager brokerId=1] Scheduling unloading of offsets and group metadata from __consumer_offsets-42 (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:14:13,139] INFO [GroupCoordinator 1]: Resigned as the group coordinator for partition 21 in epoch OptionalInt[79] (kafka.coordinator.group.GroupCoordinator)
+[2025-03-03 15:14:13,139] INFO [GroupMetadataManager brokerId=1] Scheduling unloading of offsets and group metadata from __consumer_offsets-21 (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:14:13,139] INFO [GroupCoordinator 1]: Resigned as the group coordinator for partition 18 in epoch OptionalInt[79] (kafka.coordinator.group.GroupCoordinator)
+[2025-03-03 15:14:13,140] INFO [GroupMetadataManager brokerId=1] Scheduling unloading of offsets and group metadata from __consumer_offsets-18 (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:14:13,140] INFO [GroupCoordinator 1]: Resigned as the group coordinator for partition 32 in epoch OptionalInt[79] (kafka.coordinator.group.GroupCoordinator)
+[2025-03-03 15:14:13,145] INFO [GroupMetadataManager brokerId=1] Scheduling unloading of offsets and group metadata from __consumer_offsets-32 (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:14:13,147] INFO [GroupCoordinator 1]: Resigned as the group coordinator for partition 27 in epoch OptionalInt[79] (kafka.coordinator.group.GroupCoordinator)
+[2025-03-03 15:14:13,147] INFO [GroupMetadataManager brokerId=1] Scheduling unloading of offsets and group metadata from __consumer_offsets-27 (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:14:13,147] INFO [GroupCoordinator 1]: Resigned as the group coordinator for partition 26 in epoch OptionalInt[79] (kafka.coordinator.group.GroupCoordinator)
+[2025-03-03 15:14:13,147] INFO [GroupMetadataManager brokerId=1] Scheduling unloading of offsets and group metadata from __consumer_offsets-26 (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:14:13,148] INFO [GroupCoordinator 1]: Resigned as the group coordinator for partition 40 in epoch OptionalInt[79] (kafka.coordinator.group.GroupCoordinator)
+[2025-03-03 15:14:13,148] INFO [GroupMetadataManager brokerId=1] Scheduling unloading of offsets and group metadata from __consumer_offsets-40 (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:14:13,148] INFO [GroupCoordinator 1]: Resigned as the group coordinator for partition 6 in epoch OptionalInt[79] (kafka.coordinator.group.GroupCoordinator)
+[2025-03-03 15:14:13,148] INFO [GroupMetadataManager brokerId=1] Scheduling unloading of offsets and group metadata from __consumer_offsets-6 (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:14:13,149] INFO [GroupCoordinator 1]: Resigned as the group coordinator for partition 38 in epoch OptionalInt[79] (kafka.coordinator.group.GroupCoordinator)
+[2025-03-03 15:14:13,149] INFO [GroupMetadataManager brokerId=1] Scheduling unloading of offsets and group metadata from __consumer_offsets-38 (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:14:13,149] INFO [GroupCoordinator 1]: Resigned as the group coordinator for partition 3 in epoch OptionalInt[79] (kafka.coordinator.group.GroupCoordinator)
+[2025-03-03 15:14:13,150] INFO [GroupMetadataManager brokerId=1] Scheduling unloading of offsets and group metadata from __consumer_offsets-3 (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:14:13,150] INFO [GroupCoordinator 1]: Resigned as the group coordinator for partition 1 in epoch OptionalInt[79] (kafka.coordinator.group.GroupCoordinator)
+[2025-03-03 15:14:13,154] INFO [GroupMetadataManager brokerId=1] Scheduling unloading of offsets and group metadata from __consumer_offsets-1 (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:14:13,154] INFO [GroupCoordinator 1]: Resigned as the group coordinator for partition 33 in epoch OptionalInt[79] (kafka.coordinator.group.GroupCoordinator)
+[2025-03-03 15:14:13,154] INFO [GroupMetadataManager brokerId=1] Scheduling unloading of offsets and group metadata from __consumer_offsets-33 (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:14:13,153] INFO [GroupMetadataManager brokerId=1] Finished unloading __consumer_offsets-16 for coordinator epoch OptionalInt[79]. Removed 0 cached offsets and 0 cached groups. (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:14:13,185] INFO [GroupMetadataManager brokerId=1] Finished unloading __consumer_offsets-45 for coordinator epoch OptionalInt[79]. Removed 0 cached offsets and 0 cached groups. (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:14:13,185] INFO [GroupMetadataManager brokerId=1] Finished unloading __consumer_offsets-14 for coordinator epoch OptionalInt[79]. Removed 0 cached offsets and 0 cached groups. (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:14:13,186] INFO [GroupMetadataManager brokerId=1] Finished unloading __consumer_offsets-9 for coordinator epoch OptionalInt[79]. Removed 0 cached offsets and 0 cached groups. (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:14:13,186] INFO [GroupMetadataManager brokerId=1] Finished unloading __consumer_offsets-42 for coordinator epoch OptionalInt[79]. Removed 0 cached offsets and 0 cached groups. (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:14:13,186] INFO [GroupMetadataManager brokerId=1] Finished unloading __consumer_offsets-21 for coordinator epoch OptionalInt[79]. Removed 0 cached offsets and 0 cached groups. (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:14:13,186] INFO [GroupMetadataManager brokerId=1] Finished unloading __consumer_offsets-18 for coordinator epoch OptionalInt[79]. Removed 0 cached offsets and 0 cached groups. (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:14:13,186] INFO [GroupMetadataManager brokerId=1] Finished unloading __consumer_offsets-32 for coordinator epoch OptionalInt[79]. Removed 0 cached offsets and 0 cached groups. (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:14:13,186] INFO [GroupMetadataManager brokerId=1] Finished unloading __consumer_offsets-27 for coordinator epoch OptionalInt[79]. Removed 0 cached offsets and 0 cached groups. (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:14:13,186] INFO [GroupMetadataManager brokerId=1] Finished unloading __consumer_offsets-26 for coordinator epoch OptionalInt[79]. Removed 0 cached offsets and 0 cached groups. (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:14:13,186] INFO [GroupMetadataManager brokerId=1] Finished unloading __consumer_offsets-40 for coordinator epoch OptionalInt[79]. Removed 0 cached offsets and 0 cached groups. (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:14:13,186] INFO [GroupMetadataManager brokerId=1] Finished unloading __consumer_offsets-6 for coordinator epoch OptionalInt[79]. Removed 0 cached offsets and 0 cached groups. (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:14:13,186] INFO [GroupMetadataManager brokerId=1] Finished unloading __consumer_offsets-38 for coordinator epoch OptionalInt[79]. Removed 0 cached offsets and 0 cached groups. (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:14:13,186] INFO [GroupMetadataManager brokerId=1] Finished unloading __consumer_offsets-3 for coordinator epoch OptionalInt[79]. Removed 0 cached offsets and 0 cached groups. (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:14:13,187] INFO [GroupMetadataManager brokerId=1] Finished unloading __consumer_offsets-1 for coordinator epoch OptionalInt[79]. Removed 0 cached offsets and 0 cached groups. (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:14:13,187] INFO [GroupMetadataManager brokerId=1] Finished unloading __consumer_offsets-33 for coordinator epoch OptionalInt[79]. Removed 0 cached offsets and 0 cached groups. (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:14:13,216] INFO [DynamicConfigPublisher broker id=1] Updating topic __consumer_offsets with new configuration : compression.type -> producer,cleanup.policy -> compact,segment.bytes -> 104857600 (kafka.server.metadata.DynamicConfigPublisher)
+[2025-03-03 15:14:13,268] INFO [MetadataLoader id=1] InitializeNewPublishers: initializing BrokerRegistrationTracker(id=1) with a snapshot at offset 573793 (org.apache.kafka.image.loader.MetadataLoader)
+[2025-03-03 15:14:13,292] INFO [ControllerRegistrationManager id=1 incarnation=VeuUuVz0TMOmSIT8k1XwjQ] Our registration has been persisted to the metadata log. (kafka.server.ControllerRegistrationManager)
+[2025-03-03 15:14:13,476] INFO [BrokerLifecycleManager id=1] The broker has caught up. Transitioning from STARTING to RECOVERY. (kafka.server.BrokerLifecycleManager)
+[2025-03-03 15:14:13,477] INFO [BrokerServer id=1] Finished waiting for the controller to acknowledge that we are caught up (kafka.server.BrokerServer)
+[2025-03-03 15:14:13,478] INFO [BrokerServer id=1] Waiting for the initial broker metadata update to be published (kafka.server.BrokerServer)
+[2025-03-03 15:14:13,478] INFO [BrokerServer id=1] Finished waiting for the initial broker metadata update to be published (kafka.server.BrokerServer)
+[2025-03-03 15:14:13,480] INFO KafkaConfig values: 
+	advertised.listeners = PLAINTEXT://172.25.10.83:9092
+	alter.config.policy.class.name = null
+	alter.log.dirs.replication.quota.window.num = 11
+	alter.log.dirs.replication.quota.window.size.seconds = 1
+	authorizer.class.name = 
+	auto.create.topics.enable = true
+	auto.include.jmx.reporter = true
+	auto.leader.rebalance.enable = true
+	background.threads = 10
+	broker.heartbeat.interval.ms = 2000
+	broker.id = 1
+	broker.id.generation.enable = true
+	broker.rack = null
+	broker.session.timeout.ms = 9000
+	client.quota.callback.class = null
+	compression.gzip.level = -1
+	compression.lz4.level = 9
+	compression.type = producer
+	compression.zstd.level = 3
+	connection.failed.authentication.delay.ms = 100
+	connections.max.idle.ms = 600000
+	connections.max.reauth.ms = 0
+	control.plane.listener.name = null
+	controlled.shutdown.enable = true
+	controlled.shutdown.max.retries = 3
+	controlled.shutdown.retry.backoff.ms = 5000
+	controller.listener.names = CONTROLLER
+	controller.quorum.append.linger.ms = 25
+	controller.quorum.bootstrap.servers = []
+	controller.quorum.election.backoff.max.ms = 1000
+	controller.quorum.election.timeout.ms = 1000
+	controller.quorum.fetch.timeout.ms = 2000
+	controller.quorum.request.timeout.ms = 2000
+	controller.quorum.retry.backoff.ms = 20
+	controller.quorum.voters = [1@172.25.10.83:19092, 2@172.25.10.83:19093, 3@172.25.10.83:19094]
+	controller.quota.window.num = 11
+	controller.quota.window.size.seconds = 1
+	controller.socket.timeout.ms = 30000
+	create.topic.policy.class.name = null
+	default.replication.factor = 1
+	delegation.token.expiry.check.interval.ms = 3600000
+	delegation.token.expiry.time.ms = 86400000
+	delegation.token.master.key = null
+	delegation.token.max.lifetime.ms = 604800000
+	delegation.token.secret.key = null
+	delete.records.purgatory.purge.interval.requests = 1
+	delete.topic.enable = true
+	early.start.listeners = null
+	eligible.leader.replicas.enable = false
+	fetch.max.bytes = 57671680
+	fetch.purgatory.purge.interval.requests = 1000
+	group.consumer.assignors = [org.apache.kafka.coordinator.group.assignor.UniformAssignor, org.apache.kafka.coordinator.group.assignor.RangeAssignor]
+	group.consumer.heartbeat.interval.ms = 5000
+	group.consumer.max.heartbeat.interval.ms = 15000
+	group.consumer.max.session.timeout.ms = 60000
+	group.consumer.max.size = 2147483647
+	group.consumer.migration.policy = disabled
+	group.consumer.min.heartbeat.interval.ms = 5000
+	group.consumer.min.session.timeout.ms = 45000
+	group.consumer.session.timeout.ms = 45000
+	group.coordinator.append.linger.ms = 10
+	group.coordinator.new.enable = false
+	group.coordinator.rebalance.protocols = [classic]
+	group.coordinator.threads = 1
+	group.initial.rebalance.delay.ms = 3000
+	group.max.session.timeout.ms = 1800000
+	group.max.size = 2147483647
+	group.min.session.timeout.ms = 6000
+	group.share.delivery.count.limit = 5
+	group.share.enable = false
+	group.share.heartbeat.interval.ms = 5000
+	group.share.max.groups = 10
+	group.share.max.heartbeat.interval.ms = 15000
+	group.share.max.record.lock.duration.ms = 60000
+	group.share.max.session.timeout.ms = 60000
+	group.share.max.size = 200
+	group.share.min.heartbeat.interval.ms = 5000
+	group.share.min.record.lock.duration.ms = 15000
+	group.share.min.session.timeout.ms = 45000
+	group.share.partition.max.record.locks = 200
+	group.share.record.lock.duration.ms = 30000
+	group.share.session.timeout.ms = 45000
+	initial.broker.registration.timeout.ms = 60000
+	inter.broker.listener.name = PLAINTEXT
+	inter.broker.protocol.version = 3.9-IV0
+	kafka.metrics.polling.interval.secs = 10
+	kafka.metrics.reporters = []
+	leader.imbalance.check.interval.seconds = 300
+	leader.imbalance.per.broker.percentage = 10
+	listener.security.protocol.map = CONTROLLER:PLAINTEXT,PLAINTEXT:PLAINTEXT,SSL:SSL,SASL_PLAINTEXT:SASL_PLAINTEXT,SASL_SSL:SASL_SSL
+	listeners = PLAINTEXT://:9092,CONTROLLER://:19092
+	log.cleaner.backoff.ms = 15000
+	log.cleaner.dedupe.buffer.size = 134217728
+	log.cleaner.delete.retention.ms = 86400000
+	log.cleaner.enable = true
+	log.cleaner.io.buffer.load.factor = 0.9
+	log.cleaner.io.buffer.size = 524288
+	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+	log.cleaner.max.compaction.lag.ms = 9223372036854775807
+	log.cleaner.min.cleanable.ratio = 0.5
+	log.cleaner.min.compaction.lag.ms = 0
+	log.cleaner.threads = 1
+	log.cleanup.policy = [delete]
+	log.dir = /tmp/kafka-logs
+	log.dir.failure.timeout.ms = 30000
+	log.dirs = null
+	log.flush.interval.messages = 9223372036854775807
+	log.flush.interval.ms = null
+	log.flush.offset.checkpoint.interval.ms = 60000
+	log.flush.scheduler.interval.ms = 9223372036854775807
+	log.flush.start.offset.checkpoint.interval.ms = 60000
+	log.index.interval.bytes = 4096
+	log.index.size.max.bytes = 10485760
+	log.initial.task.delay.ms = 30000
+	log.local.retention.bytes = -2
+	log.local.retention.ms = -2
+	log.message.downconversion.enable = true
+	log.message.format.version = 3.0-IV1
+	log.message.timestamp.after.max.ms = 9223372036854775807
+	log.message.timestamp.before.max.ms = 9223372036854775807
+	log.message.timestamp.difference.max.ms = 9223372036854775807
+	log.message.timestamp.type = CreateTime
+	log.preallocate = false
+	log.retention.bytes = -1
+	log.retention.check.interval.ms = 300000
+	log.retention.hours = 168
+	log.retention.minutes = null
+	log.retention.ms = null
+	log.roll.hours = 168
+	log.roll.jitter.hours = 0
+	log.roll.jitter.ms = null
+	log.roll.ms = null
+	log.segment.bytes = 1073741824
+	log.segment.delete.delay.ms = 60000
+	max.connection.creation.rate = 2147483647
+	max.connections = 2147483647
+	max.connections.per.ip = 2147483647
+	max.connections.per.ip.overrides = 
+	max.incremental.fetch.session.cache.slots = 1000
+	max.request.partition.size.limit = 2000
+	message.max.bytes = 1048588
+	metadata.log.dir = null
+	metadata.log.max.record.bytes.between.snapshots = 20971520
+	metadata.log.max.snapshot.interval.ms = 3600000
+	metadata.log.segment.bytes = 1073741824
+	metadata.log.segment.min.bytes = 8388608
+	metadata.log.segment.ms = 604800000
+	metadata.max.idle.interval.ms = 500
+	metadata.max.retention.bytes = 104857600
+	metadata.max.retention.ms = 604800000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	min.insync.replicas = 1
+	node.id = 1
+	num.io.threads = 8
+	num.network.threads = 3
+	num.partitions = 1
+	num.recovery.threads.per.data.dir = 1
+	num.replica.alter.log.dirs.threads = null
+	num.replica.fetchers = 1
+	offset.metadata.max.bytes = 4096
+	offsets.commit.required.acks = -1
+	offsets.commit.timeout.ms = 5000
+	offsets.load.buffer.size = 5242880
+	offsets.retention.check.interval.ms = 600000
+	offsets.retention.minutes = 10080
+	offsets.topic.compression.codec = 0
+	offsets.topic.num.partitions = 50
+	offsets.topic.replication.factor = 3
+	offsets.topic.segment.bytes = 104857600
+	password.encoder.cipher.algorithm = AES/CBC/PKCS5Padding
+	password.encoder.iterations = 4096
+	password.encoder.key.length = 128
+	password.encoder.keyfactory.algorithm = null
+	password.encoder.old.secret = null
+	password.encoder.secret = null
+	principal.builder.class = class org.apache.kafka.common.security.authenticator.DefaultKafkaPrincipalBuilder
+	process.roles = [broker, controller]
+	producer.id.expiration.check.interval.ms = 600000
+	producer.id.expiration.ms = 86400000
+	producer.purgatory.purge.interval.requests = 1000
+	queued.max.request.bytes = -1
+	queued.max.requests = 500
+	quota.window.num = 11
+	quota.window.size.seconds = 1
+	remote.fetch.max.wait.ms = 500
+	remote.log.index.file.cache.total.size.bytes = 1073741824
+	remote.log.manager.copier.thread.pool.size = -1
+	remote.log.manager.copy.max.bytes.per.second = 9223372036854775807
+	remote.log.manager.copy.quota.window.num = 11
+	remote.log.manager.copy.quota.window.size.seconds = 1
+	remote.log.manager.expiration.thread.pool.size = -1
+	remote.log.manager.fetch.max.bytes.per.second = 9223372036854775807
+	remote.log.manager.fetch.quota.window.num = 11
+	remote.log.manager.fetch.quota.window.size.seconds = 1
+	remote.log.manager.task.interval.ms = 30000
+	remote.log.manager.task.retry.backoff.max.ms = 30000
+	remote.log.manager.task.retry.backoff.ms = 500
+	remote.log.manager.task.retry.jitter = 0.2
+	remote.log.manager.thread.pool.size = 10
+	remote.log.metadata.custom.metadata.max.bytes = 128
+	remote.log.metadata.manager.class.name = org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager
+	remote.log.metadata.manager.class.path = null
+	remote.log.metadata.manager.impl.prefix = rlmm.config.
+	remote.log.metadata.manager.listener.name = null
+	remote.log.reader.max.pending.tasks = 100
+	remote.log.reader.threads = 10
+	remote.log.storage.manager.class.name = null
+	remote.log.storage.manager.class.path = null
+	remote.log.storage.manager.impl.prefix = rsm.config.
+	remote.log.storage.system.enable = false
+	replica.fetch.backoff.ms = 1000
+	replica.fetch.max.bytes = 1048576
+	replica.fetch.min.bytes = 1
+	replica.fetch.response.max.bytes = 10485760
+	replica.fetch.wait.max.ms = 500
+	replica.high.watermark.checkpoint.interval.ms = 5000
+	replica.lag.time.max.ms = 30000
+	replica.selector.class = null
+	replica.socket.receive.buffer.bytes = 65536
+	replica.socket.timeout.ms = 30000
+	replication.quota.window.num = 11
+	replication.quota.window.size.seconds = 1
+	request.timeout.ms = 30000
+	reserved.broker.max.id = 1000
+	sasl.client.callback.handler.class = null
+	sasl.enabled.mechanisms = [GSSAPI]
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism.controller.protocol = GSSAPI
+	sasl.mechanism.inter.broker.protocol = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	sasl.server.callback.handler.class = null
+	sasl.server.max.receive.size = 524288
+	security.inter.broker.protocol = PLAINTEXT
+	security.providers = null
+	server.max.startup.time.ms = 9223372036854775807
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	socket.listen.backlog.size = 50
+	socket.receive.buffer.bytes = 102400
+	socket.request.max.bytes = 104857600
+	socket.send.buffer.bytes = 102400
+	ssl.allow.dn.changes = false
+	ssl.allow.san.changes = false
+	ssl.cipher.suites = []
+	ssl.client.auth = none
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.principal.mapping.rules = DEFAULT
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	telemetry.max.bytes = 1048576
+	transaction.abort.timed.out.transaction.cleanup.interval.ms = 10000
+	transaction.max.timeout.ms = 900000
+	transaction.partition.verification.enable = true
+	transaction.remove.expired.transaction.cleanup.interval.ms = 3600000
+	transaction.state.log.load.buffer.size = 5242880
+	transaction.state.log.min.isr = 1
+	transaction.state.log.num.partitions = 50
+	transaction.state.log.replication.factor = 1
+	transaction.state.log.segment.bytes = 104857600
+	transactional.id.expiration.ms = 604800000
+	unclean.leader.election.enable = false
+	unclean.leader.election.interval.ms = 300000
+	unstable.api.versions.enable = false
+	unstable.feature.versions.enable = false
+	zookeeper.clientCnxnSocket = null
+	zookeeper.connect = null
+	zookeeper.connection.timeout.ms = null
+	zookeeper.max.in.flight.requests = 10
+	zookeeper.metadata.migration.enable = false
+	zookeeper.metadata.migration.min.batch.size = 200
+	zookeeper.session.timeout.ms = 18000
+	zookeeper.set.acl = false
+	zookeeper.ssl.cipher.suites = null
+	zookeeper.ssl.client.enable = false
+	zookeeper.ssl.crl.enable = false
+	zookeeper.ssl.enabled.protocols = null
+	zookeeper.ssl.endpoint.identification.algorithm = HTTPS
+	zookeeper.ssl.keystore.location = null
+	zookeeper.ssl.keystore.password = null
+	zookeeper.ssl.keystore.type = null
+	zookeeper.ssl.ocsp.enable = false
+	zookeeper.ssl.protocol = TLSv1.2
+	zookeeper.ssl.truststore.location = null
+	zookeeper.ssl.truststore.password = null
+	zookeeper.ssl.truststore.type = null
+ (kafka.server.KafkaConfig)
+[2025-03-03 15:14:13,522] INFO [BrokerServer id=1] Waiting for the broker to be unfenced (kafka.server.BrokerServer)
+[2025-03-03 15:14:13,590] INFO [BrokerLifecycleManager id=1] The broker is in RECOVERY. (kafka.server.BrokerLifecycleManager)
+[2025-03-03 15:14:13,995] INFO [BrokerLifecycleManager id=1] The broker has been unfenced. Transitioning from RECOVERY to RUNNING. (kafka.server.BrokerLifecycleManager)
+[2025-03-03 15:14:13,996] INFO [BrokerServer id=1] Finished waiting for the broker to be unfenced (kafka.server.BrokerServer)
+[2025-03-03 15:14:14,004] INFO authorizerStart completed for endpoint PLAINTEXT. Endpoint is now READY. (org.apache.kafka.server.network.EndpointReadyFutures)
+[2025-03-03 15:14:14,005] INFO [SocketServer listenerType=BROKER, nodeId=1] Enabling request processing. (kafka.network.SocketServer)
+[2025-03-03 15:14:14,005] INFO Awaiting socket connections on 0.0.0.0:9092. (kafka.network.DataPlaneAcceptor)
+[2025-03-03 15:14:14,060] INFO [BrokerServer id=1] Waiting for all of the authorizer futures to be completed (kafka.server.BrokerServer)
+[2025-03-03 15:14:14,061] INFO [BrokerServer id=1] Finished waiting for all of the authorizer futures to be completed (kafka.server.BrokerServer)
+[2025-03-03 15:14:14,061] INFO [BrokerServer id=1] Waiting for all of the SocketServer Acceptors to be started (kafka.server.BrokerServer)
+[2025-03-03 15:14:14,061] INFO [BrokerServer id=1] Finished waiting for all of the SocketServer Acceptors to be started (kafka.server.BrokerServer)
+[2025-03-03 15:14:14,061] INFO [BrokerServer id=1] Transition from STARTING to STARTED (kafka.server.BrokerServer)
+[2025-03-03 15:14:14,061] INFO Kafka version: 3.9.0 (org.apache.kafka.common.utils.AppInfoParser)
+[2025-03-03 15:14:14,061] INFO Kafka commitId: a60e31147e6b01ee (org.apache.kafka.common.utils.AppInfoParser)
+[2025-03-03 15:14:14,061] INFO Kafka startTimeMs: 1740995054061 (org.apache.kafka.common.utils.AppInfoParser)
+[2025-03-03 15:14:14,063] INFO [KafkaRaftServer nodeId=1] Kafka Server started (kafka.server.KafkaRaftServer)
+[2025-03-03 15:14:14,222] INFO [ReplicaFetcherManager on broker 1] Removed fetcher for partitions Set(__consumer_offsets-16, __consumer_offsets-45, __consumer_offsets-14, __consumer_offsets-9, __consumer_offsets-42, __consumer_offsets-21, demo-0, __consumer_offsets-18, __consumer_offsets-32, __consumer_offsets-27, __consumer_offsets-26, __consumer_offsets-40, __consumer_offsets-6, __consumer_offsets-38, __consumer_offsets-3, __consumer_offsets-1, __consumer_offsets-33) (kafka.server.ReplicaFetcherManager)
+[2025-03-03 15:14:14,980] INFO [GroupCoordinator 1]: Elected as the group coordinator for partition 16 in epoch 80 (kafka.coordinator.group.GroupCoordinator)
+[2025-03-03 15:14:14,981] INFO [GroupMetadataManager brokerId=1] Scheduling loading of offsets and group metadata from __consumer_offsets-16 for epoch 80 (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:14:15,013] INFO [GroupMetadataManager brokerId=1] Finished loading offsets and group metadata from __consumer_offsets-16 in 30 milliseconds for epoch 80, of which 6 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:14:15,041] INFO [GroupCoordinator 1]: Elected as the group coordinator for partition 45 in epoch 80 (kafka.coordinator.group.GroupCoordinator)
+[2025-03-03 15:14:15,041] INFO [GroupMetadataManager brokerId=1] Scheduling loading of offsets and group metadata from __consumer_offsets-45 for epoch 80 (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:14:15,041] INFO [GroupCoordinator 1]: Elected as the group coordinator for partition 14 in epoch 80 (kafka.coordinator.group.GroupCoordinator)
+[2025-03-03 15:14:15,041] INFO [GroupMetadataManager brokerId=1] Scheduling loading of offsets and group metadata from __consumer_offsets-14 for epoch 80 (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:14:15,041] INFO [GroupCoordinator 1]: Elected as the group coordinator for partition 9 in epoch 80 (kafka.coordinator.group.GroupCoordinator)
+[2025-03-03 15:14:15,041] INFO [GroupMetadataManager brokerId=1] Scheduling loading of offsets and group metadata from __consumer_offsets-9 for epoch 80 (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:14:15,041] INFO [GroupCoordinator 1]: Elected as the group coordinator for partition 42 in epoch 80 (kafka.coordinator.group.GroupCoordinator)
+[2025-03-03 15:14:15,041] INFO [GroupMetadataManager brokerId=1] Scheduling loading of offsets and group metadata from __consumer_offsets-42 for epoch 80 (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:14:15,041] INFO [GroupCoordinator 1]: Elected as the group coordinator for partition 21 in epoch 80 (kafka.coordinator.group.GroupCoordinator)
+[2025-03-03 15:14:15,041] INFO [GroupMetadataManager brokerId=1] Scheduling loading of offsets and group metadata from __consumer_offsets-21 for epoch 80 (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:14:15,041] INFO [GroupCoordinator 1]: Elected as the group coordinator for partition 18 in epoch 80 (kafka.coordinator.group.GroupCoordinator)
+[2025-03-03 15:14:15,041] INFO [GroupMetadataManager brokerId=1] Scheduling loading of offsets and group metadata from __consumer_offsets-18 for epoch 80 (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:14:15,041] INFO [GroupCoordinator 1]: Elected as the group coordinator for partition 32 in epoch 80 (kafka.coordinator.group.GroupCoordinator)
+[2025-03-03 15:14:15,041] INFO [GroupMetadataManager brokerId=1] Scheduling loading of offsets and group metadata from __consumer_offsets-32 for epoch 80 (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:14:15,041] INFO [GroupCoordinator 1]: Elected as the group coordinator for partition 27 in epoch 80 (kafka.coordinator.group.GroupCoordinator)
+[2025-03-03 15:14:15,041] INFO [GroupMetadataManager brokerId=1] Scheduling loading of offsets and group metadata from __consumer_offsets-27 for epoch 80 (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:14:15,041] INFO [GroupCoordinator 1]: Elected as the group coordinator for partition 26 in epoch 80 (kafka.coordinator.group.GroupCoordinator)
+[2025-03-03 15:14:15,041] INFO [GroupMetadataManager brokerId=1] Scheduling loading of offsets and group metadata from __consumer_offsets-26 for epoch 80 (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:14:15,041] INFO [GroupCoordinator 1]: Elected as the group coordinator for partition 40 in epoch 80 (kafka.coordinator.group.GroupCoordinator)
+[2025-03-03 15:14:15,041] INFO [GroupMetadataManager brokerId=1] Scheduling loading of offsets and group metadata from __consumer_offsets-40 for epoch 80 (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:14:15,042] INFO [GroupCoordinator 1]: Elected as the group coordinator for partition 6 in epoch 80 (kafka.coordinator.group.GroupCoordinator)
+[2025-03-03 15:14:15,042] INFO [GroupMetadataManager brokerId=1] Scheduling loading of offsets and group metadata from __consumer_offsets-6 for epoch 80 (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:14:15,042] INFO [GroupCoordinator 1]: Elected as the group coordinator for partition 38 in epoch 80 (kafka.coordinator.group.GroupCoordinator)
+[2025-03-03 15:14:15,042] INFO [GroupMetadataManager brokerId=1] Scheduling loading of offsets and group metadata from __consumer_offsets-38 for epoch 80 (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:14:15,042] INFO [GroupCoordinator 1]: Elected as the group coordinator for partition 3 in epoch 80 (kafka.coordinator.group.GroupCoordinator)
+[2025-03-03 15:14:15,042] INFO [GroupMetadataManager brokerId=1] Scheduling loading of offsets and group metadata from __consumer_offsets-3 for epoch 80 (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:14:15,042] INFO [GroupCoordinator 1]: Elected as the group coordinator for partition 1 in epoch 80 (kafka.coordinator.group.GroupCoordinator)
+[2025-03-03 15:14:15,042] INFO [GroupMetadataManager brokerId=1] Scheduling loading of offsets and group metadata from __consumer_offsets-1 for epoch 80 (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:14:15,042] INFO [GroupCoordinator 1]: Elected as the group coordinator for partition 33 in epoch 80 (kafka.coordinator.group.GroupCoordinator)
+[2025-03-03 15:14:15,042] INFO [GroupMetadataManager brokerId=1] Scheduling loading of offsets and group metadata from __consumer_offsets-33 for epoch 80 (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:14:15,042] INFO [GroupMetadataManager brokerId=1] Finished loading offsets and group metadata from __consumer_offsets-45 in 1 milliseconds for epoch 80, of which 1 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:14:15,042] INFO [GroupMetadataManager brokerId=1] Finished loading offsets and group metadata from __consumer_offsets-14 in 1 milliseconds for epoch 80, of which 1 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:14:15,043] INFO [GroupMetadataManager brokerId=1] Finished loading offsets and group metadata from __consumer_offsets-9 in 2 milliseconds for epoch 80, of which 1 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:14:15,043] INFO [GroupMetadataManager brokerId=1] Finished loading offsets and group metadata from __consumer_offsets-42 in 2 milliseconds for epoch 80, of which 2 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:14:15,043] INFO [GroupMetadataManager brokerId=1] Finished loading offsets and group metadata from __consumer_offsets-21 in 2 milliseconds for epoch 80, of which 2 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:14:15,043] INFO [GroupMetadataManager brokerId=1] Finished loading offsets and group metadata from __consumer_offsets-18 in 2 milliseconds for epoch 80, of which 2 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:14:15,043] INFO [GroupMetadataManager brokerId=1] Finished loading offsets and group metadata from __consumer_offsets-32 in 2 milliseconds for epoch 80, of which 2 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:14:15,044] INFO [GroupMetadataManager brokerId=1] Finished loading offsets and group metadata from __consumer_offsets-27 in 3 milliseconds for epoch 80, of which 2 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:14:15,114] INFO [ReplicaFetcherManager on broker 1] Removed fetcher for partitions Set(kraft-test-0, kraft-test-1, kraft-test-2) (kafka.server.ReplicaFetcherManager)
+[2025-03-03 15:14:15,236] INFO Loaded member MemberMetadata(memberId=console-consumer-58677b86-b851-4f69-bfd2-170185177525, groupInstanceId=None, clientId=console-consumer, clientHost=/172.25.10.83, sessionTimeoutMs=45000, rebalanceTimeoutMs=300000, supportedProtocols=List(range)) in group console-consumer-9378 with generation 1. (kafka.coordinator.group.GroupMetadata$)
+[2025-03-03 15:14:15,243] INFO [GroupMetadataManager brokerId=1] Finished loading offsets and group metadata from __consumer_offsets-26 in 202 milliseconds for epoch 80, of which 3 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:14:15,244] INFO [GroupMetadataManager brokerId=1] Finished loading offsets and group metadata from __consumer_offsets-40 in 203 milliseconds for epoch 80, of which 202 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:14:15,245] INFO [GroupMetadataManager brokerId=1] Finished loading offsets and group metadata from __consumer_offsets-6 in 203 milliseconds for epoch 80, of which 202 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:14:15,246] INFO [GroupMetadataManager brokerId=1] Finished loading offsets and group metadata from __consumer_offsets-38 in 204 milliseconds for epoch 80, of which 203 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:14:15,248] INFO [GroupMetadataManager brokerId=1] Finished loading offsets and group metadata from __consumer_offsets-3 in 206 milliseconds for epoch 80, of which 205 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:14:15,257] INFO [GroupMetadataManager brokerId=1] Finished loading offsets and group metadata from __consumer_offsets-1 in 215 milliseconds for epoch 80, of which 215 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:14:15,260] INFO [GroupMetadataManager brokerId=1] Finished loading offsets and group metadata from __consumer_offsets-33 in 218 milliseconds for epoch 80, of which 217 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:14:15,442] INFO [ReplicaFetcherManager on broker 1] Added fetcher to broker 2 for partitions HashMap(kraft-test-0 -> InitialFetchState(Some(WLjTDIMVTMiyaNabGbe6cQ),BrokerEndPoint(id=2, host=172.25.10.83:9093),118,3275), kraft-test-1 -> InitialFetchState(Some(WLjTDIMVTMiyaNabGbe6cQ),BrokerEndPoint(id=2, host=172.25.10.83:9093),125,3715), kraft-test-2 -> InitialFetchState(Some(WLjTDIMVTMiyaNabGbe6cQ),BrokerEndPoint(id=2, host=172.25.10.83:9093),122,3226)) (kafka.server.ReplicaFetcherManager)
+[2025-03-03 15:14:15,456] INFO [ReplicaFetcherThread-0-2]: Starting (kafka.server.ReplicaFetcherThread)
+[2025-03-03 15:14:46,861] INFO [RaftManager id=1] Attempting durable transition to Unattached(epoch=8737, votedKey=null, voters=[1, 2, 3], electionTimeoutMs=1724, highWatermark=Optional[LogOffsetMetadata(offset=573930, metadata=Optional.empty)]) from FollowerState(fetchTimeoutMs=2000, epoch=8736, leader=3, leaderEndpoints=Endpoints(endpoints={ListenerName(CONTROLLER)=vbox/<unresolved>:19094}), voters=[1, 2, 3], highWatermark=Optional[LogOffsetMetadata(offset=573930, metadata=Optional.empty)], fetchingSnapshot=Optional.empty) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:14:46,880] INFO [RaftManager id=1] Completed transition to Unattached(epoch=8737, votedKey=null, voters=[1, 2, 3], electionTimeoutMs=1724, highWatermark=Optional[LogOffsetMetadata(offset=573930, metadata=Optional.empty)]) from FollowerState(fetchTimeoutMs=2000, epoch=8736, leader=3, leaderEndpoints=Endpoints(endpoints={ListenerName(CONTROLLER)=vbox/<unresolved>:19094}), voters=[1, 2, 3], highWatermark=Optional[LogOffsetMetadata(offset=573930, metadata=Optional.empty)], fetchingSnapshot=Optional.empty) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:14:46,880] INFO [RaftManager id=1] Vote request VoteRequestData(clusterId='IAwvuCRtQFikmbSEMsgQFw', voterId=1, topics=[TopicData(topicName='__cluster_metadata', partitions=[PartitionData(partitionIndex=0, candidateEpoch=8737, candidateId=2, candidateDirectoryId=4SvYonARtmIsmjtA1FOevg, voterDirectoryId=AAAAAAAAAAAAAAAAAAAAAA, lastOffsetEpoch=8736, lastOffset=573930)])]) with epoch 8737 is rejected (org.apache.kafka.raft.KafkaRaftClient)
+[2025-03-03 15:14:46,964] INFO [RaftManager id=1] Attempting durable transition to Unattached(epoch=8738, votedKey=null, voters=[1, 2, 3], electionTimeoutMs=1620, highWatermark=Optional[LogOffsetMetadata(offset=573930, metadata=Optional.empty)]) from Unattached(epoch=8737, votedKey=null, voters=[1, 2, 3], electionTimeoutMs=1724, highWatermark=Optional[LogOffsetMetadata(offset=573930, metadata=Optional.empty)]) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:14:47,067] INFO [RaftManager id=1] Completed transition to Unattached(epoch=8738, votedKey=null, voters=[1, 2, 3], electionTimeoutMs=1620, highWatermark=Optional[LogOffsetMetadata(offset=573930, metadata=Optional.empty)]) from Unattached(epoch=8737, votedKey=null, voters=[1, 2, 3], electionTimeoutMs=1724, highWatermark=Optional[LogOffsetMetadata(offset=573930, metadata=Optional.empty)]) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:14:47,067] INFO [RaftManager id=1] Vote request VoteRequestData(clusterId='IAwvuCRtQFikmbSEMsgQFw', voterId=1, topics=[TopicData(topicName='__cluster_metadata', partitions=[PartitionData(partitionIndex=0, candidateEpoch=8738, candidateId=2, candidateDirectoryId=4SvYonARtmIsmjtA1FOevg, voterDirectoryId=AAAAAAAAAAAAAAAAAAAAAA, lastOffsetEpoch=8736, lastOffset=573930)])]) with epoch 8738 is rejected (org.apache.kafka.raft.KafkaRaftClient)
+[2025-03-03 15:14:47,226] INFO [NodeToControllerChannelManager id=1 name=heartbeat] Client requested disconnect from node 3 (org.apache.kafka.clients.NetworkClient)
+[2025-03-03 15:14:47,418] INFO [RaftManager id=1] Attempting durable transition to Unattached(epoch=8739, votedKey=null, voters=[1, 2, 3], electionTimeoutMs=1166, highWatermark=Optional[LogOffsetMetadata(offset=573930, metadata=Optional.empty)]) from Unattached(epoch=8738, votedKey=null, voters=[1, 2, 3], electionTimeoutMs=1620, highWatermark=Optional[LogOffsetMetadata(offset=573930, metadata=Optional.empty)]) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:14:47,447] INFO [RaftManager id=1] Completed transition to Unattached(epoch=8739, votedKey=null, voters=[1, 2, 3], electionTimeoutMs=1166, highWatermark=Optional[LogOffsetMetadata(offset=573930, metadata=Optional.empty)]) from Unattached(epoch=8738, votedKey=null, voters=[1, 2, 3], electionTimeoutMs=1620, highWatermark=Optional[LogOffsetMetadata(offset=573930, metadata=Optional.empty)]) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:14:47,447] INFO [RaftManager id=1] Vote request VoteRequestData(clusterId='IAwvuCRtQFikmbSEMsgQFw', voterId=1, topics=[TopicData(topicName='__cluster_metadata', partitions=[PartitionData(partitionIndex=0, candidateEpoch=8739, candidateId=2, candidateDirectoryId=4SvYonARtmIsmjtA1FOevg, voterDirectoryId=AAAAAAAAAAAAAAAAAAAAAA, lastOffsetEpoch=8736, lastOffset=573930)])]) with epoch 8739 is rejected (org.apache.kafka.raft.KafkaRaftClient)
+[2025-03-03 15:14:47,473] INFO [RaftManager id=1] Attempting durable transition to Unattached(epoch=8740, votedKey=null, voters=[1, 2, 3], electionTimeoutMs=1111, highWatermark=Optional[LogOffsetMetadata(offset=573930, metadata=Optional.empty)]) from Unattached(epoch=8739, votedKey=null, voters=[1, 2, 3], electionTimeoutMs=1166, highWatermark=Optional[LogOffsetMetadata(offset=573930, metadata=Optional.empty)]) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:14:47,504] INFO [RaftManager id=1] Completed transition to Unattached(epoch=8740, votedKey=null, voters=[1, 2, 3], electionTimeoutMs=1111, highWatermark=Optional[LogOffsetMetadata(offset=573930, metadata=Optional.empty)]) from Unattached(epoch=8739, votedKey=null, voters=[1, 2, 3], electionTimeoutMs=1166, highWatermark=Optional[LogOffsetMetadata(offset=573930, metadata=Optional.empty)]) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:14:47,504] INFO [RaftManager id=1] Vote request VoteRequestData(clusterId='IAwvuCRtQFikmbSEMsgQFw', voterId=1, topics=[TopicData(topicName='__cluster_metadata', partitions=[PartitionData(partitionIndex=0, candidateEpoch=8740, candidateId=2, candidateDirectoryId=4SvYonARtmIsmjtA1FOevg, voterDirectoryId=AAAAAAAAAAAAAAAAAAAAAA, lastOffsetEpoch=8736, lastOffset=573930)])]) with epoch 8740 is rejected (org.apache.kafka.raft.KafkaRaftClient)
+[2025-03-03 15:14:48,230] INFO [RaftManager id=1] Attempting durable transition to Unattached(epoch=8741, votedKey=null, voters=[1, 2, 3], electionTimeoutMs=354, highWatermark=Optional[LogOffsetMetadata(offset=573930, metadata=Optional.empty)]) from Unattached(epoch=8740, votedKey=null, voters=[1, 2, 3], electionTimeoutMs=1111, highWatermark=Optional[LogOffsetMetadata(offset=573930, metadata=Optional.empty)]) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:14:48,755] INFO [RaftManager id=1] Completed transition to Unattached(epoch=8741, votedKey=null, voters=[1, 2, 3], electionTimeoutMs=354, highWatermark=Optional[LogOffsetMetadata(offset=573930, metadata=Optional.empty)]) from Unattached(epoch=8740, votedKey=null, voters=[1, 2, 3], electionTimeoutMs=1111, highWatermark=Optional[LogOffsetMetadata(offset=573930, metadata=Optional.empty)]) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:14:48,762] INFO [RaftManager id=1] Attempting durable transition to Unattached(epoch=8741, votedKey=ReplicaKey(id=3, directoryId=Optional[B_s3M5qvrILHbTrqu_tnLg]), voters=[1, 2, 3], electionTimeoutMs=1747, highWatermark=Optional[LogOffsetMetadata(offset=573930, metadata=Optional.empty)]) from Unattached(epoch=8741, votedKey=null, voters=[1, 2, 3], electionTimeoutMs=354, highWatermark=Optional[LogOffsetMetadata(offset=573930, metadata=Optional.empty)]) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:14:48,803] INFO [RaftManager id=1] Completed transition to Unattached(epoch=8741, votedKey=ReplicaKey(id=3, directoryId=Optional[B_s3M5qvrILHbTrqu_tnLg]), voters=[1, 2, 3], electionTimeoutMs=1747, highWatermark=Optional[LogOffsetMetadata(offset=573930, metadata=Optional.empty)]) from Unattached(epoch=8741, votedKey=null, voters=[1, 2, 3], electionTimeoutMs=354, highWatermark=Optional[LogOffsetMetadata(offset=573930, metadata=Optional.empty)]) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:14:48,803] INFO [RaftManager id=1] Vote request VoteRequestData(clusterId='IAwvuCRtQFikmbSEMsgQFw', voterId=1, topics=[TopicData(topicName='__cluster_metadata', partitions=[PartitionData(partitionIndex=0, candidateEpoch=8741, candidateId=3, candidateDirectoryId=B_s3M5qvrILHbTrqu_tnLg, voterDirectoryId=AAAAAAAAAAAAAAAAAAAAAA, lastOffsetEpoch=8736, lastOffset=573936)])]) with epoch 8741 is granted (org.apache.kafka.raft.KafkaRaftClient)
+[2025-03-03 15:14:48,932] INFO [RaftManager id=1] Attempting durable transition to FollowerState(fetchTimeoutMs=2000, epoch=8741, leader=3, leaderEndpoints=Endpoints(endpoints={ListenerName(CONTROLLER)=vbox/<unresolved>:19094}), voters=[1, 2, 3], highWatermark=Optional[LogOffsetMetadata(offset=573930, metadata=Optional.empty)], fetchingSnapshot=Optional.empty) from Unattached(epoch=8741, votedKey=ReplicaKey(id=3, directoryId=Optional[B_s3M5qvrILHbTrqu_tnLg]), voters=[1, 2, 3], electionTimeoutMs=1747, highWatermark=Optional[LogOffsetMetadata(offset=573930, metadata=Optional.empty)]) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:14:48,953] INFO [RaftManager id=1] Completed transition to FollowerState(fetchTimeoutMs=2000, epoch=8741, leader=3, leaderEndpoints=Endpoints(endpoints={ListenerName(CONTROLLER)=vbox/<unresolved>:19094}), voters=[1, 2, 3], highWatermark=Optional[LogOffsetMetadata(offset=573930, metadata=Optional.empty)], fetchingSnapshot=Optional.empty) from Unattached(epoch=8741, votedKey=ReplicaKey(id=3, directoryId=Optional[B_s3M5qvrILHbTrqu_tnLg]), voters=[1, 2, 3], electionTimeoutMs=1747, highWatermark=Optional[LogOffsetMetadata(offset=573930, metadata=Optional.empty)]) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:14:49,032] INFO [broker-1-to-controller-heartbeat-channel-manager]: Recorded new KRaft controller, from now on will use node 172.25.10.83:19094 (id: 3 rack: null) (kafka.server.NodeToControllerRequestThread)
+[2025-03-03 15:14:49,053] INFO [NodeToControllerChannelManager id=1 name=heartbeat] Client requested disconnect from node 3 (org.apache.kafka.clients.NetworkClient)
+[2025-03-03 15:14:49,053] INFO [broker-1-to-controller-heartbeat-channel-manager]: Recorded new KRaft controller, from now on will use node 172.25.10.83:19094 (id: 3 rack: null) (kafka.server.NodeToControllerRequestThread)
+[2025-03-03 15:14:49,104] INFO [broker-1-to-controller-heartbeat-channel-manager]: Recorded new KRaft controller, from now on will use node 172.25.10.83:19094 (id: 3 rack: null) (kafka.server.NodeToControllerRequestThread)
+[2025-03-03 15:15:04,860] INFO [UnifiedLog partition=__cluster_metadata-0, dir=/tmp/kafka-logs] Incremented log start offset to 308926 due to snapshot generated (kafka.log.UnifiedLog)
+[2025-03-03 15:15:04,865] INFO [MetadataLog partition=__cluster_metadata-0, nodeId=1] Marking snapshot OffsetAndEpoch(offset=301847, epoch=4246) for deletion because its timestamp (1740385216386) is now (1740995104857) older than the
+retention (604800000) (kafka.raft.KafkaMetadataLog)
+[2025-03-03 15:15:04,898] INFO [UnifiedLog partition=__cluster_metadata-0, dir=/tmp/kafka-logs] Incremented log start offset to 316021 due to snapshot generated (kafka.log.UnifiedLog)
+[2025-03-03 15:15:04,905] INFO [MetadataLog partition=__cluster_metadata-0, nodeId=1] Marking snapshot OffsetAndEpoch(offset=308926, epoch=4289) for deletion because its timestamp (1740388816538) is now (1740995104898) older than the
+retention (604800000) (kafka.raft.KafkaMetadataLog)
+[2025-03-03 15:15:53,198] INFO [RaftManager id=1] Become candidate due to fetch timeout (org.apache.kafka.raft.KafkaRaftClient)
+[2025-03-03 15:15:55,678] INFO [NodeToControllerChannelManager id=1 name=heartbeat] Disconnecting from node 3 due to request timeout. (org.apache.kafka.clients.NetworkClient)
+[2025-03-03 15:15:59,900] INFO [NodeToControllerChannelManager id=1 name=heartbeat] Cancelled in-flight BROKER_HEARTBEAT request with correlation id 112 due to node 3 being disconnected (elapsed time since creation: 4506ms, elapsed time since send: 4506ms, throttle time: 0ms, request timeout: 4500ms) (org.apache.kafka.clients.NetworkClient)
+[2025-03-03 15:15:59,900] INFO [broker-1-to-controller-heartbeat-channel-manager]: Recorded new KRaft controller, from now on will use node 172.25.10.83:19094 (id: 3 rack: null) (kafka.server.NodeToControllerRequestThread)
+[2025-03-03 15:16:00,084] INFO [BrokerLifecycleManager id=1] Unable to send a heartbeat because the RPC got timed out before it could be sent. (kafka.server.BrokerLifecycleManager)
+[2025-03-03 15:16:00,459] INFO [RaftManager id=1] Attempting durable transition to CandidateState(localId=1, localDirectoryId=mQes9A54bQCw7Vbw6Ptauw,epoch=8742, retries=1, voteStates={1=org.apache.kafka.raft.CandidateState$VoterState@6111055, 2=org.apache.kafka.raft.CandidateState$VoterState@e02a75e, 3=org.apache.kafka.raft.CandidateState$VoterState@27fae5c9}, highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)], electionTimeoutMs=1587) from FollowerState(fetchTimeoutMs=2000, epoch=8741, leader=3, leaderEndpoints=Endpoints(endpoints={ListenerName(CONTROLLER)=vbox/<unresolved>:19094}), voters=[1, 2, 3], highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)], fetchingSnapshot=Optional.empty) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:16:00,538] INFO [NodeToControllerChannelManager id=1 name=heartbeat] Client requested disconnect from node 3 (org.apache.kafka.clients.NetworkClient)
+[2025-03-03 15:16:00,539] INFO [broker-1-to-controller-heartbeat-channel-manager]: Recorded new KRaft controller, from now on will use node 172.25.10.83:19094 (id: 3 rack: null) (kafka.server.NodeToControllerRequestThread)
+[2025-03-03 15:16:00,590] INFO [broker-1-to-controller-heartbeat-channel-manager]: Recorded new KRaft controller, from now on will use node 172.25.10.83:19094 (id: 3 rack: null) (kafka.server.NodeToControllerRequestThread)
+[2025-03-03 15:16:00,593] INFO [NodeToControllerChannelManager id=1 name=heartbeat] Client requested disconnect from node 3 (org.apache.kafka.clients.NetworkClient)
+[2025-03-03 15:16:00,593] INFO [broker-1-to-controller-heartbeat-channel-manager]: Recorded new KRaft controller, from now on will use node 172.25.10.83:19094 (id: 3 rack: null) (kafka.server.NodeToControllerRequestThread)
+[2025-03-03 15:16:00,643] INFO [broker-1-to-controller-heartbeat-channel-manager]: Recorded new KRaft controller, from now on will use node 172.25.10.83:19094 (id: 3 rack: null) (kafka.server.NodeToControllerRequestThread)
+[2025-03-03 15:16:00,646] INFO [NodeToControllerChannelManager id=1 name=heartbeat] Client requested disconnect from node 3 (org.apache.kafka.clients.NetworkClient)
+[2025-03-03 15:16:00,647] INFO [broker-1-to-controller-heartbeat-channel-manager]: Recorded new KRaft controller, from now on will use node 172.25.10.83:19094 (id: 3 rack: null) (kafka.server.NodeToControllerRequestThread)
+[2025-03-03 15:16:00,988] INFO [broker-1-to-controller-heartbeat-channel-manager]: Recorded new KRaft controller, from now on will use node 172.25.10.83:19094 (id: 3 rack: null) (kafka.server.NodeToControllerRequestThread)
+[2025-03-03 15:16:01,003] INFO [RaftManager id=1] Completed transition to CandidateState(localId=1, localDirectoryId=mQes9A54bQCw7Vbw6Ptauw,epoch=8742, retries=1, voteStates={1=org.apache.kafka.raft.CandidateState$VoterState@6111055, 2=org.apache.kafka.raft.CandidateState$VoterState@e02a75e, 3=org.apache.kafka.raft.CandidateState$VoterState@27fae5c9}, highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)], electionTimeoutMs=1587) from FollowerState(fetchTimeoutMs=2000, epoch=8741, leader=3, leaderEndpoints=Endpoints(endpoints={ListenerName(CONTROLLER)=vbox/<unresolved>:19094}), voters=[1, 2, 3], highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)], fetchingSnapshot=Optional.empty) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:16:01,097] INFO [NodeToControllerChannelManager id=1 name=heartbeat] Client requested disconnect from node 3 (org.apache.kafka.clients.NetworkClient)
+[2025-03-03 15:16:01,142] INFO [RaftManager id=1] Attempting durable transition to Unattached(epoch=8743, votedKey=null, voters=[1, 2, 3], electionTimeoutMs=529, highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)]) from CandidateState(localId=1, localDirectoryId=mQes9A54bQCw7Vbw6Ptauw,epoch=8742, retries=1, voteStates={1=org.apache.kafka.raft.CandidateState$VoterState@6111055, 2=org.apache.kafka.raft.CandidateState$VoterState@e02a75e, 3=org.apache.kafka.raft.CandidateState$VoterState@27fae5c9}, highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)], electionTimeoutMs=1587) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:16:02,471] INFO [RaftManager id=1] Completed transition to Unattached(epoch=8743, votedKey=null, voters=[1, 2, 3], electionTimeoutMs=529, highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)]) from CandidateState(localId=1, localDirectoryId=mQes9A54bQCw7Vbw6Ptauw,epoch=8742, retries=1, voteStates={1=org.apache.kafka.raft.CandidateState$VoterState@6111055, 2=org.apache.kafka.raft.CandidateState$VoterState@e02a75e, 3=org.apache.kafka.raft.CandidateState$VoterState@27fae5c9}, highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)], electionTimeoutMs=1587) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:16:02,473] INFO [RaftManager id=1] Attempting durable transition to Unattached(epoch=8743, votedKey=ReplicaKey(id=2, directoryId=Optional[4SvYonARtmIsmjtA1FOevg]), voters=[1, 2, 3], electionTimeoutMs=1389, highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)]) from Unattached(epoch=8743, votedKey=null, voters=[1, 2, 3], electionTimeoutMs=529, highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)]) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:16:03,145] INFO [RaftManager id=1] Disconnecting from node 2 due to request timeout. (org.apache.kafka.clients.NetworkClient)
+[2025-03-03 15:16:03,146] INFO [RaftManager id=1] Cancelled in-flight API_VERSIONS request with correlation id 186 due to node 2 being disconnected (elapsed time since creation: 2004ms, elapsed time since send: 2004ms, throttle time: 0ms, request timeout: 2000ms) (org.apache.kafka.clients.NetworkClient)
+[2025-03-03 15:16:04,961] INFO [BrokerLifecycleManager id=1] Unable to send a heartbeat because the RPC got timed out before it could be sent. (kafka.server.BrokerLifecycleManager)
+[2025-03-03 15:16:05,670] INFO [RaftManager id=1] Completed transition to Unattached(epoch=8743, votedKey=ReplicaKey(id=2, directoryId=Optional[4SvYonARtmIsmjtA1FOevg]), voters=[1, 2, 3], electionTimeoutMs=1389, highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)]) from Unattached(epoch=8743, votedKey=null, voters=[1, 2, 3], electionTimeoutMs=529, highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)]) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:16:05,671] INFO [RaftManager id=1] Vote request VoteRequestData(clusterId='IAwvuCRtQFikmbSEMsgQFw', voterId=1, topics=[TopicData(topicName='__cluster_metadata', partitions=[PartitionData(partitionIndex=0, candidateEpoch=8743, candidateId=2, candidateDirectoryId=4SvYonARtmIsmjtA1FOevg, voterDirectoryId=AAAAAAAAAAAAAAAAAAAAAA, lastOffsetEpoch=8741, lastOffset=574033)])]) with epoch 8743 is granted (org.apache.kafka.raft.KafkaRaftClient)
+[2025-03-03 15:16:05,678] INFO [RaftManager id=1] Attempting durable transition to CandidateState(localId=1, localDirectoryId=mQes9A54bQCw7Vbw6Ptauw,epoch=8744, retries=1, voteStates={1=org.apache.kafka.raft.CandidateState$VoterState@679e994e, 2=org.apache.kafka.raft.CandidateState$VoterState@69000f8d, 3=org.apache.kafka.raft.CandidateState$VoterState@54e9440a}, highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)], electionTimeoutMs=1574) from Unattached(epoch=8743, votedKey=ReplicaKey(id=2, directoryId=Optional[4SvYonARtmIsmjtA1FOevg]), voters=[1, 2, 3], electionTimeoutMs=1389, highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)]) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:16:05,943] INFO [RaftManager id=1] Completed transition to CandidateState(localId=1, localDirectoryId=mQes9A54bQCw7Vbw6Ptauw,epoch=8744, retries=1, voteStates={1=org.apache.kafka.raft.CandidateState$VoterState@679e994e, 2=org.apache.kafka.raft.CandidateState$VoterState@69000f8d, 3=org.apache.kafka.raft.CandidateState$VoterState@54e9440a}, highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)], electionTimeoutMs=1574) from Unattached(epoch=8743, votedKey=ReplicaKey(id=2, directoryId=Optional[4SvYonARtmIsmjtA1FOevg]), voters=[1, 2, 3], electionTimeoutMs=1389, highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)]) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:16:13,962] INFO [BrokerLifecycleManager id=1] Unable to send a heartbeat because the RPC got timed out before it could be sent. (kafka.server.BrokerLifecycleManager)
+[2025-03-03 15:16:18,952] INFO [RaftManager id=1] Election has timed out, backing off for 0ms before becoming a candidate again (org.apache.kafka.raft.KafkaRaftClient)
+[2025-03-03 15:16:18,952] INFO [RaftManager id=1] Re-elect as candidate after election backoff has completed (org.apache.kafka.raft.KafkaRaftClient)
+[2025-03-03 15:16:19,017] INFO [RaftManager id=1] Attempting durable transition to CandidateState(localId=1, localDirectoryId=mQes9A54bQCw7Vbw6Ptauw,epoch=8745, retries=2, voteStates={1=org.apache.kafka.raft.CandidateState$VoterState@4083635d, 2=org.apache.kafka.raft.CandidateState$VoterState@5344c6ea, 3=org.apache.kafka.raft.CandidateState$VoterState@3ad1d768}, highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)], electionTimeoutMs=1280) from CandidateState(localId=1, localDirectoryId=mQes9A54bQCw7Vbw6Ptauw,epoch=8744, retries=1, voteStates={1=org.apache.kafka.raft.CandidateState$VoterState@679e994e, 2=org.apache.kafka.raft.CandidateState$VoterState@69000f8d, 3=org.apache.kafka.raft.CandidateState$VoterState@54e9440a}, highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)], electionTimeoutMs=1574) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:16:19,028] INFO Deleted snapshot files for snapshot OffsetAndEpoch(offset=301847, epoch=4246). (org.apache.kafka.snapshot.Snapshots)
+[2025-03-03 15:16:19,067] INFO Deleted snapshot files for snapshot OffsetAndEpoch(offset=308926, epoch=4289). (org.apache.kafka.snapshot.Snapshots)
+[2025-03-03 15:16:19,167] INFO [RaftManager id=1] Completed transition to CandidateState(localId=1, localDirectoryId=mQes9A54bQCw7Vbw6Ptauw,epoch=8745, retries=2, voteStates={1=org.apache.kafka.raft.CandidateState$VoterState@4083635d, 2=org.apache.kafka.raft.CandidateState$VoterState@5344c6ea, 3=org.apache.kafka.raft.CandidateState$VoterState@3ad1d768}, highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)], electionTimeoutMs=1280) from CandidateState(localId=1, localDirectoryId=mQes9A54bQCw7Vbw6Ptauw,epoch=8744, retries=1, voteStates={1=org.apache.kafka.raft.CandidateState$VoterState@679e994e, 2=org.apache.kafka.raft.CandidateState$VoterState@69000f8d, 3=org.apache.kafka.raft.CandidateState$VoterState@54e9440a}, highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)], electionTimeoutMs=1574) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:16:19,170] INFO [RaftManager id=1] Vote request VoteRequestData(clusterId='IAwvuCRtQFikmbSEMsgQFw', voterId=1, topics=[TopicData(topicName='__cluster_metadata', partitions=[PartitionData(partitionIndex=0, candidateEpoch=8745, candidateId=3, candidateDirectoryId=B_s3M5qvrILHbTrqu_tnLg, voterDirectoryId=AAAAAAAAAAAAAAAAAAAAAA, lastOffsetEpoch=8741, lastOffset=574033)])]) with epoch 8745 is rejected (org.apache.kafka.raft.KafkaRaftClient)
+[2025-03-03 15:16:21,470] INFO [RaftManager id=1] Election has timed out, backing off for 300ms before becoming a candidate again (org.apache.kafka.raft.KafkaRaftClient)
+[2025-03-03 15:16:21,529] INFO [RaftManager id=1] Disconnecting from node 2 due to request timeout. (org.apache.kafka.clients.NetworkClient)
+[2025-03-03 15:16:21,771] INFO [RaftManager id=1] Re-elect as candidate after election backoff has completed (org.apache.kafka.raft.KafkaRaftClient)
+[2025-03-03 15:16:24,498] INFO [BrokerLifecycleManager id=1] Unable to send a heartbeat because the RPC got timed out before it could be sent. (kafka.server.BrokerLifecycleManager)
+[2025-03-03 15:16:24,497] INFO [RaftManager id=1] Cancelled in-flight VOTE request with correlation id 188 due to node 2 being disconnected (elapsed time since creation: 2300ms, elapsed time since send: 2105ms, throttle time: 0ms, request timeout: 2000ms) (org.apache.kafka.clients.NetworkClient)
+[2025-03-03 15:16:26,736] INFO [RaftManager id=1] Attempting durable transition to CandidateState(localId=1, localDirectoryId=mQes9A54bQCw7Vbw6Ptauw,epoch=8746, retries=3, voteStates={1=org.apache.kafka.raft.CandidateState$VoterState@24061d2c, 2=org.apache.kafka.raft.CandidateState$VoterState@7f441b7a, 3=org.apache.kafka.raft.CandidateState$VoterState@a42f1ee}, highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)], electionTimeoutMs=1554) from CandidateState(localId=1, localDirectoryId=mQes9A54bQCw7Vbw6Ptauw,epoch=8745, retries=2, voteStates={1=org.apache.kafka.raft.CandidateState$VoterState@4083635d, 2=org.apache.kafka.raft.CandidateState$VoterState@5344c6ea, 3=org.apache.kafka.raft.CandidateState$VoterState@3ad1d768}, highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)], electionTimeoutMs=1280) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:16:26,766] INFO [RaftManager id=1] Disconnecting from node 3 due to request timeout. (org.apache.kafka.clients.NetworkClient)
+[2025-03-03 15:16:26,843] INFO [RaftManager id=1] Cancelled in-flight VOTE request with correlation id 187 due to node 3 being disconnected (elapsed time since creation: 2300ms, elapsed time since send: 2300ms, throttle time: 0ms, request timeout: 2000ms) (org.apache.kafka.clients.NetworkClient)
+[2025-03-03 15:16:27,448] INFO [RaftManager id=1] Completed transition to CandidateState(localId=1, localDirectoryId=mQes9A54bQCw7Vbw6Ptauw,epoch=8746, retries=3, voteStates={1=org.apache.kafka.raft.CandidateState$VoterState@24061d2c, 2=org.apache.kafka.raft.CandidateState$VoterState@7f441b7a, 3=org.apache.kafka.raft.CandidateState$VoterState@a42f1ee}, highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)], electionTimeoutMs=1554) from CandidateState(localId=1, localDirectoryId=mQes9A54bQCw7Vbw6Ptauw,epoch=8745, retries=2, voteStates={1=org.apache.kafka.raft.CandidateState$VoterState@4083635d, 2=org.apache.kafka.raft.CandidateState$VoterState@5344c6ea, 3=org.apache.kafka.raft.CandidateState$VoterState@3ad1d768}, highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)], electionTimeoutMs=1280) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:16:27,551] INFO [RaftManager id=1] Election has timed out, backing off for 0ms before becoming a candidate again (org.apache.kafka.raft.KafkaRaftClient)
+[2025-03-03 15:16:27,578] INFO [RaftManager id=1] Re-elect as candidate after election backoff has completed (org.apache.kafka.raft.KafkaRaftClient)
+[2025-03-03 15:16:27,597] INFO [RaftManager id=1] Attempting durable transition to CandidateState(localId=1, localDirectoryId=mQes9A54bQCw7Vbw6Ptauw,epoch=8747, retries=4, voteStates={1=org.apache.kafka.raft.CandidateState$VoterState@3e1c0d59, 2=org.apache.kafka.raft.CandidateState$VoterState@2a6798cb, 3=org.apache.kafka.raft.CandidateState$VoterState@75a7d936}, highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)], electionTimeoutMs=1434) from CandidateState(localId=1, localDirectoryId=mQes9A54bQCw7Vbw6Ptauw,epoch=8746, retries=3, voteStates={1=org.apache.kafka.raft.CandidateState$VoterState@24061d2c, 2=org.apache.kafka.raft.CandidateState$VoterState@7f441b7a, 3=org.apache.kafka.raft.CandidateState$VoterState@a42f1ee}, highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)], electionTimeoutMs=1554) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:16:29,876] INFO [RaftManager id=1] Completed transition to CandidateState(localId=1, localDirectoryId=mQes9A54bQCw7Vbw6Ptauw,epoch=8747, retries=4, voteStates={1=org.apache.kafka.raft.CandidateState$VoterState@3e1c0d59, 2=org.apache.kafka.raft.CandidateState$VoterState@2a6798cb, 3=org.apache.kafka.raft.CandidateState$VoterState@75a7d936}, highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)], electionTimeoutMs=1434) from CandidateState(localId=1, localDirectoryId=mQes9A54bQCw7Vbw6Ptauw,epoch=8746, retries=3, voteStates={1=org.apache.kafka.raft.CandidateState$VoterState@24061d2c, 2=org.apache.kafka.raft.CandidateState$VoterState@7f441b7a, 3=org.apache.kafka.raft.CandidateState$VoterState@a42f1ee}, highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)], electionTimeoutMs=1554) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:16:29,876] INFO [RaftManager id=1] Election has timed out, backing off for 100ms before becoming a candidate again (org.apache.kafka.raft.KafkaRaftClient)
+[2025-03-03 15:16:31,336] INFO [BrokerLifecycleManager id=1] Unable to send a heartbeat because the RPC got timed out before it could be sent. (kafka.server.BrokerLifecycleManager)
+[2025-03-03 15:16:31,437] INFO [RaftManager id=1] Re-elect as candidate after election backoff has completed (org.apache.kafka.raft.KafkaRaftClient)
+[2025-03-03 15:16:35,012] INFO [RaftManager id=1] Attempting durable transition to CandidateState(localId=1, localDirectoryId=mQes9A54bQCw7Vbw6Ptauw,epoch=8748, retries=5, voteStates={1=org.apache.kafka.raft.CandidateState$VoterState@68778bed, 2=org.apache.kafka.raft.CandidateState$VoterState@36df257f, 3=org.apache.kafka.raft.CandidateState$VoterState@20e842af}, highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)], electionTimeoutMs=1438) from CandidateState(localId=1, localDirectoryId=mQes9A54bQCw7Vbw6Ptauw,epoch=8747, retries=4, voteStates={1=org.apache.kafka.raft.CandidateState$VoterState@3e1c0d59, 2=org.apache.kafka.raft.CandidateState$VoterState@2a6798cb, 3=org.apache.kafka.raft.CandidateState$VoterState@75a7d936}, highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)], electionTimeoutMs=1434) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:16:35,335] INFO [RaftManager id=1] Completed transition to CandidateState(localId=1, localDirectoryId=mQes9A54bQCw7Vbw6Ptauw,epoch=8748, retries=5, voteStates={1=org.apache.kafka.raft.CandidateState$VoterState@68778bed, 2=org.apache.kafka.raft.CandidateState$VoterState@36df257f, 3=org.apache.kafka.raft.CandidateState$VoterState@20e842af}, highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)], electionTimeoutMs=1438) from CandidateState(localId=1, localDirectoryId=mQes9A54bQCw7Vbw6Ptauw,epoch=8747, retries=4, voteStates={1=org.apache.kafka.raft.CandidateState$VoterState@3e1c0d59, 2=org.apache.kafka.raft.CandidateState$VoterState@2a6798cb, 3=org.apache.kafka.raft.CandidateState$VoterState@75a7d936}, highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)], electionTimeoutMs=1434) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:16:35,379] INFO [RaftManager id=1] Election has timed out, backing off for 500ms before becoming a candidate again (org.apache.kafka.raft.KafkaRaftClient)
+[2025-03-03 15:16:35,737] INFO [RaftManager id=1] Attempting durable transition to Unattached(epoch=8751, votedKey=null, voters=[1, 2, 3], electionTimeoutMs=0, highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)]) from CandidateState(localId=1, localDirectoryId=mQes9A54bQCw7Vbw6Ptauw,epoch=8748, retries=5, voteStates={1=org.apache.kafka.raft.CandidateState$VoterState@68778bed, 2=org.apache.kafka.raft.CandidateState$VoterState@36df257f, 3=org.apache.kafka.raft.CandidateState$VoterState@20e842af}, highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)], electionTimeoutMs=1438) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:16:35,819] INFO [RaftManager id=1] Completed transition to Unattached(epoch=8751, votedKey=null, voters=[1, 2, 3], electionTimeoutMs=0, highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)]) from CandidateState(localId=1, localDirectoryId=mQes9A54bQCw7Vbw6Ptauw,epoch=8748, retries=5, voteStates={1=org.apache.kafka.raft.CandidateState$VoterState@68778bed, 2=org.apache.kafka.raft.CandidateState$VoterState@36df257f, 3=org.apache.kafka.raft.CandidateState$VoterState@20e842af}, highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)], electionTimeoutMs=1438) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:16:35,832] INFO [RaftManager id=1] Attempting durable transition to Unattached(epoch=8751, votedKey=ReplicaKey(id=2, directoryId=Optional[4SvYonARtmIsmjtA1FOevg]), voters=[1, 2, 3], electionTimeoutMs=1702, highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)]) from Unattached(epoch=8751, votedKey=null, voters=[1, 2, 3], electionTimeoutMs=0, highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)]) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:16:36,051] INFO [RaftManager id=1] Completed transition to Unattached(epoch=8751, votedKey=ReplicaKey(id=2, directoryId=Optional[4SvYonARtmIsmjtA1FOevg]), voters=[1, 2, 3], electionTimeoutMs=1702, highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)]) from Unattached(epoch=8751, votedKey=null, voters=[1, 2, 3], electionTimeoutMs=0, highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)]) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:16:36,116] INFO [RaftManager id=1] Vote request VoteRequestData(clusterId='IAwvuCRtQFikmbSEMsgQFw', voterId=1, topics=[TopicData(topicName='__cluster_metadata', partitions=[PartitionData(partitionIndex=0, candidateEpoch=8751, candidateId=2, candidateDirectoryId=4SvYonARtmIsmjtA1FOevg, voterDirectoryId=AAAAAAAAAAAAAAAAAAAAAA, lastOffsetEpoch=8743, lastOffset=574033)])]) with epoch 8751 is granted (org.apache.kafka.raft.KafkaRaftClient)
+[2025-03-03 15:16:37,536] INFO [RaftManager id=1] Attempting durable transition to CandidateState(localId=1, localDirectoryId=mQes9A54bQCw7Vbw6Ptauw,epoch=8752, retries=1, voteStates={1=org.apache.kafka.raft.CandidateState$VoterState@6b4d51ed, 2=org.apache.kafka.raft.CandidateState$VoterState@3f31978a, 3=org.apache.kafka.raft.CandidateState$VoterState@700ab9ce}, highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)], electionTimeoutMs=1335) from Unattached(epoch=8751, votedKey=ReplicaKey(id=2, directoryId=Optional[4SvYonARtmIsmjtA1FOevg]), voters=[1, 2, 3], electionTimeoutMs=1702, highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)]) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:16:37,544] INFO [BrokerLifecycleManager id=1] Unable to send a heartbeat because the RPC got timed out before it could be sent. (kafka.server.BrokerLifecycleManager)
+[2025-03-03 15:16:42,414] INFO [RaftManager id=1] Completed transition to CandidateState(localId=1, localDirectoryId=mQes9A54bQCw7Vbw6Ptauw,epoch=8752, retries=1, voteStates={1=org.apache.kafka.raft.CandidateState$VoterState@6b4d51ed, 2=org.apache.kafka.raft.CandidateState$VoterState@3f31978a, 3=org.apache.kafka.raft.CandidateState$VoterState@700ab9ce}, highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)], electionTimeoutMs=1335) from Unattached(epoch=8751, votedKey=ReplicaKey(id=2, directoryId=Optional[4SvYonARtmIsmjtA1FOevg]), voters=[1, 2, 3], electionTimeoutMs=1702, highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)]) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:16:43,973] INFO Terminating process due to signal SIGTERM (org.apache.kafka.common.utils.LoggingSignalHandler)
+[2025-03-03 15:16:43,974] INFO Terminating process due to signal SIGTERM (org.apache.kafka.common.utils.LoggingSignalHandler)
+[2025-03-03 15:16:43,974] INFO Terminating process due to signal SIGTERM (org.apache.kafka.common.utils.LoggingSignalHandler)
+[2025-03-03 15:16:44,275] INFO [RaftManager id=1] Election has timed out, backing off for 0ms before becoming a candidate again (org.apache.kafka.raft.KafkaRaftClient)
+[2025-03-03 15:16:44,278] INFO [RaftManager id=1] Re-elect as candidate after election backoff has completed (org.apache.kafka.raft.KafkaRaftClient)
+[2025-03-03 15:16:44,279] INFO [RaftManager id=1] Attempting durable transition to CandidateState(localId=1, localDirectoryId=mQes9A54bQCw7Vbw6Ptauw,epoch=8753, retries=2, voteStates={1=org.apache.kafka.raft.CandidateState$VoterState@1215605a, 2=org.apache.kafka.raft.CandidateState$VoterState@13d699cc, 3=org.apache.kafka.raft.CandidateState$VoterState@20e8d1fb}, highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)], electionTimeoutMs=1278) from CandidateState(localId=1, localDirectoryId=mQes9A54bQCw7Vbw6Ptauw,epoch=8752, retries=1, voteStates={1=org.apache.kafka.raft.CandidateState$VoterState@6b4d51ed, 2=org.apache.kafka.raft.CandidateState$VoterState@3f31978a, 3=org.apache.kafka.raft.CandidateState$VoterState@700ab9ce}, highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)], electionTimeoutMs=1335) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:16:46,546] INFO [BrokerLifecycleManager id=1] Unable to send a heartbeat because the RPC got timed out before it could be sent. (kafka.server.BrokerLifecycleManager)
+[2025-03-03 15:16:46,596] INFO [RaftManager id=1] Completed transition to CandidateState(localId=1, localDirectoryId=mQes9A54bQCw7Vbw6Ptauw,epoch=8753, retries=2, voteStates={1=org.apache.kafka.raft.CandidateState$VoterState@1215605a, 2=org.apache.kafka.raft.CandidateState$VoterState@13d699cc, 3=org.apache.kafka.raft.CandidateState$VoterState@20e8d1fb}, highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)], electionTimeoutMs=1278) from CandidateState(localId=1, localDirectoryId=mQes9A54bQCw7Vbw6Ptauw,epoch=8752, retries=1, voteStates={1=org.apache.kafka.raft.CandidateState$VoterState@6b4d51ed, 2=org.apache.kafka.raft.CandidateState$VoterState@3f31978a, 3=org.apache.kafka.raft.CandidateState$VoterState@700ab9ce}, highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)], electionTimeoutMs=1335) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:16:46,619] INFO [RaftManager id=1] Election has timed out, backing off for 100ms before becoming a candidate again (org.apache.kafka.raft.KafkaRaftClient)
+[2025-03-03 15:16:46,679] INFO [BrokerServer id=1] Transition from STARTED to SHUTTING_DOWN (kafka.server.BrokerServer)
+[2025-03-03 15:16:46,681] INFO [BrokerServer id=1] shutting down (kafka.server.BrokerServer)
+[2025-03-03 15:16:46,789] INFO [RaftManager id=1] Re-elect as candidate after election backoff has completed (org.apache.kafka.raft.KafkaRaftClient)
+[2025-03-03 15:16:46,789] INFO [RaftManager id=1] Attempting durable transition to CandidateState(localId=1, localDirectoryId=mQes9A54bQCw7Vbw6Ptauw,epoch=8754, retries=3, voteStates={1=org.apache.kafka.raft.CandidateState$VoterState@589c8e1, 2=org.apache.kafka.raft.CandidateState$VoterState@3c276fba, 3=org.apache.kafka.raft.CandidateState$VoterState@1b98990b}, highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)], electionTimeoutMs=1155) from CandidateState(localId=1, localDirectoryId=mQes9A54bQCw7Vbw6Ptauw,epoch=8753, retries=2, voteStates={1=org.apache.kafka.raft.CandidateState$VoterState@1215605a, 2=org.apache.kafka.raft.CandidateState$VoterState@13d699cc, 3=org.apache.kafka.raft.CandidateState$VoterState@20e8d1fb}, highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)], electionTimeoutMs=1278) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:16:56,698] INFO [RaftManager id=1] Completed transition to CandidateState(localId=1, localDirectoryId=mQes9A54bQCw7Vbw6Ptauw,epoch=8754, retries=3, voteStates={1=org.apache.kafka.raft.CandidateState$VoterState@589c8e1, 2=org.apache.kafka.raft.CandidateState$VoterState@3c276fba, 3=org.apache.kafka.raft.CandidateState$VoterState@1b98990b}, highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)], electionTimeoutMs=1155) from CandidateState(localId=1, localDirectoryId=mQes9A54bQCw7Vbw6Ptauw,epoch=8753, retries=2, voteStates={1=org.apache.kafka.raft.CandidateState$VoterState@1215605a, 2=org.apache.kafka.raft.CandidateState$VoterState@13d699cc, 3=org.apache.kafka.raft.CandidateState$VoterState@20e8d1fb}, highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)], electionTimeoutMs=1278) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:16:56,703] INFO [RaftManager id=1] Election has timed out, backing off for 200ms before becoming a candidate again (org.apache.kafka.raft.KafkaRaftClient)
+[2025-03-03 15:16:59,224] INFO [RaftManager id=1] Re-elect as candidate after election backoff has completed (org.apache.kafka.raft.KafkaRaftClient)
+[2025-03-03 15:16:59,224] INFO [RaftManager id=1] Attempting durable transition to CandidateState(localId=1, localDirectoryId=mQes9A54bQCw7Vbw6Ptauw,epoch=8755, retries=4, voteStates={1=org.apache.kafka.raft.CandidateState$VoterState@7d19f48a, 2=org.apache.kafka.raft.CandidateState$VoterState@369ce508, 3=org.apache.kafka.raft.CandidateState$VoterState@314116de}, highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)], electionTimeoutMs=1467) from CandidateState(localId=1, localDirectoryId=mQes9A54bQCw7Vbw6Ptauw,epoch=8754, retries=3, voteStates={1=org.apache.kafka.raft.CandidateState$VoterState@589c8e1, 2=org.apache.kafka.raft.CandidateState$VoterState@3c276fba, 3=org.apache.kafka.raft.CandidateState$VoterState@1b98990b}, highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)], electionTimeoutMs=1155) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:16:59,227] INFO [BrokerLifecycleManager id=1] Beginning controlled shutdown. (kafka.server.BrokerLifecycleManager)
+[2025-03-03 15:16:59,327] INFO [RaftManager id=1] Completed transition to CandidateState(localId=1, localDirectoryId=mQes9A54bQCw7Vbw6Ptauw,epoch=8755, retries=4, voteStates={1=org.apache.kafka.raft.CandidateState$VoterState@7d19f48a, 2=org.apache.kafka.raft.CandidateState$VoterState@369ce508, 3=org.apache.kafka.raft.CandidateState$VoterState@314116de}, highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)], electionTimeoutMs=1467) from CandidateState(localId=1, localDirectoryId=mQes9A54bQCw7Vbw6Ptauw,epoch=8754, retries=3, voteStates={1=org.apache.kafka.raft.CandidateState$VoterState@589c8e1, 2=org.apache.kafka.raft.CandidateState$VoterState@3c276fba, 3=org.apache.kafka.raft.CandidateState$VoterState@1b98990b}, highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)], electionTimeoutMs=1155) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:16:59,370] INFO [RaftManager id=1] Attempting durable transition to Unattached(epoch=8756, votedKey=null, voters=[1, 2, 3], electionTimeoutMs=1321, highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)]) from CandidateState(localId=1, localDirectoryId=mQes9A54bQCw7Vbw6Ptauw,epoch=8755, retries=4, voteStates={1=org.apache.kafka.raft.CandidateState$VoterState@7d19f48a, 2=org.apache.kafka.raft.CandidateState$VoterState@369ce508, 3=org.apache.kafka.raft.CandidateState$VoterState@314116de}, highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)], electionTimeoutMs=1467) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:16:59,584] INFO [RaftManager id=1] Completed transition to Unattached(epoch=8756, votedKey=null, voters=[1, 2, 3], electionTimeoutMs=1321, highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)]) from CandidateState(localId=1, localDirectoryId=mQes9A54bQCw7Vbw6Ptauw,epoch=8755, retries=4, voteStates={1=org.apache.kafka.raft.CandidateState$VoterState@7d19f48a, 2=org.apache.kafka.raft.CandidateState$VoterState@369ce508, 3=org.apache.kafka.raft.CandidateState$VoterState@314116de}, highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)], electionTimeoutMs=1467) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:16:59,590] INFO [RaftManager id=1] Attempting durable transition to Unattached(epoch=8756, votedKey=ReplicaKey(id=2, directoryId=Optional[4SvYonARtmIsmjtA1FOevg]), voters=[1, 2, 3], electionTimeoutMs=1254, highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)]) from Unattached(epoch=8756, votedKey=null, voters=[1, 2, 3], electionTimeoutMs=1321, highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)]) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:16:59,686] INFO [RaftManager id=1] Completed transition to Unattached(epoch=8756, votedKey=ReplicaKey(id=2, directoryId=Optional[4SvYonARtmIsmjtA1FOevg]), voters=[1, 2, 3], electionTimeoutMs=1254, highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)]) from Unattached(epoch=8756, votedKey=null, voters=[1, 2, 3], electionTimeoutMs=1321, highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)]) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:16:59,691] INFO [RaftManager id=1] Vote request VoteRequestData(clusterId='IAwvuCRtQFikmbSEMsgQFw', voterId=1, topics=[TopicData(topicName='__cluster_metadata', partitions=[PartitionData(partitionIndex=0, candidateEpoch=8756, candidateId=2, candidateDirectoryId=4SvYonARtmIsmjtA1FOevg, voterDirectoryId=AAAAAAAAAAAAAAAAAAAAAA, lastOffsetEpoch=8751, lastOffset=574034)])]) with epoch 8756 is granted (org.apache.kafka.raft.KafkaRaftClient)
+[2025-03-03 15:16:59,801] INFO [RaftManager id=1] Attempting durable transition to FollowerState(fetchTimeoutMs=2000, epoch=8756, leader=2, leaderEndpoints=Endpoints(endpoints={ListenerName(CONTROLLER)=vbox/<unresolved>:19093}), voters=[1, 2, 3], highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)], fetchingSnapshot=Optional.empty) from Unattached(epoch=8756, votedKey=ReplicaKey(id=2, directoryId=Optional[4SvYonARtmIsmjtA1FOevg]), voters=[1, 2, 3], electionTimeoutMs=1254, highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)]) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:16:59,835] INFO [RaftManager id=1] Completed transition to FollowerState(fetchTimeoutMs=2000, epoch=8756, leader=2, leaderEndpoints=Endpoints(endpoints={ListenerName(CONTROLLER)=vbox/<unresolved>:19093}), voters=[1, 2, 3], highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)], fetchingSnapshot=Optional.empty) from Unattached(epoch=8756, votedKey=ReplicaKey(id=2, directoryId=Optional[4SvYonARtmIsmjtA1FOevg]), voters=[1, 2, 3], electionTimeoutMs=1254, highWatermark=Optional[LogOffsetMetadata(offset=574032, metadata=Optional.empty)]) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:16:59,906] INFO [broker-1-to-controller-heartbeat-channel-manager]: Recorded new KRaft controller, from now on will use node 172.25.10.83:19093 (id: 2 rack: null) (kafka.server.NodeToControllerRequestThread)
+[2025-03-03 15:17:00,002] INFO [NodeToControllerChannelManager id=1 name=heartbeat] Client requested disconnect from node 2 (org.apache.kafka.clients.NetworkClient)
+[2025-03-03 15:17:00,002] INFO [broker-1-to-controller-heartbeat-channel-manager]: Recorded new KRaft controller, from now on will use node 172.25.10.83:19093 (id: 2 rack: null) (kafka.server.NodeToControllerRequestThread)
+[2025-03-03 15:17:00,053] INFO [broker-1-to-controller-heartbeat-channel-manager]: Recorded new KRaft controller, from now on will use node 172.25.10.83:19093 (id: 2 rack: null) (kafka.server.NodeToControllerRequestThread)
+[2025-03-03 15:17:00,437] INFO [BrokerLifecycleManager id=1] The broker is in PENDING_CONTROLLED_SHUTDOWN state, still waiting for the active controller. (kafka.server.BrokerLifecycleManager)
+[2025-03-03 15:17:00,512] INFO [BrokerLifecycleManager id=1] The broker is in PENDING_CONTROLLED_SHUTDOWN state, still waiting for the active controller. (kafka.server.BrokerLifecycleManager)
+[2025-03-03 15:17:09,069] INFO [NodeToControllerChannelManager id=1 name=heartbeat] Disconnecting from node 2 due to request timeout. (org.apache.kafka.clients.NetworkClient)
+[2025-03-03 15:17:09,069] INFO [NodeToControllerChannelManager id=1 name=heartbeat] Cancelled in-flight BROKER_HEARTBEAT request with correlation id 130 due to node 2 being disconnected (elapsed time since creation: 6556ms, elapsed time since send: 6556ms, throttle time: 0ms, request timeout: 4500ms) (org.apache.kafka.clients.NetworkClient)
+[2025-03-03 15:17:09,070] INFO [broker-1-to-controller-heartbeat-channel-manager]: Recorded new KRaft controller, from now on will use node 172.25.10.83:19093 (id: 2 rack: null) (kafka.server.NodeToControllerRequestThread)
+[2025-03-03 15:17:09,070] INFO [BrokerLifecycleManager id=1] Unable to send a heartbeat because the RPC got timed out before it could be sent. (kafka.server.BrokerLifecycleManager)
+[2025-03-03 15:17:09,110] INFO [RaftManager id=1] Become candidate due to fetch timeout (org.apache.kafka.raft.KafkaRaftClient)
+[2025-03-03 15:17:09,115] INFO [RaftManager id=1] Attempting durable transition to CandidateState(localId=1, localDirectoryId=mQes9A54bQCw7Vbw6Ptauw,epoch=8757, retries=1, voteStates={1=org.apache.kafka.raft.CandidateState$VoterState@346a8f62, 2=org.apache.kafka.raft.CandidateState$VoterState@2e373fb2, 3=org.apache.kafka.raft.CandidateState$VoterState@7e888862}, highWatermark=Optional[LogOffsetMetadata(offset=574079, metadata=Optional.empty)], electionTimeoutMs=1879) from FollowerState(fetchTimeoutMs=2000, epoch=8756, leader=2, leaderEndpoints=Endpoints(endpoints={ListenerName(CONTROLLER)=vbox/<unresolved>:19093}), voters=[1, 2, 3], highWatermark=Optional[LogOffsetMetadata(offset=574079, metadata=Optional.empty)], fetchingSnapshot=Optional.empty) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:17:09,161] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Partition kraft-test-0 has an older epoch (118) than the current leader. Will await the new LeaderAndIsr state before resuming fetching. (kafka.server.ReplicaFetcherThread)
+[2025-03-03 15:17:09,174] INFO [RaftManager id=1] Completed transition to CandidateState(localId=1, localDirectoryId=mQes9A54bQCw7Vbw6Ptauw,epoch=8757, retries=1, voteStates={1=org.apache.kafka.raft.CandidateState$VoterState@346a8f62, 2=org.apache.kafka.raft.CandidateState$VoterState@2e373fb2, 3=org.apache.kafka.raft.CandidateState$VoterState@7e888862}, highWatermark=Optional[LogOffsetMetadata(offset=574079, metadata=Optional.empty)], electionTimeoutMs=1879) from FollowerState(fetchTimeoutMs=2000, epoch=8756, leader=2, leaderEndpoints=Endpoints(endpoints={ListenerName(CONTROLLER)=vbox/<unresolved>:19093}), voters=[1, 2, 3], highWatermark=Optional[LogOffsetMetadata(offset=574079, metadata=Optional.empty)], fetchingSnapshot=Optional.empty) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:17:09,189] INFO [RaftManager id=1] Attempting durable transition to Unattached(epoch=8758, votedKey=null, voters=[1, 2, 3], electionTimeoutMs=1805, highWatermark=Optional[LogOffsetMetadata(offset=574079, metadata=Optional.empty)]) from CandidateState(localId=1, localDirectoryId=mQes9A54bQCw7Vbw6Ptauw,epoch=8757, retries=1, voteStates={1=org.apache.kafka.raft.CandidateState$VoterState@346a8f62, 2=org.apache.kafka.raft.CandidateState$VoterState@2e373fb2, 3=org.apache.kafka.raft.CandidateState$VoterState@7e888862}, highWatermark=Optional[LogOffsetMetadata(offset=574079, metadata=Optional.empty)], electionTimeoutMs=1879) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:17:09,203] INFO [NodeToControllerChannelManager id=1 name=heartbeat] Client requested disconnect from node 2 (org.apache.kafka.clients.NetworkClient)
+[2025-03-03 15:17:09,235] INFO [RaftManager id=1] Completed transition to Unattached(epoch=8758, votedKey=null, voters=[1, 2, 3], electionTimeoutMs=1805, highWatermark=Optional[LogOffsetMetadata(offset=574079, metadata=Optional.empty)]) from CandidateState(localId=1, localDirectoryId=mQes9A54bQCw7Vbw6Ptauw,epoch=8757, retries=1, voteStates={1=org.apache.kafka.raft.CandidateState$VoterState@346a8f62, 2=org.apache.kafka.raft.CandidateState$VoterState@2e373fb2, 3=org.apache.kafka.raft.CandidateState$VoterState@7e888862}, highWatermark=Optional[LogOffsetMetadata(offset=574079, metadata=Optional.empty)], electionTimeoutMs=1879) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:17:09,235] INFO [RaftManager id=1] Attempting durable transition to Unattached(epoch=8758, votedKey=ReplicaKey(id=3, directoryId=Optional[B_s3M5qvrILHbTrqu_tnLg]), voters=[1, 2, 3], electionTimeoutMs=1404, highWatermark=Optional[LogOffsetMetadata(offset=574079, metadata=Optional.empty)]) from Unattached(epoch=8758, votedKey=null, voters=[1, 2, 3], electionTimeoutMs=1805, highWatermark=Optional[LogOffsetMetadata(offset=574079, metadata=Optional.empty)]) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:17:09,274] INFO [RaftManager id=1] Completed transition to Unattached(epoch=8758, votedKey=ReplicaKey(id=3, directoryId=Optional[B_s3M5qvrILHbTrqu_tnLg]), voters=[1, 2, 3], electionTimeoutMs=1404, highWatermark=Optional[LogOffsetMetadata(offset=574079, metadata=Optional.empty)]) from Unattached(epoch=8758, votedKey=null, voters=[1, 2, 3], electionTimeoutMs=1805, highWatermark=Optional[LogOffsetMetadata(offset=574079, metadata=Optional.empty)]) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:17:09,275] INFO [RaftManager id=1] Vote request VoteRequestData(clusterId='IAwvuCRtQFikmbSEMsgQFw', voterId=1, topics=[TopicData(topicName='__cluster_metadata', partitions=[PartitionData(partitionIndex=0, candidateEpoch=8758, candidateId=3, candidateDirectoryId=B_s3M5qvrILHbTrqu_tnLg, voterDirectoryId=AAAAAAAAAAAAAAAAAAAAAA, lastOffsetEpoch=8756, lastOffset=574080)])]) with epoch 8758 is granted (org.apache.kafka.raft.KafkaRaftClient)
+[2025-03-03 15:17:09,291] WARN [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Partition kraft-test-0 marked as failed (kafka.server.ReplicaFetcherThread)
+[2025-03-03 15:17:09,293] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Partition kraft-test-1 has an older epoch (125) than the current leader. Will await the new LeaderAndIsr state before resuming fetching. (kafka.server.ReplicaFetcherThread)
+[2025-03-03 15:17:09,293] WARN [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Partition kraft-test-1 marked as failed (kafka.server.ReplicaFetcherThread)
+[2025-03-03 15:17:09,294] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Partition kraft-test-2 has an older epoch (122) than the current leader. Will await the new LeaderAndIsr state before resuming fetching. (kafka.server.ReplicaFetcherThread)
+[2025-03-03 15:17:09,294] WARN [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Partition kraft-test-2 marked as failed (kafka.server.ReplicaFetcherThread)
+[2025-03-03 15:17:09,310] INFO [RaftManager id=1] Attempting durable transition to FollowerState(fetchTimeoutMs=2000, epoch=8758, leader=3, leaderEndpoints=Endpoints(endpoints={ListenerName(CONTROLLER)=vbox/<unresolved>:19094}), voters=[1, 2, 3], highWatermark=Optional[LogOffsetMetadata(offset=574079, metadata=Optional.empty)], fetchingSnapshot=Optional.empty) from Unattached(epoch=8758, votedKey=ReplicaKey(id=3, directoryId=Optional[B_s3M5qvrILHbTrqu_tnLg]), voters=[1, 2, 3], electionTimeoutMs=1404, highWatermark=Optional[LogOffsetMetadata(offset=574079, metadata=Optional.empty)]) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:17:09,342] INFO [RaftManager id=1] Completed transition to FollowerState(fetchTimeoutMs=2000, epoch=8758, leader=3, leaderEndpoints=Endpoints(endpoints={ListenerName(CONTROLLER)=vbox/<unresolved>:19094}), voters=[1, 2, 3], highWatermark=Optional[LogOffsetMetadata(offset=574079, metadata=Optional.empty)], fetchingSnapshot=Optional.empty) from Unattached(epoch=8758, votedKey=ReplicaKey(id=3, directoryId=Optional[B_s3M5qvrILHbTrqu_tnLg]), voters=[1, 2, 3], electionTimeoutMs=1404, highWatermark=Optional[LogOffsetMetadata(offset=574079, metadata=Optional.empty)]) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:17:09,431] INFO [broker-1-to-controller-heartbeat-channel-manager]: Recorded new KRaft controller, from now on will use node 172.25.10.83:19094 (id: 3 rack: null) (kafka.server.NodeToControllerRequestThread)
+[2025-03-03 15:17:09,537] INFO [BrokerLifecycleManager id=1] The controller has asked us to exit controlled shutdown. (kafka.server.BrokerLifecycleManager)
+[2025-03-03 15:17:09,546] INFO [BrokerLifecycleManager id=1] beginShutdown: shutting down event queue. (org.apache.kafka.queue.KafkaEventQueue)
+[2025-03-03 15:17:09,552] INFO [BrokerLifecycleManager id=1] Transitioning from PENDING_CONTROLLED_SHUTDOWN to SHUTTING_DOWN. (kafka.server.BrokerLifecycleManager)
+[2025-03-03 15:17:09,555] INFO [broker-1-to-controller-heartbeat-channel-manager]: Shutting down (kafka.server.NodeToControllerRequestThread)
+[2025-03-03 15:17:09,556] INFO [broker-1-to-controller-heartbeat-channel-manager]: Stopped (kafka.server.NodeToControllerRequestThread)
+[2025-03-03 15:17:09,556] INFO [broker-1-to-controller-heartbeat-channel-manager]: Shutdown completed (kafka.server.NodeToControllerRequestThread)
+[2025-03-03 15:17:09,577] INFO [SocketServer listenerType=BROKER, nodeId=1] Stopping socket server request processors (kafka.network.SocketServer)
+[2025-03-03 15:17:09,638] INFO Node to controller channel manager for heartbeat shutdown (kafka.server.NodeToControllerChannelManagerImpl)
+[2025-03-03 15:17:09,737] INFO [SocketServer listenerType=BROKER, nodeId=1] Stopped socket server request processors (kafka.network.SocketServer)
+[2025-03-03 15:17:09,805] INFO [ReplicaFetcherManager on broker 1] Removed fetcher for partitions HashSet(__consumer_offsets-21, __consumer_offsets-33, __consumer_offsets-16, demo-0, kraft-test-0, __consumer_offsets-38, kraft-test-2, kraft-test-1, __consumer_offsets-27, __consumer_offsets-9, __consumer_offsets-42, __consumer_offsets-3, __consumer_offsets-18, __consumer_offsets-6, __consumer_offsets-14, __consumer_offsets-45, __consumer_offsets-1, __consumer_offsets-26, __consumer_offsets-32, __consumer_offsets-40) (kafka.server.ReplicaFetcherManager)
+[2025-03-03 15:17:09,813] INFO [ReplicaAlterLogDirsManager on broker 1] Removed fetcher for partitions HashSet(__consumer_offsets-21, __consumer_offsets-33, __consumer_offsets-16, demo-0, kraft-test-0, __consumer_offsets-38, kraft-test-2, kraft-test-1, __consumer_offsets-27, __consumer_offsets-9, __consumer_offsets-42, __consumer_offsets-3, __consumer_offsets-18, __consumer_offsets-6, __consumer_offsets-14, __consumer_offsets-45, __consumer_offsets-1, __consumer_offsets-26, __consumer_offsets-32, __consumer_offsets-40) (kafka.server.ReplicaAlterLogDirsManager)
+[2025-03-03 15:17:09,836] INFO [ReplicaFetcherThread-0-2]: Shutting down (kafka.server.ReplicaFetcherThread)
+[2025-03-03 15:17:09,840] INFO [ReplicaFetcherThread-0-2]: Stopped (kafka.server.ReplicaFetcherThread)
+[2025-03-03 15:17:09,840] INFO [ReplicaFetcherThread-0-2]: Shutdown completed (kafka.server.ReplicaFetcherThread)
+[2025-03-03 15:17:09,852] INFO [GroupCoordinator 1]: Resigned as the group coordinator for partition 16 in epoch OptionalInt[81] (kafka.coordinator.group.GroupCoordinator)
+[2025-03-03 15:17:09,854] INFO [GroupMetadataManager brokerId=1] Scheduling unloading of offsets and group metadata from __consumer_offsets-16 (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:17:09,854] INFO [GroupMetadataManager brokerId=1] Finished unloading __consumer_offsets-16 for coordinator epoch OptionalInt[81]. Removed 0 cached offsets and 0 cached groups. (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:17:09,855] INFO [GroupCoordinator 1]: Resigned as the group coordinator for partition 45 in epoch OptionalInt[81] (kafka.coordinator.group.GroupCoordinator)
+[2025-03-03 15:17:09,855] INFO [GroupMetadataManager brokerId=1] Scheduling unloading of offsets and group metadata from __consumer_offsets-45 (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:17:09,855] INFO [GroupCoordinator 1]: Resigned as the group coordinator for partition 14 in epoch OptionalInt[81] (kafka.coordinator.group.GroupCoordinator)
+[2025-03-03 15:17:09,855] INFO [GroupMetadataManager brokerId=1] Scheduling unloading of offsets and group metadata from __consumer_offsets-14 (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:17:09,855] INFO [GroupCoordinator 1]: Resigned as the group coordinator for partition 9 in epoch OptionalInt[81] (kafka.coordinator.group.GroupCoordinator)
+[2025-03-03 15:17:09,855] INFO [GroupMetadataManager brokerId=1] Scheduling unloading of offsets and group metadata from __consumer_offsets-9 (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:17:09,855] INFO [GroupCoordinator 1]: Resigned as the group coordinator for partition 42 in epoch OptionalInt[81] (kafka.coordinator.group.GroupCoordinator)
+[2025-03-03 15:17:09,855] INFO [GroupMetadataManager brokerId=1] Scheduling unloading of offsets and group metadata from __consumer_offsets-42 (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:17:09,855] INFO [GroupCoordinator 1]: Resigned as the group coordinator for partition 21 in epoch OptionalInt[81] (kafka.coordinator.group.GroupCoordinator)
+[2025-03-03 15:17:09,856] INFO [GroupMetadataManager brokerId=1] Scheduling unloading of offsets and group metadata from __consumer_offsets-21 (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:17:09,856] INFO [GroupCoordinator 1]: Resigned as the group coordinator for partition 18 in epoch OptionalInt[81] (kafka.coordinator.group.GroupCoordinator)
+[2025-03-03 15:17:09,856] INFO [GroupMetadataManager brokerId=1] Scheduling unloading of offsets and group metadata from __consumer_offsets-18 (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:17:09,856] INFO [GroupCoordinator 1]: Resigned as the group coordinator for partition 32 in epoch OptionalInt[81] (kafka.coordinator.group.GroupCoordinator)
+[2025-03-03 15:17:09,856] INFO [GroupMetadataManager brokerId=1] Scheduling unloading of offsets and group metadata from __consumer_offsets-32 (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:17:09,856] INFO [GroupCoordinator 1]: Resigned as the group coordinator for partition 27 in epoch OptionalInt[81] (kafka.coordinator.group.GroupCoordinator)
+[2025-03-03 15:17:09,856] INFO [GroupMetadataManager brokerId=1] Scheduling unloading of offsets and group metadata from __consumer_offsets-27 (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:17:09,856] INFO [GroupCoordinator 1]: Resigned as the group coordinator for partition 26 in epoch OptionalInt[81] (kafka.coordinator.group.GroupCoordinator)
+[2025-03-03 15:17:09,856] INFO [GroupMetadataManager brokerId=1] Scheduling unloading of offsets and group metadata from __consumer_offsets-26 (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:17:09,856] INFO [GroupCoordinator 1]: Resigned as the group coordinator for partition 40 in epoch OptionalInt[81] (kafka.coordinator.group.GroupCoordinator)
+[2025-03-03 15:17:09,856] INFO [GroupMetadataManager brokerId=1] Scheduling unloading of offsets and group metadata from __consumer_offsets-40 (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:17:09,856] INFO [GroupCoordinator 1]: Resigned as the group coordinator for partition 6 in epoch OptionalInt[81] (kafka.coordinator.group.GroupCoordinator)
+[2025-03-03 15:17:09,856] INFO [GroupMetadataManager brokerId=1] Scheduling unloading of offsets and group metadata from __consumer_offsets-6 (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:17:09,856] INFO [GroupCoordinator 1]: Resigned as the group coordinator for partition 38 in epoch OptionalInt[81] (kafka.coordinator.group.GroupCoordinator)
+[2025-03-03 15:17:09,856] INFO [GroupMetadataManager brokerId=1] Scheduling unloading of offsets and group metadata from __consumer_offsets-38 (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:17:09,855] INFO [GroupMetadataManager brokerId=1] Finished unloading __consumer_offsets-45 for coordinator epoch OptionalInt[81]. Removed 0 cached offsets and 0 cached groups. (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:17:09,857] INFO [GroupMetadataManager brokerId=1] Finished unloading __consumer_offsets-14 for coordinator epoch OptionalInt[81]. Removed 0 cached offsets and 0 cached groups. (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:17:09,857] INFO [GroupMetadataManager brokerId=1] Finished unloading __consumer_offsets-9 for coordinator epoch OptionalInt[81]. Removed 0 cached offsets and 0 cached groups. (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:17:09,857] INFO [GroupMetadataManager brokerId=1] Finished unloading __consumer_offsets-42 for coordinator epoch OptionalInt[81]. Removed 0 cached offsets and 0 cached groups. (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:17:09,857] INFO [GroupMetadataManager brokerId=1] Finished unloading __consumer_offsets-21 for coordinator epoch OptionalInt[81]. Removed 0 cached offsets and 0 cached groups. (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:17:09,857] INFO [GroupMetadataManager brokerId=1] Finished unloading __consumer_offsets-18 for coordinator epoch OptionalInt[81]. Removed 0 cached offsets and 0 cached groups. (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:17:09,857] INFO [GroupMetadataManager brokerId=1] Finished unloading __consumer_offsets-32 for coordinator epoch OptionalInt[81]. Removed 0 cached offsets and 0 cached groups. (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:17:09,857] INFO [GroupMetadataManager brokerId=1] Finished unloading __consumer_offsets-27 for coordinator epoch OptionalInt[81]. Removed 0 cached offsets and 0 cached groups. (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:17:09,857] INFO [GroupMetadataManager brokerId=1] Finished unloading __consumer_offsets-26 for coordinator epoch OptionalInt[81]. Removed 0 cached offsets and 0 cached groups. (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:17:09,857] INFO [GroupMetadataManager brokerId=1] Finished unloading __consumer_offsets-40 for coordinator epoch OptionalInt[81]. Removed 0 cached offsets and 0 cached groups. (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:17:09,857] INFO [GroupMetadataManager brokerId=1] Finished unloading __consumer_offsets-6 for coordinator epoch OptionalInt[81]. Removed 0 cached offsets and 0 cached groups. (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:17:09,857] INFO [GroupMetadataManager brokerId=1] Finished unloading __consumer_offsets-38 for coordinator epoch OptionalInt[81]. Removed 0 cached offsets and 0 cached groups. (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:17:09,858] INFO [GroupCoordinator 1]: Resigned as the group coordinator for partition 3 in epoch OptionalInt[81] (kafka.coordinator.group.GroupCoordinator)
+[2025-03-03 15:17:09,858] INFO [GroupMetadataManager brokerId=1] Scheduling unloading of offsets and group metadata from __consumer_offsets-3 (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:17:09,858] INFO [GroupCoordinator 1]: Resigned as the group coordinator for partition 1 in epoch OptionalInt[81] (kafka.coordinator.group.GroupCoordinator)
+[2025-03-03 15:17:09,858] INFO [GroupMetadataManager brokerId=1] Scheduling unloading of offsets and group metadata from __consumer_offsets-1 (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:17:09,858] INFO [GroupCoordinator 1]: Resigned as the group coordinator for partition 33 in epoch OptionalInt[81] (kafka.coordinator.group.GroupCoordinator)
+[2025-03-03 15:17:09,858] INFO [GroupMetadataManager brokerId=1] Scheduling unloading of offsets and group metadata from __consumer_offsets-33 (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:17:09,858] INFO [GroupMetadataManager brokerId=1] Finished unloading __consumer_offsets-3 for coordinator epoch OptionalInt[81]. Removed 0 cached offsets and 0 cached groups. (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:17:09,859] INFO [GroupMetadataManager brokerId=1] Finished unloading __consumer_offsets-1 for coordinator epoch OptionalInt[81]. Removed 0 cached offsets and 0 cached groups. (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:17:09,859] INFO [GroupMetadataManager brokerId=1] Finished unloading __consumer_offsets-33 for coordinator epoch OptionalInt[81]. Removed 0 cached offsets and 0 cached groups. (kafka.coordinator.group.GroupMetadataManager)
+[2025-03-03 15:17:09,871] INFO [ReplicaFetcherManager on broker 1] Removed fetcher for partitions Set(kraft-test-0, kraft-test-1, kraft-test-2) (kafka.server.ReplicaFetcherManager)
+[2025-03-03 15:17:09,871] INFO [ReplicaAlterLogDirsManager on broker 1] Removed fetcher for partitions Set(kraft-test-0, kraft-test-1, kraft-test-2) (kafka.server.ReplicaAlterLogDirsManager)
+[2025-03-03 15:17:09,897] INFO [data-plane Kafka Request Handler on Broker 1], shutting down (kafka.server.KafkaRequestHandlerPool)
+[2025-03-03 15:17:09,930] INFO [data-plane Kafka Request Handler on Broker 1], shut down completely (kafka.server.KafkaRequestHandlerPool)
+[2025-03-03 15:17:10,005] INFO [ExpirationReaper-1-AlterAcls]: Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2025-03-03 15:17:10,043] INFO [ExpirationReaper-1-AlterAcls]: Stopped (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2025-03-03 15:17:10,043] INFO [ExpirationReaper-1-AlterAcls]: Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2025-03-03 15:17:10,099] INFO [KafkaApi-1] Shutdown complete. (kafka.server.KafkaApis)
+[2025-03-03 15:17:10,180] INFO [TransactionCoordinator id=1] Shutting down. (kafka.coordinator.transaction.TransactionCoordinator)
+[2025-03-03 15:17:10,239] INFO [Transaction State Manager 1]: Shutdown complete (kafka.coordinator.transaction.TransactionStateManager)
+[2025-03-03 15:17:10,241] INFO [TxnMarkerSenderThread-1]: Shutting down (kafka.coordinator.transaction.TransactionMarkerChannelManager)
+[2025-03-03 15:17:10,247] INFO [TxnMarkerSenderThread-1]: Stopped (kafka.coordinator.transaction.TransactionMarkerChannelManager)
+[2025-03-03 15:17:10,248] INFO [TxnMarkerSenderThread-1]: Shutdown completed (kafka.coordinator.transaction.TransactionMarkerChannelManager)
+[2025-03-03 15:17:10,277] INFO [TransactionCoordinator id=1] Shutdown complete. (kafka.coordinator.transaction.TransactionCoordinator)
+[2025-03-03 15:17:10,287] INFO [GroupCoordinator 1]: Shutting down. (kafka.coordinator.group.GroupCoordinator)
+[2025-03-03 15:17:10,298] INFO [ExpirationReaper-1-Heartbeat]: Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2025-03-03 15:17:10,322] INFO [ExpirationReaper-1-Heartbeat]: Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2025-03-03 15:17:10,323] INFO [ExpirationReaper-1-Heartbeat]: Stopped (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2025-03-03 15:17:10,323] INFO [ExpirationReaper-1-Rebalance]: Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2025-03-03 15:17:10,329] INFO [ExpirationReaper-1-Rebalance]: Stopped (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2025-03-03 15:17:10,329] INFO [ExpirationReaper-1-Rebalance]: Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2025-03-03 15:17:10,330] INFO [GroupCoordinator 1]: Shutdown complete. (kafka.coordinator.group.GroupCoordinator)
+[2025-03-03 15:17:10,341] INFO [AssignmentsManager id=1]KafkaEventQueue#close: shutting down event queue. (org.apache.kafka.queue.KafkaEventQueue)
+[2025-03-03 15:17:10,344] INFO [AssignmentsManager id=1] shutting down. (org.apache.kafka.server.AssignmentsManager)
+[2025-03-03 15:17:10,344] INFO [broker-1-to-controller-directory-assignments-channel-manager]: Shutting down (kafka.server.NodeToControllerRequestThread)
+[2025-03-03 15:17:10,344] INFO [broker-1-to-controller-directory-assignments-channel-manager]: Stopped (kafka.server.NodeToControllerRequestThread)
+[2025-03-03 15:17:10,344] INFO [broker-1-to-controller-directory-assignments-channel-manager]: Shutdown completed (kafka.server.NodeToControllerRequestThread)
+[2025-03-03 15:17:10,345] INFO Node to controller channel manager for directory-assignments shutdown (kafka.server.NodeToControllerChannelManagerImpl)
+[2025-03-03 15:17:10,345] INFO [AssignmentsManager id=1]closed event queue. (org.apache.kafka.queue.KafkaEventQueue)
+[2025-03-03 15:17:10,350] INFO [ReplicaManager broker=1] Shutting down (kafka.server.ReplicaManager)
+[2025-03-03 15:17:10,357] INFO [LogDirFailureHandler]: Shutting down (kafka.server.ReplicaManager$LogDirFailureHandler)
+[2025-03-03 15:17:10,357] INFO [LogDirFailureHandler]: Stopped (kafka.server.ReplicaManager$LogDirFailureHandler)
+[2025-03-03 15:17:10,357] INFO [LogDirFailureHandler]: Shutdown completed (kafka.server.ReplicaManager$LogDirFailureHandler)
+[2025-03-03 15:17:10,357] INFO [ReplicaFetcherManager on broker 1] shutting down (kafka.server.ReplicaFetcherManager)
+[2025-03-03 15:17:10,370] INFO [ReplicaFetcherManager on broker 1] shutdown completed (kafka.server.ReplicaFetcherManager)
+[2025-03-03 15:17:10,373] INFO [ReplicaAlterLogDirsManager on broker 1] shutting down (kafka.server.ReplicaAlterLogDirsManager)
+[2025-03-03 15:17:10,377] INFO [ReplicaAlterLogDirsManager on broker 1] shutdown completed (kafka.server.ReplicaAlterLogDirsManager)
+[2025-03-03 15:17:10,377] INFO [ExpirationReaper-1-Fetch]: Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2025-03-03 15:17:10,378] INFO [ExpirationReaper-1-Fetch]: Stopped (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2025-03-03 15:17:10,378] INFO [ExpirationReaper-1-Fetch]: Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2025-03-03 15:17:10,378] INFO [ExpirationReaper-1-RemoteFetch]: Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2025-03-03 15:17:10,378] INFO [ExpirationReaper-1-RemoteFetch]: Stopped (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2025-03-03 15:17:10,379] INFO [ExpirationReaper-1-RemoteFetch]: Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2025-03-03 15:17:10,379] INFO [ExpirationReaper-1-Produce]: Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2025-03-03 15:17:10,379] INFO [ExpirationReaper-1-Produce]: Stopped (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2025-03-03 15:17:10,379] INFO [ExpirationReaper-1-Produce]: Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2025-03-03 15:17:10,381] INFO [ExpirationReaper-1-DeleteRecords]: Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2025-03-03 15:17:10,394] INFO [ExpirationReaper-1-DeleteRecords]: Stopped (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2025-03-03 15:17:10,394] INFO [ExpirationReaper-1-DeleteRecords]: Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2025-03-03 15:17:10,394] INFO [ExpirationReaper-1-ElectLeader]: Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2025-03-03 15:17:10,401] INFO [ExpirationReaper-1-ElectLeader]: Stopped (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2025-03-03 15:17:10,401] INFO [ExpirationReaper-1-ElectLeader]: Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2025-03-03 15:17:10,504] INFO [AddPartitionsToTxnSenderThread-1]: Shutting down (kafka.server.AddPartitionsToTxnManager)
+[2025-03-03 15:17:10,507] INFO [AddPartitionsToTxnSenderThread-1]: Stopped (kafka.server.AddPartitionsToTxnManager)
+[2025-03-03 15:17:10,507] INFO [AddPartitionsToTxnSenderThread-1]: Shutdown completed (kafka.server.AddPartitionsToTxnManager)
+[2025-03-03 15:17:10,508] INFO [ReplicaManager broker=1] Shut down completely (kafka.server.ReplicaManager)
+[2025-03-03 15:17:10,519] INFO [broker-1-to-controller-alter-partition-channel-manager]: Shutting down (kafka.server.NodeToControllerRequestThread)
+[2025-03-03 15:17:10,519] INFO [broker-1-to-controller-alter-partition-channel-manager]: Stopped (kafka.server.NodeToControllerRequestThread)
+[2025-03-03 15:17:10,520] INFO [broker-1-to-controller-alter-partition-channel-manager]: Shutdown completed (kafka.server.NodeToControllerRequestThread)
+[2025-03-03 15:17:10,520] INFO Node to controller channel manager for alter-partition shutdown (kafka.server.NodeToControllerChannelManagerImpl)
+[2025-03-03 15:17:10,523] INFO [broker-1-to-controller-forwarding-channel-manager]: Shutting down (kafka.server.NodeToControllerRequestThread)
+[2025-03-03 15:17:10,524] INFO [broker-1-to-controller-forwarding-channel-manager]: Stopped (kafka.server.NodeToControllerRequestThread)
+[2025-03-03 15:17:10,524] INFO [broker-1-to-controller-forwarding-channel-manager]: Shutdown completed (kafka.server.NodeToControllerRequestThread)
+[2025-03-03 15:17:10,524] INFO Node to controller channel manager for forwarding shutdown (kafka.server.NodeToControllerChannelManagerImpl)
+[2025-03-03 15:17:10,526] INFO Shutting down. (kafka.log.LogManager)
+[2025-03-03 15:17:10,533] INFO [kafka-log-cleaner-thread-0]: Shutting down (kafka.log.LogCleaner$CleanerThread)
+[2025-03-03 15:17:10,537] INFO [kafka-log-cleaner-thread-0]: Stopped (kafka.log.LogCleaner$CleanerThread)
+[2025-03-03 15:17:10,537] INFO [kafka-log-cleaner-thread-0]: Shutdown completed (kafka.log.LogCleaner$CleanerThread)
+[2025-03-03 15:17:12,105] INFO [RaftManager id=1] Node 2 disconnected. (org.apache.kafka.clients.NetworkClient)
+[2025-03-03 15:17:12,166] INFO Shutdown complete. (kafka.log.LogManager)
+[2025-03-03 15:17:12,171] INFO [broker-1-ThrottledChannelReaper-Fetch]: Shutting down (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2025-03-03 15:17:12,173] INFO [broker-1-ThrottledChannelReaper-Fetch]: Stopped (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2025-03-03 15:17:12,173] INFO [broker-1-ThrottledChannelReaper-Fetch]: Shutdown completed (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2025-03-03 15:17:12,175] INFO [broker-1-ThrottledChannelReaper-Produce]: Shutting down (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2025-03-03 15:17:12,175] INFO [broker-1-ThrottledChannelReaper-Produce]: Stopped (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2025-03-03 15:17:12,176] INFO [broker-1-ThrottledChannelReaper-Produce]: Shutdown completed (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2025-03-03 15:17:12,176] INFO [broker-1-ThrottledChannelReaper-Request]: Shutting down (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2025-03-03 15:17:12,176] INFO [broker-1-ThrottledChannelReaper-Request]: Stopped (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2025-03-03 15:17:12,176] INFO [broker-1-ThrottledChannelReaper-Request]: Shutdown completed (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2025-03-03 15:17:12,177] INFO [broker-1-ThrottledChannelReaper-ControllerMutation]: Shutting down (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2025-03-03 15:17:12,191] INFO [broker-1-ThrottledChannelReaper-ControllerMutation]: Stopped (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2025-03-03 15:17:12,191] INFO [broker-1-ThrottledChannelReaper-ControllerMutation]: Shutdown completed (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2025-03-03 15:17:12,193] INFO [SocketServer listenerType=BROKER, nodeId=1] Shutting down socket server (kafka.network.SocketServer)
+[2025-03-03 15:17:12,251] INFO [SocketServer listenerType=BROKER, nodeId=1] Shutdown completed (kafka.network.SocketServer)
+[2025-03-03 15:17:12,256] INFO Broker and topic stats closed (kafka.server.BrokerTopicStats)
+[2025-03-03 15:17:12,256] INFO [BrokerLifecycleManager id=1] closed event queue. (org.apache.kafka.queue.KafkaEventQueue)
+[2025-03-03 15:17:12,273] INFO [client-metrics-reaper]: Shutting down (org.apache.kafka.server.util.timer.SystemTimerReaper$Reaper)
+[2025-03-03 15:17:12,288] INFO [client-metrics-reaper]: Stopped (org.apache.kafka.server.util.timer.SystemTimerReaper$Reaper)
+[2025-03-03 15:17:12,289] INFO [client-metrics-reaper]: Shutdown completed (org.apache.kafka.server.util.timer.SystemTimerReaper$Reaper)
+[2025-03-03 15:17:12,312] INFO [BrokerServer id=1] shut down completed (kafka.server.BrokerServer)
+[2025-03-03 15:17:12,312] INFO [BrokerServer id=1] Transition from SHUTTING_DOWN to SHUTDOWN (kafka.server.BrokerServer)
+[2025-03-03 15:17:12,315] INFO [ControllerServer id=1] shutting down (kafka.server.ControllerServer)
+[2025-03-03 15:17:12,316] INFO [raft-expiration-reaper]: Shutting down (kafka.raft.TimingWheelExpirationService$ExpiredOperationReaper)
+[2025-03-03 15:17:12,408] INFO [RaftManager id=1] Become candidate due to fetch timeout (org.apache.kafka.raft.KafkaRaftClient)
+[2025-03-03 15:17:12,409] INFO [RaftManager id=1] Attempting durable transition to CandidateState(localId=1, localDirectoryId=mQes9A54bQCw7Vbw6Ptauw,epoch=8759, retries=1, voteStates={1=org.apache.kafka.raft.CandidateState$VoterState@46644d1d, 2=org.apache.kafka.raft.CandidateState$VoterState@488f3cb4, 3=org.apache.kafka.raft.CandidateState$VoterState@6c02fab5}, highWatermark=Optional[LogOffsetMetadata(offset=574110, metadata=Optional.empty)], electionTimeoutMs=1386) from FollowerState(fetchTimeoutMs=2000, epoch=8758, leader=3, leaderEndpoints=Endpoints(endpoints={ListenerName(CONTROLLER)=vbox/<unresolved>:19094}), voters=[1, 2, 3], highWatermark=Optional[LogOffsetMetadata(offset=574110, metadata=Optional.empty)], fetchingSnapshot=Optional.empty) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:17:12,439] INFO [RaftManager id=1] Completed transition to CandidateState(localId=1, localDirectoryId=mQes9A54bQCw7Vbw6Ptauw,epoch=8759, retries=1, voteStates={1=org.apache.kafka.raft.CandidateState$VoterState@46644d1d, 2=org.apache.kafka.raft.CandidateState$VoterState@488f3cb4, 3=org.apache.kafka.raft.CandidateState$VoterState@6c02fab5}, highWatermark=Optional[LogOffsetMetadata(offset=574110, metadata=Optional.empty)], electionTimeoutMs=1386) from FollowerState(fetchTimeoutMs=2000, epoch=8758, leader=3, leaderEndpoints=Endpoints(endpoints={ListenerName(CONTROLLER)=vbox/<unresolved>:19094}), voters=[1, 2, 3], highWatermark=Optional[LogOffsetMetadata(offset=574110, metadata=Optional.empty)], fetchingSnapshot=Optional.empty) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:17:12,441] INFO [RaftManager id=1] Node 2 disconnected. (org.apache.kafka.clients.NetworkClient)
+[2025-03-03 15:17:12,441] WARN [RaftManager id=1] Connection to node 2 (/172.25.10.83:19093) could not be established. Node may not be available. (org.apache.kafka.clients.NetworkClient)
+[2025-03-03 15:17:12,512] INFO [raft-expiration-reaper]: Stopped (kafka.raft.TimingWheelExpirationService$ExpiredOperationReaper)
+[2025-03-03 15:17:12,513] INFO [raft-expiration-reaper]: Shutdown completed (kafka.raft.TimingWheelExpirationService$ExpiredOperationReaper)
+[2025-03-03 15:17:12,523] INFO [kafka-1-raft-io-thread]: Shutting down (org.apache.kafka.raft.KafkaRaftClientDriver)
+[2025-03-03 15:17:12,525] INFO [RaftManager id=1] Beginning graceful shutdown (org.apache.kafka.raft.KafkaRaftClient)
+[2025-03-03 15:17:12,548] INFO [RaftManager id=1] Attempting durable transition to Leader(localReplicaKey=ReplicaKey(id=1, directoryId=Optional[mQes9A54bQCw7Vbw6Ptauw]), epoch=8759, epochStartOffset=574111, highWatermark=Optional.empty, voterStates={1=ReplicaState(replicaKey=ReplicaKey(id=1, directoryId=Optional.empty), endOffset=Optional.empty, lastFetchTimestamp=-1, lastCaughtUpTimestamp=-1, hasAcknowledgedLeader=true), 2=ReplicaState(replicaKey=ReplicaKey(id=2, directoryId=Optional.empty), endOffset=Optional.empty, lastFetchTimestamp=-1, lastCaughtUpTimestamp=-1, hasAcknowledgedLeader=false), 3=ReplicaState(replicaKey=ReplicaKey(id=3, directoryId=Optional.empty), endOffset=Optional.empty, lastFetchTimestamp=-1, lastCaughtUpTimestamp=-1, hasAcknowledgedLeader=false)}) from CandidateState(localId=1, localDirectoryId=mQes9A54bQCw7Vbw6Ptauw,epoch=8759, retries=1, voteStates={1=org.apache.kafka.raft.CandidateState$VoterState@46644d1d, 2=org.apache.kafka.raft.CandidateState$VoterState@488f3cb4, 3=org.apache.kafka.raft.CandidateState$VoterState@6c02fab5}, highWatermark=Optional[LogOffsetMetadata(offset=574110, metadata=Optional.empty)], electionTimeoutMs=1386) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:17:12,580] INFO [RaftManager id=1] Completed transition to Leader(localReplicaKey=ReplicaKey(id=1, directoryId=Optional[mQes9A54bQCw7Vbw6Ptauw]), epoch=8759, epochStartOffset=574111, highWatermark=Optional.empty, voterStates={1=ReplicaState(replicaKey=ReplicaKey(id=1, directoryId=Optional.empty), endOffset=Optional.empty, lastFetchTimestamp=-1, lastCaughtUpTimestamp=-1, hasAcknowledgedLeader=true), 2=ReplicaState(replicaKey=ReplicaKey(id=2, directoryId=Optional.empty), endOffset=Optional.empty, lastFetchTimestamp=-1, lastCaughtUpTimestamp=-1, hasAcknowledgedLeader=false), 3=ReplicaState(replicaKey=ReplicaKey(id=3, directoryId=Optional.empty), endOffset=Optional.empty, lastFetchTimestamp=-1, lastCaughtUpTimestamp=-1, hasAcknowledgedLeader=false)}) from CandidateState(localId=1, localDirectoryId=mQes9A54bQCw7Vbw6Ptauw,epoch=8759, retries=1, voteStates={1=org.apache.kafka.raft.CandidateState$VoterState@46644d1d, 2=org.apache.kafka.raft.CandidateState$VoterState@488f3cb4, 3=org.apache.kafka.raft.CandidateState$VoterState@6c02fab5}, highWatermark=Optional[LogOffsetMetadata(offset=574110, metadata=Optional.empty)], electionTimeoutMs=1386) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:17:12,688] INFO [RaftManager id=1] Completed transition to ResignedState(localId=1, epoch=8759, voters=[1, 2, 3], electionTimeoutMs=1430, unackedVoters=[2, 3], preferredSuccessors=[ReplicaKey(id=2, directoryId=Optional.empty), ReplicaKey(id=3, directoryId=Optional.empty)]) from Leader(localReplicaKey=ReplicaKey(id=1, directoryId=Optional[mQes9A54bQCw7Vbw6Ptauw]), epoch=8759, epochStartOffset=574111, highWatermark=Optional.empty, voterStates={1=ReplicaState(replicaKey=ReplicaKey(id=1, directoryId=Optional.empty), endOffset=Optional.empty, lastFetchTimestamp=-1, lastCaughtUpTimestamp=-1, hasAcknowledgedLeader=true), 2=ReplicaState(replicaKey=ReplicaKey(id=2, directoryId=Optional.empty), endOffset=Optional.empty, lastFetchTimestamp=-1, lastCaughtUpTimestamp=-1, hasAcknowledgedLeader=false), 3=ReplicaState(replicaKey=ReplicaKey(id=3, directoryId=Optional.empty), endOffset=Optional.empty, lastFetchTimestamp=-1, lastCaughtUpTimestamp=-1, hasAcknowledgedLeader=false)}) (org.apache.kafka.raft.QuorumState)
+[2025-03-03 15:17:12,718] INFO [RaftManager id=1] Node 2 disconnected. (org.apache.kafka.clients.NetworkClient)
+[2025-03-03 15:17:12,718] WARN [RaftManager id=1] Connection to node 2 (/172.25.10.83:19093) could not be established. Node may not be available. (org.apache.kafka.clients.NetworkClient)
+[2025-03-03 15:17:12,964] INFO [RaftManager id=1] Node 2 disconnected. (org.apache.kafka.clients.NetworkClient)
+[2025-03-03 15:17:12,964] WARN [RaftManager id=1] Connection to node 2 (/172.25.10.83:19093) could not be established. Node may not be available. (org.apache.kafka.clients.NetworkClient)
+[2025-03-03 15:17:13,024] INFO [NodeToControllerChannelManager id=1 name=registration] Node 3 disconnected. (org.apache.kafka.clients.NetworkClient)
+[2025-03-03 15:17:13,026] INFO [RaftManager id=1] Node 3 disconnected. (org.apache.kafka.clients.NetworkClient)
+[2025-03-03 15:17:13,452] INFO [RaftManager id=1] Node 2 disconnected. (org.apache.kafka.clients.NetworkClient)
+[2025-03-03 15:17:13,452] WARN [RaftManager id=1] Connection to node 2 (/172.25.10.83:19093) could not be established. Node may not be available. (org.apache.kafka.clients.NetworkClient)
+[2025-03-03 15:17:13,974] INFO [RaftManager id=1] Node 2 disconnected. (org.apache.kafka.clients.NetworkClient)
+[2025-03-03 15:17:13,974] WARN [RaftManager id=1] Connection to node 2 (/172.25.10.83:19093) could not be established. Node may not be available. (org.apache.kafka.clients.NetworkClient)
+[2025-03-03 15:17:14,483] INFO [RaftManager id=1] Node 2 disconnected. (org.apache.kafka.clients.NetworkClient)
+[2025-03-03 15:17:14,483] WARN [RaftManager id=1] Connection to node 2 (/172.25.10.83:19093) could not be established. Node may not be available. (org.apache.kafka.clients.NetworkClient)
+[2025-03-03 15:17:15,014] INFO [RaftManager id=1] Node 2 disconnected. (org.apache.kafka.clients.NetworkClient)
+[2025-03-03 15:17:15,014] WARN [RaftManager id=1] Connection to node 2 (/172.25.10.83:19093) could not be established. Node may not be available. (org.apache.kafka.clients.NetworkClient)
+[2025-03-03 15:17:15,542] INFO [RaftManager id=1] Node 2 disconnected. (org.apache.kafka.clients.NetworkClient)
+[2025-03-03 15:17:15,543] WARN [RaftManager id=1] Connection to node 2 (/172.25.10.83:19093) could not be established. Node may not be available. (org.apache.kafka.clients.NetworkClient)
+[2025-03-03 15:17:16,068] INFO [RaftManager id=1] Node 2 disconnected. (org.apache.kafka.clients.NetworkClient)
+[2025-03-03 15:17:16,068] WARN [RaftManager id=1] Connection to node 2 (/172.25.10.83:19093) could not be established. Node may not be available. (org.apache.kafka.clients.NetworkClient)
+[2025-03-03 15:17:16,548] INFO [RaftManager id=1] Node 2 disconnected. (org.apache.kafka.clients.NetworkClient)
+[2025-03-03 15:17:16,551] WARN [RaftManager id=1] Connection to node 2 (/172.25.10.83:19093) could not be established. Node may not be available. (org.apache.kafka.clients.NetworkClient)
+[2025-03-03 15:17:16,997] INFO [RaftManager id=1] Node 2 disconnected. (org.apache.kafka.clients.NetworkClient)
+[2025-03-03 15:17:16,999] WARN [RaftManager id=1] Connection to node 2 (/172.25.10.83:19093) could not be established. Node may not be available. (org.apache.kafka.clients.NetworkClient)
+[2025-03-03 15:17:17,529] WARN [RaftManager id=1] Graceful shutdown timed out after 5000ms (org.apache.kafka.raft.KafkaRaftClient)
+[2025-03-03 15:17:17,537] ERROR [RaftManager id=1] Graceful shutdown of RaftClient failed (org.apache.kafka.raft.KafkaRaftClientDriver)
+java.util.concurrent.TimeoutException: Timeout expired before graceful shutdown completed
+	at org.apache.kafka.raft.KafkaRaftClient$GracefulShutdown.failWithTimeout(KafkaRaftClient.java:3527)
+	at org.apache.kafka.raft.KafkaRaftClient.maybeCompleteShutdown(KafkaRaftClient.java:3226)
+	at org.apache.kafka.raft.KafkaRaftClient.poll(KafkaRaftClient.java:3295)
+	at org.apache.kafka.raft.KafkaRaftClientDriver.doWork(KafkaRaftClientDriver.java:64)
+	at org.apache.kafka.server.util.ShutdownableThread.run(ShutdownableThread.java:136)
+[2025-03-03 15:17:17,580] INFO [kafka-1-raft-io-thread]: Stopped (org.apache.kafka.raft.KafkaRaftClientDriver)
+[2025-03-03 15:17:17,581] INFO [kafka-1-raft-io-thread]: Shutdown completed (org.apache.kafka.raft.KafkaRaftClientDriver)
+[2025-03-03 15:17:17,595] INFO [kafka-1-raft-outbound-request-thread]: Shutting down (org.apache.kafka.raft.KafkaNetworkChannel$SendThread)
+[2025-03-03 15:17:17,596] INFO [kafka-1-raft-outbound-request-thread]: Stopped (org.apache.kafka.raft.KafkaNetworkChannel$SendThread)
+[2025-03-03 15:17:17,596] INFO [kafka-1-raft-outbound-request-thread]: Shutdown completed (org.apache.kafka.raft.KafkaNetworkChannel$SendThread)
+[2025-03-03 15:17:17,617] INFO [ProducerStateManager partition=__cluster_metadata-0] Wrote producer snapshot at offset 574111 with 0 producer ids in 11 ms. (org.apache.kafka.storage.internals.log.ProducerStateManager)
+[2025-03-03 15:17:17,760] INFO [ControllerRegistrationManager id=1 incarnation=VeuUuVz0TMOmSIT8k1XwjQ] beginShutdown: shutting down event queue. (org.apache.kafka.queue.KafkaEventQueue)
+[2025-03-03 15:17:17,780] INFO [ControllerRegistrationManager id=1 incarnation=VeuUuVz0TMOmSIT8k1XwjQ] shutting down. (kafka.server.ControllerRegistrationManager)
+[2025-03-03 15:17:17,781] INFO [controller-1-to-controller-registration-channel-manager]: Shutting down (kafka.server.NodeToControllerRequestThread)
+[2025-03-03 15:17:17,781] INFO [controller-1-to-controller-registration-channel-manager]: Stopped (kafka.server.NodeToControllerRequestThread)
+[2025-03-03 15:17:17,781] INFO [controller-1-to-controller-registration-channel-manager]: Shutdown completed (kafka.server.NodeToControllerRequestThread)
+[2025-03-03 15:17:17,782] INFO Node to controller channel manager for registration shutdown (kafka.server.NodeToControllerChannelManagerImpl)
+[2025-03-03 15:17:17,782] INFO [ControllerRegistrationManager id=1 incarnation=VeuUuVz0TMOmSIT8k1XwjQ] closed event queue. (org.apache.kafka.queue.KafkaEventQueue)
+[2025-03-03 15:17:17,783] INFO [controller-1-to-controller-registration-channel-manager]: Shutdown completed (kafka.server.NodeToControllerRequestThread)
+[2025-03-03 15:17:17,783] WARN [NodeToControllerChannelManager id=1 name=registration] Attempting to close NetworkClient that has already been closed. (org.apache.kafka.clients.NetworkClient)
+[2025-03-03 15:17:17,783] INFO Node to controller channel manager for registration shutdown (kafka.server.NodeToControllerChannelManagerImpl)
+[2025-03-03 15:17:17,784] INFO [ControllerRegistrationManager id=1 incarnation=VeuUuVz0TMOmSIT8k1XwjQ] closed event queue. (org.apache.kafka.queue.KafkaEventQueue)
+[2025-03-03 15:17:17,788] INFO [SocketServer listenerType=CONTROLLER, nodeId=1] Stopping socket server request processors (kafka.network.SocketServer)
+[2025-03-03 15:17:17,796] INFO [SocketServer listenerType=CONTROLLER, nodeId=1] Stopped socket server request processors (kafka.network.SocketServer)
+[2025-03-03 15:17:17,797] INFO [QuorumController id=1] QuorumController#beginShutdown: shutting down event queue. (org.apache.kafka.queue.KafkaEventQueue)
+[2025-03-03 15:17:17,799] INFO [SocketServer listenerType=CONTROLLER, nodeId=1] Shutting down socket server (kafka.network.SocketServer)
+[2025-03-03 15:17:17,812] INFO [SocketServer listenerType=CONTROLLER, nodeId=1] Shutdown completed (kafka.network.SocketServer)
+[2025-03-03 15:17:17,812] INFO [data-plane Kafka Request Handler on Broker 1], shutting down (kafka.server.KafkaRequestHandlerPool)
+[2025-03-03 15:17:17,814] INFO [data-plane Kafka Request Handler on Broker 1], shut down completely (kafka.server.KafkaRequestHandlerPool)
+[2025-03-03 15:17:17,815] INFO [ExpirationReaper-1-AlterAcls]: Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2025-03-03 15:17:17,816] INFO [ExpirationReaper-1-AlterAcls]: Stopped (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2025-03-03 15:17:17,816] INFO [ExpirationReaper-1-AlterAcls]: Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2025-03-03 15:17:17,817] INFO [controller-1-ThrottledChannelReaper-Fetch]: Shutting down (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2025-03-03 15:17:17,817] INFO [controller-1-ThrottledChannelReaper-Fetch]: Stopped (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2025-03-03 15:17:17,817] INFO [controller-1-ThrottledChannelReaper-Fetch]: Shutdown completed (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2025-03-03 15:17:17,817] INFO [controller-1-ThrottledChannelReaper-Produce]: Shutting down (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2025-03-03 15:17:17,818] INFO [controller-1-ThrottledChannelReaper-Produce]: Stopped (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2025-03-03 15:17:17,818] INFO [controller-1-ThrottledChannelReaper-Produce]: Shutdown completed (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2025-03-03 15:17:17,818] INFO [controller-1-ThrottledChannelReaper-Request]: Shutting down (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2025-03-03 15:17:17,818] INFO [controller-1-ThrottledChannelReaper-Request]: Stopped (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2025-03-03 15:17:17,818] INFO [controller-1-ThrottledChannelReaper-Request]: Shutdown completed (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2025-03-03 15:17:17,818] INFO [controller-1-ThrottledChannelReaper-ControllerMutation]: Shutting down (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2025-03-03 15:17:17,819] INFO [controller-1-ThrottledChannelReaper-ControllerMutation]: Stopped (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2025-03-03 15:17:17,819] INFO [controller-1-ThrottledChannelReaper-ControllerMutation]: Shutdown completed (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2025-03-03 15:17:17,819] INFO [QuorumController id=1] closed event queue. (org.apache.kafka.queue.KafkaEventQueue)
+[2025-03-03 15:17:17,822] INFO [SharedServer id=1] Stopping SharedServer (kafka.server.SharedServer)
+[2025-03-03 15:17:17,822] INFO [MetadataLoader id=1] beginShutdown: shutting down event queue. (org.apache.kafka.queue.KafkaEventQueue)
+[2025-03-03 15:17:17,822] INFO [SnapshotGenerator id=1] close: shutting down event queue. (org.apache.kafka.queue.KafkaEventQueue)
+[2025-03-03 15:17:17,825] INFO [SnapshotGenerator id=1] closed event queue. (org.apache.kafka.queue.KafkaEventQueue)
+[2025-03-03 15:17:17,825] INFO [MetadataLoader id=1] closed event queue. (org.apache.kafka.queue.KafkaEventQueue)
+[2025-03-03 15:17:17,826] INFO [SnapshotGenerator id=1] closed event queue. (org.apache.kafka.queue.KafkaEventQueue)
+[2025-03-03 15:17:17,829] INFO Metrics scheduler closed (org.apache.kafka.common.metrics.Metrics)
+[2025-03-03 15:17:17,829] INFO Closing reporter org.apache.kafka.common.metrics.JmxReporter (org.apache.kafka.common.metrics.Metrics)
+[2025-03-03 15:17:17,829] INFO Metrics reporters closed (org.apache.kafka.common.metrics.Metrics)
+[2025-03-03 15:17:17,830] INFO App info kafka.server for 1 unregistered (org.apache.kafka.common.utils.AppInfoParser)
+[2025-03-03 15:17:17,832] INFO App info kafka.server for 1 unregistered (org.apache.kafka.common.utils.AppInfoParser)

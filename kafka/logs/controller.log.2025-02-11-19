@@ -1,0 +1,6 @@
+[2025-02-12 12:36:13,716] INFO [QuorumController id=3] In the new epoch 3219, the leader is (none). (org.apache.kafka.controller.QuorumController)
+[2025-02-12 12:36:13,898] INFO [QuorumController id=3] In the new epoch 3219, the leader is 2. (org.apache.kafka.controller.QuorumController)
+[2025-02-12 12:54:46,780] INFO [QuorumController id=3] In the new epoch 3220, the leader is (none). (org.apache.kafka.controller.QuorumController)
+[2025-02-12 12:54:47,045] INFO [QuorumController id=3] In the new epoch 3221, the leader is (none). (org.apache.kafka.controller.QuorumController)
+[2025-02-12 12:54:47,126] INFO [QuorumController id=3] In the new epoch 3222, the leader is (none). (org.apache.kafka.controller.QuorumController)
+[2025-02-12 12:54:47,367] INFO [QuorumController id=3] In the new epoch 3222, the leader is 1. (org.apache.kafka.controller.QuorumController)
